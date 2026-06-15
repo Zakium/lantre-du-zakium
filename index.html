@@ -1,0 +1,740 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>L'Antre du Zakium — Reviews de démos indés</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Exo+2:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg:            #07090f;
+      --bg-elevated:   #0d1120;
+      --bg-card:       rgba(13, 17, 35, 0.88);
+      --violet:        #7c3aed;
+      --violet-light:  #a78bfa;
+      --violet-dim:    rgba(124, 58, 237, 0.12);
+      --cyan:          #0891b2;
+      --cyan-light:    #22d3ee;
+      --cyan-dim:      rgba(8, 145, 178, 0.12);
+      --text:          #e2e8f0;
+      --text-muted:    #94a3b8;
+      --text-dim:      #475569;
+      --border:        rgba(124, 58, 237, 0.22);
+      --radius:        14px;
+      --radius-sm:     8px;
+      --radius-pill:   999px;
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      background-color: var(--bg);
+      background-image: radial-gradient(circle, rgba(124, 58, 237, 0.035) 1px, transparent 1px);
+      background-size: 28px 28px;
+      color: var(--text);
+      font-family: 'Inter', system-ui, sans-serif;
+      font-size: 15px;
+      line-height: 1.65;
+      overflow-x: hidden;
+    }
+
+    /* ── NAV ────────────────────────────────────────────── */
+    nav {
+      position: fixed;
+      inset: 0 0 auto 0;
+      z-index: 200;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0.9rem 2rem;
+      background: rgba(7, 9, 15, 0.82);
+      backdrop-filter: blur(18px);
+      -webkit-backdrop-filter: blur(18px);
+      border-bottom: 1px solid var(--border);
+    }
+
+    .nav-logo {
+      font-family: 'Exo 2', sans-serif;
+      font-weight: 700;
+      font-size: 0.95rem;
+      letter-spacing: 0.02em;
+      background: linear-gradient(130deg, var(--violet-light), var(--cyan-light));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      text-decoration: none;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 1.75rem;
+      list-style: none;
+    }
+
+    .nav-links a {
+      color: var(--text-muted);
+      text-decoration: none;
+      font-family: 'Exo 2', sans-serif;
+      font-size: 0.88rem;
+      letter-spacing: 0.04em;
+      transition: color 0.2s;
+    }
+
+    .nav-links a:hover { color: var(--cyan-light); }
+
+    /* ── HERO ───────────────────────────────────────────── */
+    .hero {
+      position: relative;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 6rem 1.5rem 4rem;
+      overflow: hidden;
+    }
+
+    /* Aurora glow -- the ONE bold signature */
+    .hero::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background:
+        radial-gradient(ellipse 70% 55% at 15% 55%, rgba(124, 58, 237, 0.28) 0%, transparent 65%),
+        radial-gradient(ellipse 70% 55% at 85% 50%, rgba(8, 145, 178, 0.22) 0%, transparent 65%),
+        radial-gradient(ellipse 50% 35% at 50% 90%, rgba(124, 58, 237, 0.12) 0%, transparent 60%);
+      animation: aurora 9s ease-in-out infinite alternate;
+      pointer-events: none;
+    }
+
+    @keyframes aurora {
+      0%   { opacity: 0.75; transform: scale(1)    rotate(0deg); }
+      50%  { opacity: 1;    transform: scale(1.04) rotate(0.8deg); }
+      100% { opacity: 0.75; transform: scale(0.97) rotate(-0.6deg); }
+    }
+
+    .hero-content {
+      position: relative;
+      z-index: 1;
+      max-width: 680px;
+    }
+
+    .hero-eyebrow {
+      font-family: 'Exo 2', sans-serif;
+      font-size: 0.78rem;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      color: var(--cyan-light);
+      margin-bottom: 1.5rem;
+    }
+
+    /* SIGNATURE ELEMENT — Cinzel Decorative, gradient animé */
+    .hero-title {
+      font-family: 'Cinzel Decorative', serif;
+      font-size: clamp(1.8rem, 5.5vw, 3.6rem);
+      font-weight: 700;
+      line-height: 1.15;
+      background: linear-gradient(130deg, var(--violet-light) 0%, var(--cyan-light) 100%);
+      background-size: 200% 200%;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      animation: title-shimmer 5s ease-in-out infinite alternate;
+    }
+
+    @keyframes title-shimmer {
+      0%   { background-position: 0% 50%; }
+      100% { background-position: 100% 50%; }
+    }
+
+    .hero-divider {
+      width: 64px;
+      height: 2px;
+      background: linear-gradient(90deg, var(--violet), var(--cyan));
+      border-radius: 2px;
+      margin: 1.75rem auto;
+    }
+
+    .hero-tagline {
+      font-family: 'Exo 2', sans-serif;
+      font-size: clamp(0.95rem, 2.2vw, 1.15rem);
+      color: var(--text-muted);
+      margin-bottom: 2.75rem;
+      font-style: italic;
+    }
+
+    .hero-cta {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      background: linear-gradient(130deg, var(--violet), var(--cyan));
+      color: white;
+      text-decoration: none;
+      font-family: 'Exo 2', sans-serif;
+      font-size: 0.92rem;
+      font-weight: 700;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      padding: 0.8rem 2.2rem;
+      border-radius: var(--radius-pill);
+      transition: transform 0.2s, box-shadow 0.2s;
+      border: none;
+      cursor: pointer;
+    }
+
+    .hero-cta:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 10px 36px rgba(124, 58, 237, 0.45);
+    }
+
+    /* ── SECTIONS ───────────────────────────────────────── */
+    .section-wrap {
+      max-width: 1080px;
+      margin: 0 auto;
+      padding: 5rem 1.5rem;
+    }
+
+    .section-header {
+      text-align: center;
+      margin-bottom: 3rem;
+    }
+
+    .section-eyebrow {
+      font-family: 'Exo 2', sans-serif;
+      font-size: 0.76rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--cyan-light);
+      margin-bottom: 0.6rem;
+    }
+
+    .section-title {
+      font-family: 'Exo 2', sans-serif;
+      font-size: clamp(1.4rem, 3.5vw, 2rem);
+      font-weight: 700;
+      color: var(--text);
+    }
+
+    /* ── SEARCH & FILTERS ───────────────────────────────── */
+    .search-wrap {
+      margin-bottom: 2.5rem;
+    }
+
+    .search-input {
+      width: 100%;
+      background: var(--bg-elevated);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-pill);
+      color: var(--text);
+      font-family: 'Inter', sans-serif;
+      font-size: 0.93rem;
+      padding: 0.85rem 1.6rem;
+      outline: none;
+      transition: border-color 0.2s, box-shadow 0.2s;
+      margin-bottom: 1.1rem;
+    }
+
+    .search-input:focus {
+      border-color: var(--violet-light);
+      box-shadow: 0 0 0 3px rgba(124, 58, 237, 0.14);
+    }
+
+    .search-input::placeholder { color: var(--text-dim); }
+
+    .filter-pills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.45rem;
+    }
+
+    .pill {
+      background: transparent;
+      border: 1px solid var(--border);
+      color: var(--text-muted);
+      font-family: 'Exo 2', sans-serif;
+      font-size: 0.78rem;
+      font-weight: 600;
+      letter-spacing: 0.04em;
+      padding: 0.3rem 0.9rem;
+      border-radius: var(--radius-pill);
+      cursor: pointer;
+      transition: all 0.18s;
+    }
+
+    .pill:hover {
+      border-color: var(--violet-light);
+      color: var(--violet-light);
+    }
+
+    .pill.active {
+      background: var(--violet-dim);
+      border-color: var(--violet);
+      color: var(--violet-light);
+    }
+
+    /* ── GRID ───────────────────────────────────────────── */
+    .reviews-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(295px, 1fr));
+      gap: 1.2rem;
+    }
+
+    /* ── CARD ───────────────────────────────────────────── */
+    .card {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 1.4rem 1.5rem;
+      display: flex;
+      flex-direction: column;
+      gap: 0.8rem;
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      transition: transform 0.22s, border-color 0.22s, box-shadow 0.22s;
+      position: relative;
+      overflow: hidden;
+    }
+
+    /* gradient top-bar on hover */
+    .card::after {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0;
+      height: 2px;
+      opacity: 0;
+      transition: opacity 0.3s;
+    }
+
+    .card:hover { transform: translateY(-5px); }
+    .card:hover::after { opacity: 1; }
+
+    /* verdict variants */
+    .card.v-yes:hover   { border-color: rgba(167,139,250,0.5); box-shadow: 0 14px 45px rgba(124,58,237,0.22); }
+    .card.v-yes::after  { background: linear-gradient(90deg, var(--violet), var(--violet-light)); }
+
+    .card.v-watch:hover { border-color: rgba(34,211,238,0.4);  box-shadow: 0 14px 45px rgba(8,145,178,0.2); }
+    .card.v-watch::after{ background: linear-gradient(90deg, var(--cyan), var(--cyan-light)); }
+
+    .card.v-maybe:hover { border-color: rgba(251,191,36,0.4);  box-shadow: 0 14px 45px rgba(217,119,6,0.18); }
+    .card.v-maybe::after{ background: linear-gradient(90deg, #d97706, #fbbf24); }
+
+    .card.v-no:hover    { border-color: rgba(248,113,113,0.4); box-shadow: 0 14px 45px rgba(220,38,38,0.18); }
+    .card.v-no::after   { background: linear-gradient(90deg, #dc2626, #f87171); }
+
+    .card-title {
+      font-family: 'Exo 2', sans-serif;
+      font-weight: 700;
+      font-size: 1.05rem;
+      color: var(--text);
+    }
+
+    .card-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.3rem;
+    }
+
+    .tag {
+      font-size: 0.7rem;
+      font-family: 'Exo 2', sans-serif;
+      font-weight: 600;
+      letter-spacing: 0.03em;
+      padding: 0.18rem 0.55rem;
+      border-radius: var(--radius-pill);
+      background: var(--violet-dim);
+      color: var(--violet-light);
+      border: 1px solid rgba(124,58,237,0.22);
+    }
+
+    .card-excerpt {
+      font-size: 0.88rem;
+      color: var(--text-muted);
+      line-height: 1.7;
+      flex: 1;
+    }
+
+    .card-footer {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 0.6rem;
+      padding-top: 0.9rem;
+      border-top: 1px solid rgba(124,58,237,0.12);
+    }
+
+    .verdict-label {
+      font-size: 0.82rem;
+      font-family: 'Exo 2', sans-serif;
+      font-weight: 600;
+      color: var(--text);
+    }
+
+    .steam-link {
+      color: var(--cyan-light);
+      text-decoration: none;
+      font-size: 0.78rem;
+      font-family: 'Exo 2', sans-serif;
+      font-weight: 600;
+      letter-spacing: 0.04em;
+      transition: color 0.2s;
+      white-space: nowrap;
+    }
+
+    .steam-link:hover { color: white; }
+
+    /* ── NO RESULTS ─────────────────────────────────────── */
+    .empty {
+      text-align: center;
+      padding: 5rem 1rem;
+      color: var(--text-dim);
+      font-family: 'Exo 2', sans-serif;
+      display: none;
+    }
+
+    .empty.show { display: block; }
+
+    /* ── CREATIONS ──────────────────────────────────────── */
+    .creations-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1.5rem;
+    }
+
+    .creation-placeholder {
+      border: 1px dashed rgba(8,145,178,0.3);
+      border-radius: var(--radius);
+      padding: 3.5rem 2rem;
+      text-align: center;
+      color: var(--text-dim);
+      font-family: 'Exo 2', sans-serif;
+    }
+
+    .creation-placeholder .icon { font-size: 2rem; margin-bottom: 0.75rem; }
+    .creation-placeholder p { font-size: 0.88rem; }
+
+    /* ── FOOTER ─────────────────────────────────────────── */
+    footer {
+      text-align: center;
+      padding: 2rem 1.5rem;
+      color: var(--text-dim);
+      font-size: 0.82rem;
+      font-family: 'Exo 2', sans-serif;
+      border-top: 1px solid var(--border);
+    }
+
+    footer a {
+      color: var(--violet-light);
+      text-decoration: none;
+      transition: color 0.2s;
+    }
+
+    footer a:hover { color: var(--cyan-light); }
+
+    /* ── RESPONSIVE ─────────────────────────────────────── */
+    @media (max-width: 640px) {
+      .nav-links { gap: 1rem; }
+      nav { padding: 0.8rem 1rem; }
+      .reviews-grid { grid-template-columns: 1fr; }
+      .creations-grid { grid-template-columns: 1fr; }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .hero::before, .hero-title { animation: none; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- ── NAVIGATION ─────────────────────────────────────── -->
+<nav>
+  <a href="#" class="nav-logo">L'Antre du Zakium</a>
+  <ul class="nav-links">
+    <li><a href="#reviews">Reviews</a></li>
+    <li><a href="#creations">Créations</a></li>
+    <li><a href="https://twitch.tv/zakium" target="_blank" rel="noopener">Twitch ↗</a></li>
+    <li><a href="https://discord.gg/" target="_blank" rel="noopener">Discord ↗</a></li>
+  </ul>
+</nav>
+
+<!-- ── HERO ───────────────────────────────────────────── -->
+<div class="hero">
+  <div class="hero-content">
+    <p class="hero-eyebrow">Streamer · Compositeur · Chasseur de démos</p>
+    <h1 class="hero-title">L'Antre du Zakium</h1>
+    <div class="hero-divider"></div>
+    <p class="hero-tagline">
+      Des démos jouées en live, passées au crible avec amour et un peu trop d'enthousiasme.
+    </p>
+    <a href="#reviews" class="hero-cta">Voir les reviews ↓</a>
+  </div>
+</div>
+
+<!-- ── REVIEWS ────────────────────────────────────────── -->
+<div id="reviews" class="section-wrap">
+  <div class="section-header">
+    <p class="section-eyebrow">Jouées, testées, ressenties</p>
+    <h2 class="section-title">Reviews de démos</h2>
+  </div>
+
+  <div class="search-wrap">
+    <input
+      type="text"
+      id="search"
+      class="search-input"
+      placeholder="🔍  Rechercher un jeu, un genre..."
+      autocomplete="off"
+    >
+    <div class="filter-pills" id="filters"></div>
+  </div>
+
+  <div class="reviews-grid" id="grid"></div>
+  <div class="empty" id="empty">
+    Aucun jeu trouvé... 👾<br>
+    <small>Essaie un autre terme ou un autre genre !</small>
+  </div>
+</div>
+
+<!-- ── CREATIONS ──────────────────────────────────────── -->
+<div id="creations" class="section-wrap">
+  <div class="section-header">
+    <p class="section-eyebrow">Musique & Vidéos</p>
+    <h2 class="section-title">Créations</h2>
+  </div>
+  <div class="creations-grid">
+    <div class="creation-placeholder">
+      <div class="icon">🎵</div>
+      <p>Dernières musiques bientôt ici</p>
+    </div>
+    <div class="creation-placeholder">
+      <div class="icon">🎬</div>
+      <p>Dernières vidéos bientôt ici</p>
+    </div>
+  </div>
+</div>
+
+<!-- ── FOOTER ─────────────────────────────────────────── -->
+<footer>
+  <p>Fait avec 💜 par <strong>Zakium</strong> &nbsp;·&nbsp; <a href="https://twitch.tv/zakium" target="_blank" rel="noopener">Twitch</a> &nbsp;·&nbsp; <a href="https://discord.gg/" target="_blank" rel="noopener">Discord</a></p>
+</footer>
+
+<script>
+  // ──────────────────────────────────────────────────────
+  // DONNÉES — pour ajouter une review, copier un bloc et
+  // l'ajouter à ce tableau. Le site se met à jour tout seul.
+  //
+  // verdictType : "yes" | "watch" | "maybe" | "no"
+  // ──────────────────────────────────────────────────────
+  const REVIEWS = [
+    {
+      title: "Far Far West",
+      tags: ["FPS", "Coop", "Action"],
+      excerpt: "Un jeu coop à la première personne où on joue des robots cowboys. Un cousin d'Abyssus avec une bonne DA et des musiques TROP BIEN. Quand l'epic banjo débarque pendant qu'on tue un Saloon fantôme volant, je suis à fond !",
+      verdict: "Grand oui ! 🤠",
+      verdictType: "yes",
+      steamUrl: ""
+    },
+    {
+      title: "DiceVaders",
+      tags: ["Roguelite", "Dice Builder"],
+      excerpt: "Un jeu de type Balatro où le but c'est de faire combotter son plateau pour scorer de plus en plus. Mais avec des dés ! On joue les vilains envahisseurs comme si on était de l'autre côté de StarVaders.",
+      verdict: "Je plussoie et je surveille de près 👾",
+      verdictType: "watch",
+      steamUrl: ""
+    },
+    {
+      title: "Neuron Activation",
+      tags: ["Arcade", "Précision"],
+      excerpt: "Un jeu de combo et de précision à la souris dans un style très épuré. Des phases de questionnaires comme posés par une IA, petite ambiance Portal-esque. C'est pas vraiment mon style mais il était sympa.",
+      verdict: "Sympa mais pas mon truc 🤖",
+      verdictType: "maybe",
+      steamUrl: ""
+    },
+    {
+      title: "Everything is Crab",
+      tags: ["Survivors-like", "Action"],
+      excerpt: "Un Vampire Survivor-like où on est un blob trop mignon qui évolue en mangeant des fruits et d'autres bestioles ! Comme si le jeu était focalisé sur la première phase de SPORE. Trois compétences actives, des évolutions chouettes, trois boss à gérer.",
+      verdict: "TROP COOL, je plussoie ! 🦀",
+      verdictType: "yes",
+      steamUrl: ""
+    },
+    {
+      title: "Handmancers",
+      tags: ["Roguelite", "Deckbuilder"],
+      excerpt: "Un RogueLite Deckbuilder basé sur Pierre-Feuille-Ciseaux... Sur le papier (\"papier\" vous avez compris ?) on a vraiment l'impression que c'est foireux. Mais je trouve le jeu vraiment super et très beau !",
+      verdict: "Je plussoie fort ! ✊🤚✌️",
+      verdictType: "yes",
+      steamUrl: ""
+    },
+    {
+      title: "Coin Shark",
+      tags: ["Roguelite", "Balatro-like"],
+      excerpt: "Le roguelite de pile ou face : on build les faces d'une pièce pour faire des combos. CEPENDAAAAANT ! Il est très facile de choisir sur quelle face va tomber la pièce, c'est dommage, c'est justement le truc qu'il faut pas.",
+      verdict: "Ça marche pas dans l'état actuel 🙁",
+      verdictType: "no",
+      steamUrl: "https://store.steampowered.com/app/3188730/Coin_Shark/"
+    },
+    {
+      title: "Night Lurker",
+      tags: ["Fiction Interactive", "Aventure", "Cyberpunk", "Pixel Art"],
+      excerpt: "Une fiction interactive à l'ambiance visuelle et sonore magnifique. On y interprète Meadow, un renard anthropomorphe dans une ville cyberpunk dystopique. Une minute avant la fin de la démo, j'avais oublié que c'en était une.",
+      verdict: "J'ai hâte de suivre cette histoire 🦊",
+      verdictType: "yes",
+      steamUrl: "https://store.steampowered.com/app/3973720/Night_Lurker/"
+    },
+    {
+      title: "DAICE",
+      tags: ["Roguelite", "Dice Builder", "SF", "Stratégie"],
+      excerpt: "Un dice building roguelite dans un univers SF où on gère des vaisseaux spatiaux. Le truc sympa : le système d'adjacence, bien placer ses dés dans ses armes et modules pour optimiser ses combos.",
+      verdict: "À suivre ! 🎲",
+      verdictType: "watch",
+      steamUrl: ""
+    },
+    {
+      title: "Factomancer",
+      tags: ["Roguelite", "Gestion", "Automatisation", "Fantasy"],
+      excerpt: "Un roguelite d'optimisation vue du dessus dans un univers fantasy avec des tapis roulants ! Chaque jour il faut remplir un quota de thune, bien placer ses convoyeurs et gérer ses artefacts. Très cool et très chill.",
+      verdict: "Tout joli, tout bien, je plussoie ! ⚙️",
+      verdictType: "yes",
+      steamUrl: ""
+    },
+    {
+      title: "FuryBall : Rogue Revenge",
+      tags: ["Action Roguelite", "Beat'em up", "Difficile", "Dystopique"],
+      excerpt: "Un roguelite nerveux et dynamique autour d'un sport ultra-violent dans la ville dystopique de Neo-Arcadia. On builder sa balle avec des modules aux effets variés pour créer des synergies dévastatrices. Exigeant mais belle DA !",
+      verdict: "Je plussoie ! 🏏",
+      verdictType: "yes",
+      steamUrl: "https://store.steampowered.com/app/2713120/Furyball_Rogue_Revenge/"
+    },
+    {
+      title: "Looking For Faël",
+      tags: ["Point & Click", "Puzzle", "Surréaliste", "Mystère"],
+      excerpt: "Tout commence par un message vocal : \"gros j'crois que je suis perdu dans l'appartement\". Et on va le chercher ^^ Sauf que l'appart est pas tout à fait classique...",
+      verdict: "Intrigué, pourquoi pas ! :)",
+      verdictType: "maybe",
+      steamUrl: "https://store.steampowered.com/app/2521170/Looking_For_Fael/"
+    },
+    {
+      title: "Into the Fire",
+      tags: ["Survival", "Extraction", "Crafting", "Surnaturel"],
+      excerpt: "Un mélange intéressant entre This War of Mine et Pacific Drive. On gère un campement de survivants d'une éruption volcanique bizarre et on fait des runs chronométrées pour ramener ressources et rescapés. Et il y a des trucs bizarres...",
+      verdict: "Belle surprise, je surveille ! 🌋",
+      verdictType: "watch",
+      steamUrl: "https://store.steampowered.com/app/2988030/Into_the_Fire/"
+    },
+    {
+      title: "Beware of the Cartographer !",
+      tags: ["Aventure", "Point & Click", "Puzzle", "Humour"],
+      excerpt: "Une excellente surprise ! Je suis allé tester la démo juste parce que le thème m'intriguait : établir une carte de la région. Et le jeu est trop mignon et drôle !! Les personnages qu'on rencontre sont attachants.",
+      verdict: "J'ai hâte de le faire en live ! 🗺️",
+      verdictType: "yes",
+      steamUrl: "https://store.steampowered.com/app/3905500/Beware_of_the_Cartographer/"
+    },
+    {
+      title: "Hand of Fate : Hordes",
+      tags: ["Survivors-like", "Deckbuilder", "Dark Fantasy"],
+      excerpt: "Je vais pas être impartial car c'est une licence indé qui me plaît beaucoup ^^ Un survivors-like à la Vampire Survivors dans l'univers de Hand of Fate. Avec les cartes de tarot, les persos, c'est cool !",
+      verdict: "Je plussoie (pas impartial ^^) 🃏",
+      verdictType: "yes",
+      steamUrl: "https://store.steampowered.com/app/3075410/Hand_of_Fate_Hordes/"
+    },
+    {
+      title: "Func Key",
+      tags: ["Roguelite", "Word Game", "Deckbuilder", "Casual"],
+      excerpt: "Un Balatro-like de Scrabble avec une DA toute mignonne. Le \"deck\" c'est votre clavier ! Les systèmes restent assez classiques dans le genre. Le truc complicado : uniquement en anglais, et le Scrabble en VO c'est un peu trop galère pour moi ^^",
+      verdict: "Super si vous êtes à l'aise en VO 🇬🇧",
+      verdictType: "maybe",
+      steamUrl: "https://store.steampowered.com/app/4268590"
+    },
+    {
+      title: "Chained Beasts",
+      tags: ["Action Roguelite", "Coop", "Hack and Slash", "Arène"],
+      excerpt: "Un roguelite de combat d'arène solo ou coop jusqu'à 4 où on incarne des gladiateurs enchaînés soit à ses potes, soit à un boulet (pas la même chose ^^). Le style de combat : on se bat avec ce qui traîne sur le terrain.",
+      verdict: "Hypé pour la suite ! ⛓️",
+      verdictType: "yes",
+      steamUrl: "https://store.steampowered.com/app/3569420/Chained_Beasts/"
+    },
+  ];
+
+  // ── TAG FILTERS ────────────────────────────────────────
+  const FILTER_TAGS = [
+    "Tous", "Roguelite", "Action", "Coop", "Deckbuilder",
+    "Survivors-like", "Aventure", "Puzzle", "Survival",
+    "SF", "Cyberpunk", "Word Game", "Beat'em up"
+  ];
+
+  let activeTag   = "Tous";
+  let searchQuery = "";
+
+  // Build filter pills
+  const filtersEl = document.getElementById("filters");
+  FILTER_TAGS.forEach(tag => {
+    const btn = document.createElement("button");
+    btn.className = "pill" + (tag === "Tous" ? " active" : "");
+    btn.textContent = tag;
+    btn.addEventListener("click", () => {
+      activeTag = tag;
+      document.querySelectorAll(".pill").forEach(b => b.classList.remove("active"));
+      btn.classList.add("active");
+      render();
+    });
+    filtersEl.appendChild(btn);
+  });
+
+  // Search
+  document.getElementById("search").addEventListener("input", e => {
+    searchQuery = e.target.value.toLowerCase().trim();
+    render();
+  });
+
+  // ── RENDER ─────────────────────────────────────────────
+  function render() {
+    const grid  = document.getElementById("grid");
+    const empty = document.getElementById("empty");
+
+    const filtered = REVIEWS.filter(r => {
+      const tagMatch    = activeTag === "Tous" || r.tags.some(t => t.toLowerCase().includes(activeTag.toLowerCase()));
+      const searchMatch = !searchQuery || [r.title, ...r.tags, r.excerpt].some(s => s.toLowerCase().includes(searchQuery));
+      return tagMatch && searchMatch;
+    });
+
+    grid.innerHTML = "";
+
+    if (filtered.length === 0) {
+      empty.classList.add("show");
+      return;
+    }
+
+    empty.classList.remove("show");
+
+    filtered.forEach(r => {
+      const card = document.createElement("div");
+      card.className = `card v-${r.verdictType}`;
+
+      const tagsHtml   = r.tags.map(t => `<span class="tag">${t}</span>`).join("");
+      const steamHtml  = r.steamUrl
+        ? `<a href="${r.steamUrl}" target="_blank" rel="noopener" class="steam-link">Voir sur Steam ↗</a>`
+        : "";
+
+      card.innerHTML = `
+        <div class="card-title">${r.title}</div>
+        <div class="card-tags">${tagsHtml}</div>
+        <p class="card-excerpt">${r.excerpt}</p>
+        <div class="card-footer">
+          <span class="verdict-label">${r.verdict}</span>
+          ${steamHtml}
+        </div>
+      `;
+      grid.appendChild(card);
+    });
+  }
+
+  render();
+</script>
+</body>
+</html>
