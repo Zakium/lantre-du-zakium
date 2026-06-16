@@ -1,29 +1,25 @@
 // ============================================================
 //  DONNEES DE L'ANTRE DU ZAKIUM
-//  C'est le SEUL fichier a editer pour ajouter du contenu !
-//  Pas besoin de toucher a index.html.
 // ============================================================
 
-// -------- TES NOTES (meeples) --------
+// -------- NOTES (meeples) --------
 //  n5 = Coup de coeur  |  n4 = Je plussoie  |  n3 = A suivre
 //  n2 = Pourquoi pas   |  n1 = Pas pour moi
 
-// -------- POUR AJOUTER UNE REVIEW --------
-//  Copie un bloc { ... } ci-dessous et colle-le tout EN HAUT
-//  de la liste (juste apres 'const REVIEWS = [').
+// -------- AJOUTER UNE REVIEW --------
 //  Les reviews les plus recentes (date) s'affichent en premier.
 //
 //  Champs d'une review :
 //   title      : le nom du jeu
 //   tags       : liste de genres entre guillemets
 //   paras      : liste de paragraphes (chaque "..." = 1 paragraphe)
-//                tu peux mettre **gras** et *italique*
+//                **gras** et *italique*
 //   note       : "n1" a "n5" (voir plus haut)
 //   date       : "AAAA-MM-JJ" (ex "2026-06-14")
 //   steamAppId : le numero dans l'URL Steam (pour l'image)
 //   steamUrl   : le lien complet Steam (ou "" si pas de page)
 //   image      : (OPTIONNEL) une URL d'image perso, si l'image Steam
-//                ne s'affiche pas bien. Laisse de cote si pas besoin.
+//                ne s'affiche pas bien.
 
 const REVIEWS = [
   {
