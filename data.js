@@ -160,7 +160,8 @@ const REVIEWS = [
     note: "n3",
     date: "2026-05-03",
     steamAppId: "4422430",
-    steamUrl: "https://store.steampowered.com/app/4422430/DAICE/"
+    steamUrl: "https://store.steampowered.com/app/4422430/DAICE/",
+    image: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4422430/c757721d78a471975d0b028db7dcd28d0f048b40/header.jpg?t=1778690604"
   },
   {
     title: "Night Lurker",
@@ -174,7 +175,8 @@ const REVIEWS = [
     note: "n5",
     date: "2026-04-26",
     steamAppId: "3973720",
-    steamUrl: "https://store.steampowered.com/app/3973720/Night_Lurker/"
+    steamUrl: "https://store.steampowered.com/app/3973720/Night_Lurker/",
+    image: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3973720/dea6afd3721814894cd7621a6027e870611782f1/header.jpg?t=1778482176"
   },
   {
     title: "Coin Shark",
