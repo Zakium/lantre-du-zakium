@@ -286,7 +286,8 @@ const REVIEWS = [
     note: "n1",
     date: "2026-01-15",
     steamAppId: "3459150",
-    steamUrl: "https://store.steampowered.com/app/3459150/The_Fortress/"
+    steamUrl: "https://store.steampowered.com/app/3459150/The_Fortress/",
+    image: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3459150/047a8bd7f2cac785ffdbd52b5a1c7f8cbf2aa989/header.jpg?t=1772012953"
   },
   {
     title: "Wasteland Bites",
@@ -299,7 +300,8 @@ const REVIEWS = [
     note: "n3",
     date: "2026-01-15",
     steamAppId: "3748640",
-    steamUrl: "https://store.steampowered.com/app/3748640/Wasteland_Bites/"
+    steamUrl: "https://store.steampowered.com/app/3748640/Wasteland_Bites/",
+    image: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3748640/7790a3e490eb9069f320d0d346ae6f687a76e590/header.jpg?t=1780691088"
   },
   {
     title: "The Horde Wants You Dead",
