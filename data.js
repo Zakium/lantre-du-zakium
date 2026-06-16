@@ -557,10 +557,10 @@ const VIDEOS = [
 //           le slug est : SpicyCrunchyApcDeIlluminati
 
 const CLIPS = [
-  "YummyTrustworthyMangetoutPunchTrees",
-  "AnimatedProudJackalWutFace",
-  "EncouragingEnergeticPineappleSmoocherZ",
-  "FrozenEphemeralChipmunkPRChase",
-  "DifficultHonestPigTBTacoRight",
-  "SpunkyPerfectEggnogHeyGirl",
+  "https://www.twitch.tv/zakium/clip/YummyTrustworthyMangetoutPunchTrees-UFfZcZ5_rnFJv0dM",
+  "https://www.twitch.tv/zakium/clip/AnimatedProudJackalWutFace-b9YOVOG0Qg87HXLk",
+  "https://www.twitch.tv/zakium/clip/HeadstrongKitschyYakPartyTime-zDbwuPxfbiLhneFF",
+  "https://www.twitch.tv/zakium/clip/EncouragingEnergeticPineappleSmoocherZ-2I4VfMjobjH26BOj",
+  "https://www.twitch.tv/zakium/clip/FrozenEphemeralChipmunkPRChase-XFZ60cvqSljyDqiC",
+  "https://www.twitch.tv/zakium/clip/DifficultHonestPigTBTacoRight-OnE4SPZDN-I9LIw5",
 ];
