@@ -48,6 +48,7 @@ const REVIEWS = [
     date: "2026-06-11",
     steamAppId: "3569420",
     steamUrl: "https://store.steampowered.com/app/3569420/Chained_Beasts/",
+  },
   {
     title: "Func Key",
     tags: ["Roguelite", "Word Game", "Deckbuilder", "Casual"],
