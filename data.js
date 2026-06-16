@@ -557,6 +557,7 @@ const VIDEOS = [
 //           le slug est : SpicyCrunchyApcDeIlluminati
 
 const CLIPS = [
-  // "SpicyCrunchyApcDeIlluminati",
-  // "AnotherClipSlugHere",
+  "YummyTrustworthyMangetoutPunchTrees",
+  "AnimatedProudJackalWutFace",
+  "EncouragingEnergeticPineappleSmoocherZ",,
 ];
