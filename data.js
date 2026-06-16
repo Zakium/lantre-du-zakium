@@ -44,7 +44,7 @@ const REVIEWS = [
       "J'aime beaucoup la DA, le jeu r\u00e9pond bien, c'est fluide, c'est cool ! GG",
       "Je suis hyp\u00e9 pour la suite !",
     ],
-    note: "n4",
+    note: "n5",
     date: "2026-06-11",
     steamAppId: "3569420",
     steamUrl: "https://store.steampowered.com/app/3569420/Chained_Beasts/",
