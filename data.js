@@ -542,6 +542,7 @@ const MUSIQUES = [
   // { youtubeId: "xxxxxxxxxxx", titre: "Nom de la musique" },
   { youtubeId: "HkPJyMUt85k", titre: "Code Lyoko - Franck Keller & Ygal Amar (medieval Cover/Bardcore)" },
   { youtubeId: "h8BDFyRMzEk", titre: "All Star -Smash Mouth (medieval Cover/Bardcore)" },
+  { youtubeId: "kw72uggazfo", titre: "Elevator Operator - Electric CallBoy (medieval Cover/Bardcore)" },
 ];
 
 const VIDEOS = [
