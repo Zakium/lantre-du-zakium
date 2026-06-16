@@ -620,4 +620,11 @@ const COPAINES = [
   //   lien: "https://...",
   //   image: ""
   // },
+  {
+  nom: "Night Lurker",
+  auteur: "Notch",
+  desc: "Wishlistez Night Lurker pour le soutine ! 🙏:purple_heart:",
+  lien: "https://store.steampowered.com/app/3973720/Night_Lurker/",
+  image: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3973720/dea6afd3721814894cd7621a6027e870611782f1/header.jpg?t=1778482176"
+  },
 ];
