@@ -272,8 +272,8 @@ const REVIEWS = [
     ],
     note: "n3",
     date: "2026-01-15",
-    steamAppId: "2074370",
-    steamUrl: "https://store.steampowered.com/app/2074370/Deathless_The_Hero_Quest/"
+    steamAppId: "2727210",
+    steamUrl: "https://store.steampowered.com/app/2727210/Deathless_The_Hero_Quest/"
   },
   {
     title: "The Fortress",
