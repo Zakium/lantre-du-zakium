@@ -4,6 +4,19 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>L'Antre du Zakium &mdash; Reviews de demos indes</title>
+  <meta name="description" content="L'Antre du Zakium : reviews de demos de jeux indes jouees en live, classees par genre et par ressenti. Far Far West, roguelites, deckbuilders et autres pepites a decouvrir.">
+  <meta name="author" content="Zakium">
+  <meta name="theme-color" content="#7c3aed">
+  <link rel="canonical" href="https://zakium.github.io/lantre-du-zakium/">
+  <!-- Open Graph (partage Discord, Twitter, Facebook...) -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="L'Antre du Zakium">
+  <meta property="og:description" content="Reviews de demos de jeux indes jouees en live, classees par genre et par ressenti.">
+  <meta property="og:locale" content="fr_FR">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="L'Antre du Zakium">
+  <meta name="twitter:description" content="Reviews de demos de jeux indes jouees en live.">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%8E%AE%3C/text%3E%3C/svg%3E">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Exo+2:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@400;500&display=swap" rel="stylesheet">
@@ -97,6 +110,48 @@
       transition: transform 0.2s, box-shadow 0.2s;
     }
     .hero-cta:hover { transform: translateY(-3px); box-shadow: 0 10px 36px rgba(124,58,237,0.45); }
+    .hero-fragment-wrap { margin-top: 1.4rem; }
+    .hero-fragment {
+      background: transparent; border: 1px solid rgba(167,139,250,0.35);
+      color: var(--violet-light); cursor: pointer;
+      font-family: "Exo 2", sans-serif; font-size: 0.82rem; font-weight: 600;
+      letter-spacing: 0.04em; padding: 0.5rem 1.3rem; border-radius: var(--radius-pill);
+      transition: all 0.22s; backdrop-filter: blur(4px);
+    }
+    .hero-fragment:hover {
+      border-color: var(--violet-light); color: #fff;
+      background: rgba(124,58,237,0.18); box-shadow: 0 6px 22px rgba(124,58,237,0.3);
+    }
+    /* Twitch clip modal */
+    .twitch-modal {
+      background: #0b0f1d; border: 1px solid var(--border); border-radius: 18px;
+      max-width: 880px; width: 100%; position: relative;
+      transform: translateY(16px) scale(0.98); transition: transform 0.25s;
+      box-shadow: 0 30px 80px rgba(0,0,0,0.6); overflow: hidden;
+      border-top: 4px solid #9146FF;
+    }
+    .modal-overlay.show .twitch-modal { transform: translateY(0) scale(1); }
+    .twitch-modal-head {
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 1rem 1.3rem; gap: 1rem;
+    }
+    .twitch-modal-title {
+      font-family: "Exo 2", sans-serif; font-weight: 700; font-size: 1.05rem;
+      display: flex; align-items: center; gap: 0.5rem; color: var(--text);
+    }
+    .twitch-embed { position: relative; width: 100%; aspect-ratio: 16 / 9; background: #000; }
+    .twitch-embed iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
+    .twitch-actions {
+      display: flex; gap: 0.6rem; align-items: center; padding: 1rem 1.3rem; flex-wrap: wrap;
+    }
+    .twitch-reroll {
+      background: #9146FF; color: #fff; border: none; cursor: pointer;
+      font-family: "Exo 2", sans-serif; font-size: 0.84rem; font-weight: 700;
+      letter-spacing: 0.03em; padding: 0.55rem 1.3rem; border-radius: var(--radius-pill);
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+    .twitch-reroll:hover { transform: translateY(-2px); box-shadow: 0 8px 22px rgba(145,70,255,0.45); }
+    .twitch-empty { padding: 2.5rem 1.5rem; text-align: center; color: var(--text-dim); font-family: "Exo 2", sans-serif; }
     .section-wrap { max-width: 1120px; margin: 0 auto; padding: 5rem 1.5rem; }
     .section-header { text-align: center; margin-bottom: 2.5rem; }
     .section-eyebrow {
@@ -350,6 +405,9 @@
     <div class="hero-divider"></div>
     <p class="hero-tagline">Parce que quelqu'un doit bien jouer toutes ces d&eacute;mos.</p>
     <a href="#reviews" class="hero-cta">Voir les reviews &darr;</a>
+    <div class="hero-fragment-wrap">
+      <button class="hero-fragment" id="fragmentBtn">&#10024; Apercevoir un fragment de Zakium</button>
+    </div>
   </div>
 </div>
 
@@ -417,6 +475,18 @@
   </div>
 </div>
 
+<!-- TWITCH FRAGMENT MODAL -->
+<div class="modal-overlay" id="twitchOverlay">
+  <div class="twitch-modal" id="twitchModal">
+    <div class="twitch-modal-head">
+      <div class="twitch-modal-title">&#10024; Un fragment de Zakium</div>
+      <button class="modal-close" id="twitchClose" aria-label="Fermer" style="position:static">&times;</button>
+    </div>
+    <div id="twitchContent"></div>
+    <div class="twitch-actions" id="twitchActions"></div>
+  </div>
+</div>
+
 <!-- Les donnees sont dans data.js -->
 <script src="data.js"></script>
 <script>
@@ -434,6 +504,7 @@
   const _REVIEWS = (typeof REVIEWS !== "undefined") ? REVIEWS.slice() : [];
   const _MUSIQUES = (typeof MUSIQUES !== "undefined") ? MUSIQUES : [];
   const _VIDEOS = (typeof VIDEOS !== "undefined") ? VIDEOS : [];
+  const _CLIPS = (typeof CLIPS !== "undefined") ? CLIPS : [];
 
   // tri par date decroissante (plus recent en haut)
   _REVIEWS.sort((a,b) => (b.date || "").localeCompare(a.date || ""));
@@ -450,8 +521,10 @@
       .replace(/\*\*([^*]+)\*\*/g, "<b>$1</b>")
       .replace(/\*([^*]+)\*/g, "<i>$1</i>");
   }
-  function bannerUrl(appId) {
-    return appId ? "https://cdn.akamai.steamstatic.com/steam/apps/" + appId + "/header.jpg" : "";
+  function bannerUrl(r) {
+    // si une image perso est fournie dans data.js, on la prend en priorite
+    if (r.image) return r.image;
+    return r.steamAppId ? "https://cdn.cloudflare.steamstatic.com/steam/apps/" + r.steamAppId + "/header.jpg" : "";
   }
   function formatDate(d) {
     if (!d) return "";
@@ -508,7 +581,7 @@
 
   const overlay = document.getElementById("modalOverlay");
   function openModal(r) {
-    const url = bannerUrl(r.steamAppId);
+    const url = bannerUrl(r);
     document.getElementById("modalBanner").innerHTML =
       '<span class="fallback">' + r.title + '</span>' +
       (url ? '<img src="' + url + '" alt="' + r.title + '" onerror="this.style.display=\'none\'">' : '');
@@ -553,7 +626,7 @@
     filtered.forEach(r => {
       const card = document.createElement("div");
       card.className = "card " + r.note;
-      const url = bannerUrl(r.steamAppId);
+      const url = bannerUrl(r);
       const imgHtml = url ? '<img src="' + url + '" alt="' + r.title + '" loading="lazy" onerror="this.style.display=\'none\'">' : "";
       const tagsHtml = r.tags.map(t => '<span class="tag" data-tag="' + t.replace(/"/g,"&quot;") + '">' + t + '</span>').join("");
       const teaser = mdFormat(r.paras[0]);
@@ -590,8 +663,58 @@
     else { vg.innerHTML = '<div class="creation-placeholder"><div class="icon">&#127916;</div><p>Bient&ocirc;t des vid&eacute;os ici !</p></div>'; }
   }
 
+  // ===== FRAGMENT TWITCH =====
+  const twitchOverlay = document.getElementById("twitchOverlay");
+  const fragmentBtn = document.getElementById("fragmentBtn");
+  let lastClipIndex = -1;
+
+  function twitchParent() {
+    // Twitch exige le domaine parent. localhost en test, sinon le vrai host.
+    return location.hostname || "localhost";
+  }
+
+  function showRandomClip() {
+    const content = document.getElementById("twitchContent");
+    const actions = document.getElementById("twitchActions");
+    if (!_CLIPS.length) {
+      content.innerHTML = '<div class="twitch-empty">Aucun fragment disponible pour le moment... reviens bient&ocirc;t ! &#128064;</div>';
+      actions.innerHTML = "";
+      return;
+    }
+    // tirage aleatoire en evitant de retomber sur le meme
+    let idx = Math.floor(Math.random() * _CLIPS.length);
+    if (_CLIPS.length > 1) {
+      while (idx === lastClipIndex) { idx = Math.floor(Math.random() * _CLIPS.length); }
+    }
+    lastClipIndex = idx;
+    const slug = _CLIPS[idx];
+    const src = "https://clips.twitch.tv/embed?clip=" + encodeURIComponent(slug) +
+                "&parent=" + encodeURIComponent(twitchParent()) + "&autoplay=true";
+    content.innerHTML = '<div class="twitch-embed"><iframe src="' + src +
+      '" allowfullscreen allow="autoplay"></iframe></div>';
+    actions.innerHTML = _CLIPS.length > 1
+      ? '<button class="twitch-reroll" id="twitchReroll">&#127922; Un autre fragment</button>'
+      : '';
+    const reroll = document.getElementById("twitchReroll");
+    if (reroll) reroll.addEventListener("click", showRandomClip);
+  }
+
+  function openTwitch() {
+    showRandomClip();
+    twitchOverlay.classList.add("show");
+    document.body.classList.add("modal-open");
+  }
+  function closeTwitch() {
+    twitchOverlay.classList.remove("show");
+    document.body.classList.remove("modal-open");
+    document.getElementById("twitchContent").innerHTML = ""; // stoppe la lecture
+  }
+  fragmentBtn.addEventListener("click", openTwitch);
+  document.getElementById("twitchClose").addEventListener("click", closeTwitch);
+  twitchOverlay.addEventListener("click", e => { if (e.target === twitchOverlay) closeTwitch(); });
+  document.addEventListener("keydown", e => { if (e.key === "Escape") closeTwitch(); });
+
   render();
-  renderMedia();
-</script>
+  renderMedia();</script>
 </body>
 </html>
