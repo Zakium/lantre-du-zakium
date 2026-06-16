@@ -22,6 +22,8 @@
 //   date       : "AAAA-MM-JJ" (ex "2026-06-14")
 //   steamAppId : le numero dans l'URL Steam (pour l'image)
 //   steamUrl   : le lien complet Steam (ou "" si pas de page)
+//   image      : (OPTIONNEL) une URL d'image perso, si l'image Steam
+//                ne s'affiche pas bien. Laisse de cote si pas besoin.
 
 const REVIEWS = [
   {
@@ -266,15 +268,12 @@ const REVIEWS = [
 
 const MUSIQUES = [
   // { youtubeId: "xxxxxxxxxxx", titre: "Nom de la musique" },
-  { youtubeId: "HkPJyMUt85k", titre: "Code Lyoko - Franck Keller & Ygal Amar (medieval Cover/Bardcore)" },
-  { youtubeId: "h8BDFyRMzEk", titre: "All Star -Smash Mouth (medieval Cover/Bardcore)" },
 ];
 
 const VIDEOS = [
   // { youtubeId: "xxxxxxxxxxx", titre: "Nom de la video" },
-  { youtubeId: "0tThEfAM7Jw", titre: "Florilège du Zakium : Séminaire COGIP sur PEAK" },
-  { youtubeId: "fozyvTItLZ0", titre: "Florilège du Zakium - Miracles Démocratiques & Logements libres -Juillet 2025" },
 ];
+
 
 // ============================================================
 //  FRAGMENTS TWITCH (clips aleatoires)
@@ -290,7 +289,7 @@ const VIDEOS = [
 //
 // Exemple : pour https://clips.twitch.tv/SpicyCrunchyApcDeIlluminati
 //           le slug est : SpicyCrunchyApcDeIlluminati
- 
+
 const CLIPS = [
   // "SpicyCrunchyApcDeIlluminati",
   // "AnotherClipSlugHere",
