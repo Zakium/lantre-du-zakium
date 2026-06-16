@@ -266,7 +266,7 @@ const REVIEWS = [
 
 const MUSIQUES = [
   // { youtubeId: "xxxxxxxxxxx", titre: "Nom de la musique" },
-  { youtubeId: "HkPJyMUt85k", titre: "Code Lyoko - Franck Keller & Ygal Amar (medieval Cover/Bardcore)" }
+  { youtubeId: "HkPJyMUt85k", titre: "Code Lyoko - Franck Keller & Ygal Amar (medieval Cover/Bardcore)" },
 ];
 
 const VIDEOS = [
