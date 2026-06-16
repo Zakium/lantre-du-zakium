@@ -687,7 +687,13 @@
       while (idx === lastClipIndex) { idx = Math.floor(Math.random() * _CLIPS.length); }
     }
     lastClipIndex = idx;
-    const slug = _CLIPS[idx];
+    // accepte un slug seul OU une URL complete (twitch.tv/.../clip/SLUG ou clips.twitch.tv/SLUG)
+    let raw = String(_CLIPS[idx]).trim();
+    let slug = raw;
+    if (raw.indexOf("/") !== -1) {
+      // enleve un eventuel parametre ?xxx puis prend la derniere partie du chemin
+      slug = raw.split("?")[0].replace(/\/+$/, "").split("/").pop();
+    }
     const src = "https://clips.twitch.tv/embed?clip=" + encodeURIComponent(slug) +
                 "&parent=" + encodeURIComponent(twitchParent()) + "&autoplay=true";
     content.innerHTML = '<div class="twitch-embed"><iframe src="' + src +
