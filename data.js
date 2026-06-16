@@ -285,8 +285,8 @@ const REVIEWS = [
     ],
     note: "n1",
     date: "2026-01-15",
-    steamAppId: "",
-    steamUrl: ""
+    steamAppId: "3459150",
+    steamUrl: "https://store.steampowered.com/app/3459150/The_Fortress/"
   },
   {
     title: "Wasteland Bites",
@@ -298,8 +298,8 @@ const REVIEWS = [
     ],
     note: "n3",
     date: "2026-01-15",
-    steamAppId: "",
-    steamUrl: ""
+    steamAppId: "3748640",
+    steamUrl: "https://store.steampowered.com/app/3748640/Wasteland_Bites/"
   },
   {
     title: "The Horde Wants You Dead",
@@ -311,7 +311,8 @@ const REVIEWS = [
     note: "n2",
     date: "2026-01-13",
     steamAppId: "3552820",
-    steamUrl: "https://store.steampowered.com/app/3552820/The_Horde_Wants_You_Dead/"
+    steamUrl: "https://store.steampowered.com/app/3552820/The_Horde_Wants_You_Dead/",
+    image: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3552820/f679ba0e8040cef057725458b27bbc40ca0212b6/header.jpg?t=1765737164"
   },
   {
     title: "Bits & Bops",
@@ -363,7 +364,8 @@ const REVIEWS = [
     note: "n5",
     date: "2026-01-09",
     steamAppId: "4072320",
-    steamUrl: "https://store.steampowered.com/app/4072320/Pawful_Dice/"
+    steamUrl: "https://store.steampowered.com/app/4072320/Pawful_Dice/",
+    image: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4072320/d8f077ecb0213dfc15bca1598b6181a47faa55fa/header.jpg?t=1780477456"
   },
   {
     title: "Extinction Day",
@@ -375,8 +377,8 @@ const REVIEWS = [
     ],
     note: "n4",
     date: "2026-01-09",
-    steamAppId: "3836320",
-    steamUrl: "https://store.steampowered.com/app/3836320/Extinction_Day_Demo/"
+    steamAppId: "2682380",
+    steamUrl: "https://store.steampowered.com/app/2682380/Extinction_Day/"
   },
   {
     title: "Arm Around!",
@@ -402,7 +404,8 @@ const REVIEWS = [
     note: "n3",
     date: "2026-01-09",
     steamAppId: "3702100",
-    steamUrl: "https://store.steampowered.com/app/3702100/The_Secret_of_Weepstone/"
+    steamUrl: "https://store.steampowered.com/app/3702100/The_Secret_of_Weepstone/",
+    image: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3702100/3e8cc9d1732fbb9fdd56515778cda01c24b7d8cf/header.jpg?t=1779906240"
   },
   {
     title: "Gamblers Table",
@@ -414,7 +417,8 @@ const REVIEWS = [
     note: "n4",
     date: "2026-01-09",
     steamAppId: "3618390",
-    steamUrl: "https://store.steampowered.com/app/3618390/Gamblers_Table/"
+    steamUrl: "https://store.steampowered.com/app/3618390/Gamblers_Table/",
+    image:"https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3618390/d8e287275db1e5b13dc9a73c2abdcac9b267d9d2/header.jpg?t=1780261485"
   },
   {
     title: "Wanderburg",
@@ -427,7 +431,8 @@ const REVIEWS = [
     note: "n4",
     date: "2026-01-08",
     steamAppId: "3624140",
-    steamUrl: "https://store.steampowered.com/app/3624140/Wanderburg/"
+    steamUrl: "https://store.steampowered.com/app/3624140/Wanderburg/",
+    image: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3624140/a0a68815aac3899476a7365a04771e731008a406/header.jpg?t=1776354662"
   },
   {
     title: "Fire at Campsite",
@@ -440,7 +445,8 @@ const REVIEWS = [
     note: "n3",
     date: "2026-01-08",
     steamAppId: "3651490",
-    steamUrl: "https://store.steampowered.com/app/3651490/Fire_at_Campsite/"
+    steamUrl: "https://store.steampowered.com/app/3651490/Fire_at_Campsite/",
+    image: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3651490/dba141906c34c9cac923de174b3212efb6426978/header.jpg?t=1762365256"
   },
   {
     title: "Nova Roma",
@@ -453,7 +459,8 @@ const REVIEWS = [
     note: "n3",
     date: "2026-01-07",
     steamAppId: "2426560",
-    steamUrl: "https://store.steampowered.com/app/2426560/Nova_Roma_Demo/"
+    steamUrl: "https://store.steampowered.com/app/2426530/Nova_Roma/",
+    image: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2426530/177af7f4e08879242a9b1e06cd37375139c05b65/header.jpg?t=1779785962"
   },
   {
     title: "Silly Polly Beast",
@@ -502,7 +509,8 @@ const REVIEWS = [
     note: "n2",
     date: "2025-11-24",
     steamAppId: "3699850",
-    steamUrl: "https://store.steampowered.com/app/3699850/The_Devils_Due/"
+    steamUrl: "https://store.steampowered.com/app/3699850/The_Devils_Due/",
+    image:"https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3699850/cb83990ef1a4ffd7e360d2b00a3d5fe7b39f0227/header.jpg?t=1771843874"
   },
   {
     title: "Rune Dice",
