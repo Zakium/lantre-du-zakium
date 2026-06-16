@@ -621,10 +621,24 @@ const COPAINES = [
   //   image: ""
   // },
   {
+  nom: "DLC Gears and Goblins ! (SpellCaster University)",
+  auteur: "Sneaky Yak Studio (dont moi :p )",
+  desc: "Wishlistez le DLC pour le soutine ! 🙏 Il sort le 26 septembre !",
+  lien: "https://store.steampowered.com/app/3350300/Spellcaster_University__Gears_and_Gobelins/",
+  image: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3350300/header.jpg?t=1765314654"
+  },
+  {
   nom: "Night Lurker",
   auteur: "Notch",
   desc: "Wishlistez Night Lurker pour le soutine ! 🙏:purple_heart:",
   lien: "https://store.steampowered.com/app/3973720/Night_Lurker/",
   image: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3973720/dea6afd3721814894cd7621a6027e870611782f1/header.jpg?t=1778482176"
+  },
+  {
+  nom: "TCC : Twitch Collectible Cards",
+  auteur: "Toopixel_",
+  desc: "Un système de carte a collectionner personnalisable pour streameur·euses",
+  lien: "https://tcc.too-pixel.com/",
+  image: "https://tcc.too-pixel.com/assets/images/logo.png"
   },
 ];
