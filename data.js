@@ -559,5 +559,8 @@ const VIDEOS = [
 const CLIPS = [
   "YummyTrustworthyMangetoutPunchTrees",
   "AnimatedProudJackalWutFace",
-  "EncouragingEnergeticPineappleSmoocherZ",,
+  "EncouragingEnergeticPineappleSmoocherZ",
+  "FrozenEphemeralChipmunkPRChase",
+  "DifficultHonestPigTBTacoRight",
+  "SpunkyPerfectEggnogHeyGirl",
 ];
