@@ -182,7 +182,6 @@ const REVIEWS = [
     title: "Coin Shark",
     tags: ["Roguelite", "Balatro-like"],
     paras: [
-      "(quand je d\u00e9rush pour faire le best-of je rattrape les d\u00e9mos du pass\u00e9 ^^)",
       "Dans la cat\u00e9gorie des \"on prend tout et on le roguelitise\" : le roguelite de pile ou face. M\u00eame concept que Balatro, il faut vaincre des scores de plus en plus grands. L'id\u00e9e est de build les faces d'une pi\u00e8ce et de la lancer pour faire des points et des combos.",
       "CEPENDAAAAANT !!",
       "Il est tr\u00e8s facile de choisir sur quelle face va tomber la pi\u00e8ce ! C'est dommage, c'est quand m\u00eame le truc qu'il faut pas. La pi\u00e8ce est lanc\u00e9e avec un mouvement de souris et de la physique, mais c'est extr\u00eamement facile de tomber sur la face qu'on veut...",
