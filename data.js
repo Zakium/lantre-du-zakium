@@ -62,7 +62,7 @@ const REVIEWS = [
     date: "2026-06-09",
     steamAppId: "4268590",
     steamUrl: "https://store.steampowered.com/app/4268590",
-    image: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4268590/79481423699669c341b8501506baad9a26cd6d81/header.jpg?t=1781541849",
+    image: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4268590/79481423699669c341b8501506baad9a26cd6d81/header.jpg?t=1781541849"
   },
   {
     title: "Hand of Fate : Hordes",
@@ -90,7 +90,7 @@ const REVIEWS = [
     date: "2026-06-02",
     steamAppId: "3905500",
     steamUrl: "https://store.steampowered.com/app/3905500/Beware_of_the_Cartographer/",
-    image: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3905500/c974da2a327ce872acd0a90a52befc6d0e93f9e2/header.jpg?t=1774874730",
+    image: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3905500/c974da2a327ce872acd0a90a52befc6d0e93f9e2/header.jpg?t=1774874730"
   },
   {
     title: "Into the Fire",
@@ -131,7 +131,8 @@ const REVIEWS = [
     note: "n4",
     date: "2026-05-17",
     steamAppId: "2713120",
-    steamUrl: "https://store.steampowered.com/app/2713120/Furyball_Rogue_Revenge/"
+    steamUrl: "https://store.steampowered.com/app/2713120/Furyball_Rogue_Revenge/",
+    image: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2713120/225e9ad013f84d04995c21b7866413e7c5a2a6d3/header.jpg?t=1781515891"
   },
   {
     title: "Factomancer",
@@ -145,7 +146,8 @@ const REVIEWS = [
     note: "n4",
     date: "2026-05-10",
     steamAppId: "3979570",
-    steamUrl: "https://store.steampowered.com/app/3979570/Factomancer/"
+    steamUrl: "https://store.steampowered.com/app/3979570/Factomancer/",
+    image: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3979570/23987401e1134a50e4cffd044d68a52a9c6bba6d/header.jpg?t=1781267588"
   },
   {
     title: "DAICE",
