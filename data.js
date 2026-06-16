@@ -191,7 +191,8 @@ const REVIEWS = [
     note: "n1",
     date: "2026-04-19",
     steamAppId: "3188730",
-    steamUrl: "https://store.steampowered.com/app/3188730/Coin_Shark/"
+    steamUrl: "https://store.steampowered.com/app/3188730/Coin_Shark/",
+    image: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3188730/660879c3460ced9a303feb1848eb5a0d12b2bef6/header.jpg?t=1764817617"
   },
   {
     title: "Far Far West",
@@ -204,7 +205,8 @@ const REVIEWS = [
     note: "n5",
     date: "2026-04-12",
     steamAppId: "3124540",
-    steamUrl: "https://store.steampowered.com/app/3124540/Far_Far_West/"
+    steamUrl: "https://store.steampowered.com/app/3124540/Far_Far_West/",
+    image: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3124540/2d55092d45b1784dcc7cb0ba6ad3f919e62eb5d0/header.jpg?t=1780491814"
   },
   {
     title: "DiceVaders",
@@ -217,7 +219,8 @@ const REVIEWS = [
     note: "n4",
     date: "2026-04-12",
     steamAppId: "3917700",
-    steamUrl: "https://store.steampowered.com/app/3917700/DiceVaders/"
+    steamUrl: "https://store.steampowered.com/app/3917700/DiceVaders/",
+    image: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3917700/718f619e3a60cfd7c907952a33def25199732ef6/header.jpg?t=1781546464"
   },
   {
     title: "Neuron Activation",
@@ -230,7 +233,8 @@ const REVIEWS = [
     note: "n2",
     date: "2026-04-12",
     steamAppId: "3978110",
-    steamUrl: "https://store.steampowered.com/app/3978110/Neuron_Activation/"
+    steamUrl: "https://store.steampowered.com/app/3978110/Neuron_Activation/",
+    image: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3978110/bf9187926c6d1f91a6e706fd074446e0296bc5ba/header.jpg?t=1777819668"
   },
   {
     title: "Everything is Crab",
