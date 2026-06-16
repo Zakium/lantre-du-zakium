@@ -261,6 +261,261 @@ const REVIEWS = [
     date: "2026-04-12",
     steamAppId: "2423290",
     steamUrl: "https://store.steampowered.com/app/2423290/Handmancers/"
+  },
+  {
+    title: "Deathless. The Hero Quest",
+    tags: ["Deckbuilder", "Roguelite", "Fantasy"],
+    paras: [
+      "Un **deck builder** plut\u00f4t classique mais **tr\u00e8s tr\u00e8s beau**, tout anim\u00e9, fluide et les tours ne sont pas rallong\u00e9s par les animations, parfait ! L'univers se d\u00e9roule dans un monde fantasy nourri d'un **folklore slave** (si je ne dis pas trop de b\u00eatises) avec un bestiaire \u00e0 la **The Witcher**.",
+      "Il a l'air tr\u00e8s classique sous bien des aspects mais j'ai l'impression qu'il cherche plus \u00e0 se rapprocher d'un **Knock on the Coffin Lid** que d'un **Slay the Spire** classique. Car il y a 4 h\u00e9ro\u00efnes et h\u00e9ros \u00e0 jouer avec pour chacun.e une suite de qu\u00eate propre \u00e0 accomplir.",
+      "Je le garde dans un coin en attendant une promo :p",
+    ],
+    note: "n3",
+    date: "2026-01-15",
+    steamAppId: "2074370",
+    steamUrl: "https://store.steampowered.com/app/2074370/Deathless_The_Hero_Quest/"
+  },
+  {
+    title: "The Fortress",
+    tags: ["Dungeon Crawler", "D\u00e9s", "Roguelite"],
+    paras: [
+      "Un **Dungeon Crawler** avec un style tr\u00e8s r\u00e9tro qui se joue avec des **d\u00e9s**. On incarne un aventurier/prisonnier qui doit s'\u00e9chapper de la forteresse.",
+      "J'ai un peu de mal avec l'esth\u00e9tique du jeu : c'est pas vraiment pixelis\u00e9 mais c'est un peu **bouilli** et pas tr\u00e8s clair. Les \u00e9l\u00e9ments du jeu n'\u00e9taient pas tr\u00e8s clairs pour moi non plus et au final, je trouve qu'on n'a **pas assez d'action** sur le gameplay, on est trop d\u00e9pendant de la **chance** sans vraiment pouvoir agir.",
+      "En gros, j'ai pas accroch\u00e9 ^^",
+    ],
+    note: "n1",
+    date: "2026-01-15",
+    steamAppId: "",
+    steamUrl: ""
+  },
+  {
+    title: "Wasteland Bites",
+    tags: ["Horreur", "Gestion", "Cuisine"],
+    paras: [
+      "Un jeu d'**horreur (soft)** et de **gestion de cuisine** et de stress ^^. Il faut servir des clients mutants des wastelands tout en g\u00e9rant les chiens qui aboient, les casseurs fluo et le **Ma\u00efs transg\u00e9nique Timide** qui augmente notre jauge de stress !^^",
+      "Je n'y ai pas jou\u00e9 moi-m\u00eame mais \u00e7a se rapproche un peu du style de **FNAF** (Five Nights at Freddy's) : chaque nuit il y a de nouveaux monstres avec de nouvelles r\u00e8gles.",
+      "Le jeu est assez sympathique, j'ai un peu de mal avec l'esth\u00e9tique **ultra pix\u00e9lis\u00e9e** mais \u00e7a va.",
+    ],
+    note: "n3",
+    date: "2026-01-15",
+    steamAppId: "",
+    steamUrl: ""
+  },
+  {
+    title: "The Horde Wants You Dead",
+    tags: ["Survivors-like", "Action"],
+    paras: [
+      "Un **Vampire Survivor-like** qui n'a pas pris pour moi. La run n'\u00e9tait pas tr\u00e8s palpitante et il fallait survivre 30 min ! J'avoue m'\u00eatre un peu laiss\u00e9 d\u00e9c\u00e9der... ^^ Et le bruit de la mitraillette non-stop pendant tout ce temps, bon... ^^ Voil\u00e0.",
+      "Le style visuel est sympathique (**stickman 3D**) et le jeu est fonctionnel. C'est une d\u00e9mo, \u00e7a va s\u00fbrement \u00e9voluer mais pour le moment il ne prend pas sur moi.",
+    ],
+    note: "n2",
+    date: "2026-01-13",
+    steamAppId: "3552820",
+    steamUrl: "https://store.steampowered.com/app/3552820/The_Horde_Wants_You_Dead/"
+  },
+  {
+    title: "Bits & Bops",
+    tags: ["Rythme", "Arcade"],
+    paras: [
+      "Un petit **jeu de rythme** tout mignon et anim\u00e9. La review va \u00eatre tr\u00e8s courte, y a pas grand-chose \u00e0 dire \u00e0 part \u00e7a... ^^",
+      "Il lui manque peut-\u00eatre un peu de liant entre les tableaux musicaux pour moi, mais il n'a peut-\u00eatre pas cette vocation et peut faire un peu **WarioWare-like** :)",
+      "Voilou !",
+    ],
+    note: "n3",
+    date: "2026-01-13",
+    steamAppId: "1929290",
+    steamUrl: "https://store.steampowered.com/app/1929290/Bits__Bops/"
+  },
+  {
+    title: "Forestrike",
+    tags: ["Roguelike", "Action 2D", "Bagar"],
+    paras: [
+      "Un **roguelike action combat en 2D** avec des choix parmi trois et une id\u00e9e assez originale : pouvoir faire les **combats dans son imagination** autant de fois qu'on le souhaite avant le vrai combat, pour anticiper les actions des ennemis.",
+      "Le sc\u00e9nar a l'air un peu **nanar rigolo** et ce n'est pas pour me d\u00e9plaire \ud83d\ude04 Y a des vieux ma\u00eetres sensei tortue s\u00e9niles, des vilains bandits alcoolis\u00e9s et des m\u00e9chants qui applaudissent de mani\u00e8re cynique quand on d\u00e9zingue leurs troupes.",
+      "Parfait ! ^^",
+    ],
+    note: "n5",
+    date: "2026-01-13",
+    steamAppId: "2325920",
+    steamUrl: "https://store.steampowered.com/app/2325920/Forestrike/"
+  },
+  {
+    title: "Phantom Brigade",
+    tags: ["Tactique tour par tour", "Expert", "M\u00e9chas"],
+    paras: [
+      "Un jeu **tactique tour par tour** et un peu **programmation** qui m'a l'air tr\u00e8s tr\u00e8s chouette. Il y a beaucoup de donn\u00e9es et de trucs assez pr\u00e9cis : faut pas avoir peur des chiffres et du tuto, mais il a l'air tr\u00e8s complet.",
+      "Le jeu se joue par **sections de 5 secondes** : on voit ce que vont faire les ennemis et on programme les actions de ses m\u00e9chas en r\u00e9action, jusqu'\u00e0 la victoire ou la d\u00e9faite. Le tout sur un fond de sc\u00e9nario de missions et de r\u00e9sistance.",
+      "Prot\u00e9ger les civils, looter des bras et des jambes, et pimper son m\u00e9cha ! ^^",
+    ],
+    note: "n4",
+    date: "2026-01-12",
+    steamAppId: "553540",
+    steamUrl: "https://store.steampowered.com/app/553540/Phantom_Brigade/"
+  },
+  {
+    title: "Pawful Dice",
+    tags: ["Roguelite", "Dice Builder"],
+    paras: [
+      "Un super **dice builder** tr\u00e8s mignon, avec une **tr\u00e8s belle DA**. Une progression classique sur une carte \u00e0 la **Slay the Spire**, mais il est beau, fluide et tr\u00e8s agr\u00e9able \u00e0 jouer je trouve.",
+      "Je ne sais pas trop s'il a beaucoup de contenu mais j'ai ador\u00e9 les quelques runs que j'ai faits :) je ne m'attendais \u00e0 rien et je fus agr\u00e9ablement surpris :)",
+      "Je plussoie fort \ud83d\udc4d (hors live)",
+    ],
+    note: "n5",
+    date: "2026-01-09",
+    steamAppId: "4072320",
+    steamUrl: "https://store.steampowered.com/app/4072320/Pawful_Dice/"
+  },
+  {
+    title: "Extinction Day",
+    tags: ["Simulation", "Strat\u00e9gie"],
+    paras: [
+      "Un **simulateur de fin du monde**, avec catastrophes naturelles, humains, guerres, m\u00e9t\u00e9ores et tout le tintouin. C'est clairement un enfant de **Plague Inc**. En temps r\u00e9el pausable. Avec les moments bizarres o\u00f9 on se r\u00e9jouit de l'efficacit\u00e9 d'un m\u00e9t\u00e9ore ou d'une \u00e9pid\u00e9mie... ^^",
+      "Il y a apparemment pas mal de contenu avec une **m\u00e9ta-progression roguelitisante**.",
+      "Simple mais efficace, j'\u00e9tais content de retrouver la vibe Plague Inc :)",
+    ],
+    note: "n4",
+    date: "2026-01-09",
+    steamAppId: "3836320",
+    steamUrl: "https://store.steampowered.com/app/3836320/Extinction_Day_Demo/"
+  },
+  {
+    title: "Arm Around!",
+    tags: ["Simulation", "Physique", "Party Game"],
+    paras: [
+      "C'est un simulateur de **bras coup\u00e9** ! ... oui oui ^^",
+      "Plus s\u00e9rieusement, c'est un **\"jeu \u00e0 streamereuses\"** bas\u00e9 sur la **physique** et fait pour rendre un peu fou. On a des missions \u00e0 accomplir un peu comme dans **Untitled Goose Game**, mais avec la maniabilit\u00e9 d'un bras coup\u00e9. :p",
+      "C'est pas un jeu pour moi, maaiiiis je pense qu'il peut \u00eatre fun pour les personnes concern\u00e9es. (pas ceux qui ont un bras en moins mais les streamereuses, et les streamereuses qui ont un bras en moins aussi)",
+    ],
+    note: "n2",
+    date: "2026-01-09",
+    steamAppId: "3072400",
+    steamUrl: "https://store.steampowered.com/app/3072400/Arm_Around/"
+  },
+  {
+    title: "The Secret of Weepstone",
+    tags: ["Aventure", "RPG", "Dungeon Crawler"],
+    paras: [
+      "Un bel hommage aux RPG papier des ann\u00e9es 80 et aux illustrations des **\"Livres dont vous \u00eates le h\u00e9ros\"**, tout en **noir et blanc 3D dessin\u00e9**.",
+      "On explore le donjon en temps r\u00e9el, mais les combats se jouent au **tour par tour** avec de vrais jets de d\u00e9s (D20, D6...), c'est vraiment le syst\u00e8me de **D&D**. Il est tr\u00e8s beau et la trame m'int\u00e9resse : une team de **clochards locaux** envoy\u00e9e dans un ch\u00e2teau maudit pour sauver le seigneur des lieux.",
+      "Je retournerai peut-\u00eatre dessus si **l'anglais** ne me fait pas trop peur... (c'est un peu verbeux !) :p",
+    ],
+    note: "n3",
+    date: "2026-01-09",
+    steamAppId: "3702100",
+    steamUrl: "https://store.steampowered.com/app/3702100/The_Secret_of_Weepstone/"
+  },
+  {
+    title: "Gamblers Table",
+    tags: ["Jeu incr\u00e9mental", "Idle Game"],
+    paras: [
+      "Un petit **jeu incr\u00e9mental** tout mignon avec des petits bonhommes qui retournent des pi\u00e8ces. Le principe est simple : on fait des sous pour acheter des am\u00e9liorations et plus de bonhommes, pour faire encore plus de sous... et ainsi de suite ! C'est un peu une exp\u00e9rience **ASMR PICSOU** : on peut le laisser tourner dans un coin, poser son cerveau \u00e0 c\u00f4t\u00e9 et juste \u00eatre content d'avoir des soussous.",
+      "Je plussoie !",
+    ],
+    note: "n4",
+    date: "2026-01-09",
+    steamAppId: "3618390",
+    steamUrl: "https://store.steampowered.com/app/3618390/Gamblers_Table/"
+  },
+  {
+    title: "Wanderburg",
+    tags: ["Survivors-like", "Action", "M\u00e9di\u00e9val"],
+    paras: [
+      "Un **vampire survivor like** mais avec des forteresses sur des grosses roues qui pourchassent des moulins \u00e0 roulettes ! parfait",
+      "Pas grand chose de plus en fait, c'est vraiment un reskin de Vampire Survivor maiiiis la DA est trop chouette, et il faut piloter sa forteresse ce qui peut demander un peu plus d'apprentissage ^^",
+      "**Vroum vroum les chateaux !!**",
+    ],
+    note: "n4",
+    date: "2026-01-08",
+    steamAppId: "3624140",
+    steamUrl: "https://store.steampowered.com/app/3624140/Wanderburg/"
+  },
+  {
+    title: "Fire at Campsite",
+    tags: ["Roguelite", "Tower Defense", "Chill"],
+    paras: [
+      "Un petit **roguelike**/**\"tower defense\"**/chill o\u00f9 on fait encore plus rien que sur vampire survivor ^^ oui c'est possible !! ^^",
+      "Il est mignon, le pitch a l'air sympathique, il faut faire des **choix parmis 3** r\u00e9guli\u00e8rement, mais entre \u00e7a c'est de l'auto battler.",
+      "J'ai pas grand chose \u00e0 dire de plus, la d\u00e9mo est tr\u00e8s courte ^^",
+    ],
+    note: "n3",
+    date: "2026-01-08",
+    steamAppId: "3651490",
+    steamUrl: "https://store.steampowered.com/app/3651490/Fire_at_Campsite/"
+  },
+  {
+    title: "Nova Roma",
+    tags: ["City Builder", "Gestion", "Antiquit\u00e9"],
+    paras: [
+      "Un petit **city builder** avec une bonne bouille romanisante.",
+      "Il n'a pas l'air particuli\u00e8rement original, mais il a une bonne t\u00eate et c'est parfois juste ce qu'on cherche sur un city builder :)",
+      "Un truc qui rappelle un peu d'anciens city builders, c'est qu'on peut construire des temples et les assigner \u00e0 certaines divinit\u00e9s pour avoir des cadeaux et des qu\u00eates ^^",
+    ],
+    note: "n3",
+    date: "2026-01-07",
+    steamAppId: "2426560",
+    steamUrl: "https://store.steampowered.com/app/2426560/Nova_Roma_Demo/"
+  },
+  {
+    title: "Silly Polly Beast",
+    tags: ["Horreur", "Action", "Vue du dessus"],
+    paras: [
+      "jeu d'**horreur action** vu du dessus et de cot\u00e9 de temps en temps ^^ \u00e7a se d\u00e9roule dans un univers sombre avec des \u00e9gouts qui ne m\u00e8nent nullement sur des crocodiles ou des tortues amatrices de pizza mais plut\u00f4t sur des limbes mal\u00e9fiques !",
+      "c'est pas forcement tr\u00e8s proches des univers qui m'attirent d'habitude mais pourquoi pas, la narration est bien (avec des interactions d\u00e9rangeantes) et la vue du dessus fait que l'horreur n'est pas brutal dans la face ! ^^",
+    ],
+    note: "n3",
+    date: "2025-11-24",
+    steamAppId: "1598780",
+    steamUrl: "https://store.steampowered.com/app/1598780/Silly_Polly_Beast/"
+  },
+  {
+    title: "Truckful",
+    tags: ["Conduite", "Physique", "Vue du dessus"],
+    paras: [
+      "Un jeu de voiture mignon vu du dessus, avec gestion de la physique pour livrer des colis :)",
+      "Mais manifestement il y a des trucs chelou qui trainent dans les bois la nuit !! la d\u00e9mo \u00e9tait tr\u00e8s courte mais \u00e7a ma intrigu\u00e9 ! ^^",
+    ],
+    note: "n3",
+    date: "2025-11-24",
+    steamAppId: "3090810",
+    steamUrl: "https://store.steampowered.com/app/3090810/Truckful/"
+  },
+  {
+    title: "Project THEA",
+    tags: ["RPG", "Tour par tour", "Gestion", "Deckbuilder"],
+    paras: [
+      "dure \u00e0 d\u00e9crire ^^ un **RPG au tour par tour** sur une grande carte, avec manifestement un syst\u00e8me de gestion d'un refuge ou d'une capitale qui d\u00e9pend de nos exp\u00e9dition dans le myst\u00e9rieux monde ext\u00e9rieur. On cr\u00e9e notre \u00e9quipe et notre deck pour g\u00e9rer les combats.",
+      "Dans un univers post apocalyptique qui \u00e0 l'air de faire suite \u00e0 leur pr\u00e9c\u00e9dent jeu **Thea: The Awakening** et \u00e7a me donne tr\u00e8s envie de d\u00e9couvrir leur univers original !",
+      "Moi le jeu me hype fort, mais attention il est velu ! beaucoup d'info et de truc \u00e0 g\u00e9rer ! faut pas avoir peur d'un tuto un peu long ^^",
+    ],
+    note: "n4",
+    date: "2025-11-24",
+    steamAppId: "3360890",
+    steamUrl: "https://store.steampowered.com/app/3360890/Project_Thea/"
+  },
+  {
+    title: "The Devil's Due",
+    tags: ["Roguelike", "Poker", "Cartes"],
+    paras: [
+      "**Roguelike de Poker**. pourtant sur la m\u00eame vague que les roguelike de blackjack ou autre, celui m'a moins convaincu. je trouve qu'on a pas beaucoup de contr\u00f4le sur le hasard du jeu de carte, et j'ai eu pas mal de monstre qui en plus se soigne ou se regen. donc c'\u00e9tait un peu long.",
+      "Mais le jeu a un design tr\u00e8s cool, dessin anim\u00e9, et aussi un peu un look d\u00e9rangeant \u00e0 la **death of the reprobate** ^^ c'est cool",
+    ],
+    note: "n2",
+    date: "2025-11-24",
+    steamAppId: "3699850",
+    steamUrl: "https://store.steampowered.com/app/3699850/The_Devils_Due/"
+  },
+  {
+    title: "Rune Dice",
+    tags: ["Plateforme", "Metroidvania", "Puzzle"],
+    paras: [
+      "Petit jeu de **plateforme/metroidvania** tout p\u00e9pouze ^^ pas de bagar ! pas de combat. Des petites qu\u00eates et du plateforme puzzle pour trouver les diff\u00e9rents objets et pouvoir.",
+      "Une histoire de laboratoire et de myst\u00e8re \u00e0 l'air de se d\u00e9velopper en fond. Et s'est tout dessin\u00e9 \u00e0 la main et les bruitages \u00e0 la bouche me fond beaucoup rire ^^",
+      "Il joue aussi sur un aspect de randomisation des tableaux, je ne sais pas trop ce que \u00e7a peut donner mais pourquoi pas ^^ et y a des culottes de f\u00eate \u00e0 mettre sur la t\u00eate",
+    ],
+    note: "n3",
+    date: "2025-11-24",
+    steamAppId: "2835650",
+    steamUrl: "https://store.steampowered.com/app/2835650/Randomice/"
   }
 ];
 
