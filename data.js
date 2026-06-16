@@ -36,7 +36,6 @@ const REVIEWS = [
     steamUrl: "https://store.steampowered.com/app/3934270/How_Many_Dudes/",
     image: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3934270/a85f08013d77d40ae22c6ea972d5459de9f03d3e/header.jpg?t=1779982203"
   },
-  },
   {
     title: "Chained Beasts",
     tags: ["Action Roguelite", "Coop", "Hack and Slash", "Ar\u00e8ne"],
