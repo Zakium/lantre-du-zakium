@@ -567,5 +567,15 @@ const CLIPS = [
   "https://www.twitch.tv/zakium/clip/ViscousSpikySangTakeNRG-LZGBpUvFYqXAZ3uP",
   "https://www.twitch.tv/zakium/clip/ShyTawdrySrirachaPicoMause-T4O45VYH-lB1_pih",
   "https://www.twitch.tv/zakium/clip/SuspiciousDoubtfulPigSoonerLater-3Q5Kfdl__cD21XAS",
-  "https://www.twitch.tv/zakium/clip/ArbitrarySuccessfulOkapiTriHard-4tQgrma7hYsElYkk"
+  "https://www.twitch.tv/zakium/clip/ArbitrarySuccessfulOkapiTriHard-4tQgrma7hYsElYkk",
+  "https://www.twitch.tv/zakium/clip/AdorableDirtyWatercressGingerPower-VmE4gKizEu5WmEUY",
+  "https://www.twitch.tv/zakium/clip/SpunkyModernGuanacoYee-r0MdGc4jRUrkKk7D",
+  "https://www.twitch.tv/zakium/clip/AgitatedThoughtfulGoatVoHiYo-yeMseoXYvELidjEo",
+  "https://www.twitch.tv/zakium/clip/ArtisticEnjoyablePeachCoolStoryBro-zHrhKtaxtQtwnVC8",
+  "https://www.twitch.tv/zakium/clip/AcceptableDependablePieBlargNaut-pgrSB7PH-cOxrGI7",
+  "https://www.twitch.tv/zakium/clip/RenownedNurturingStarFailFish-OrbIp3shQ5yfDdyZ",
+  "https://www.twitch.tv/zakium/clip/BashfulLongSamosaFloof-fxIouMEDafUsalYo",
+  
+  
+  
 ];
