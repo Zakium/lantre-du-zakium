@@ -48,6 +48,7 @@ const REVIEWS = [
     date: "2026-06-11",
     steamAppId: "3569420",
     steamUrl: "https://store.steampowered.com/app/3569420/Chained_Beasts/",
+    image: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3569420/32a1658f8a366e8893d0c51dde709f0f8e1eb42e/header.jpg?t=1781578299"
   },
   {
     title: "Func Key",
@@ -60,7 +61,8 @@ const REVIEWS = [
     note: "n2",
     date: "2026-06-09",
     steamAppId: "4268590",
-    steamUrl: "https://store.steampowered.com/app/4268590"
+    steamUrl: "https://store.steampowered.com/app/4268590",
+    image: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4268590/79481423699669c341b8501506baad9a26cd6d81/header.jpg?t=1781541849",
   },
   {
     title: "Hand of Fate : Hordes",
