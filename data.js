@@ -546,8 +546,8 @@ const MUSIQUES = [
 
 const VIDEOS = [
   // { youtubeId: "xxxxxxxxxxx", titre: "Nom de la video" },
-  { youtubeId: "0tThEfAM7Jw", titre: "Florilège du Zakium : Séminaire COGIP sur PEAK" },
-  { youtubeId: "fozyvTItLZ0", titre: "Florilège du Zakium - Miracles Démocratiques & Logements libres -Juillet 2025" },
+  { youtubeId: "0tThEfAM7Jw", titre: "Floril\u00e8ge du Zakium : S\u00e9minaire COGIP sur PEAK" },
+  { youtubeId: "fozyvTItLZ0", titre: "Floril\u00e8ge du Zakium - Miracles D\u00e9mocratiques & Logements libres -Juillet 2025" },
 ];
 
 
@@ -561,10 +561,7 @@ const VIDEOS = [
 // copie le lien. Il ressemble a :
 //   https://clips.twitch.tv/NomDuClipIci
 // ou https://www.twitch.tv/zakium/clip/NomDuClipIci
-// Colle SEULEMENT la derniere partie (le "slug" du clip) ci-dessous.
-//
-// Exemple : pour https://clips.twitch.tv/SpicyCrunchyApcDeIlluminati
-//           le slug est : SpicyCrunchyApcDeIlluminati
+// Tu peux coller le lien COMPLET ou juste le slug, les deux marchent.
 
 const CLIPS = [
   "https://www.twitch.tv/zakium/clip/YummyTrustworthyMangetoutPunchTrees-UFfZcZ5_rnFJv0dM",
@@ -585,7 +582,42 @@ const CLIPS = [
   "https://www.twitch.tv/zakium/clip/AcceptableDependablePieBlargNaut-pgrSB7PH-cOxrGI7",
   "https://www.twitch.tv/zakium/clip/RenownedNurturingStarFailFish-OrbIp3shQ5yfDdyZ",
   "https://www.twitch.tv/zakium/clip/BashfulLongSamosaFloof-fxIouMEDafUsalYo",
-  
-  
-  
+];
+
+
+// ============================================================
+//  ENCARTS DU HAUT (autour du titre)
+// ============================================================
+
+// -------- TA MINI-BIO (encart de gauche) --------
+// Quelques lignes de presentation. Tu peux mettre **gras** et *italique*.
+const BIO = {
+  texte: "Streameuse, com\u00e9dienne et compositrice. Je passe mes journ\u00e9es \u00e0 d\u00e9nicher des **d\u00e9mos de jeux ind\u00e9s** pour vous les faire d\u00e9couvrir en live, avec amour et un peu trop d'enthousiasme \u270c\ufe0f",
+  twitchUrl: "https://twitch.tv/zakium"
+};
+
+// -------- COUP DE COEUR DU MOMENT (encart de droite) --------
+// Mets le TITRE EXACT d'une review existante (copie-colle depuis la liste plus haut).
+// Le site retrouve tout seul son image, ses tags, etc.
+// Laisse "" pour ne rien afficher.
+const COUP_DE_COEUR = "Far Far West";
+
+
+// ============================================================
+//  JEUX & CREATIONS DE COPAINES (section dediee)
+// ============================================================
+// Pour mettre en avant le travail de tes ami.e.s.
+//  nom       : le nom du jeu ou de la creation
+//  auteur    : le nom de la copaine
+//  desc      : une petite phrase de description
+//  lien      : l'URL (Steam, itch.io, YouTube, portfolio...)
+//  image     : (OPTIONNEL) une URL d'image pour illustrer
+const COPAINES = [
+  // {
+  //   nom: "Nom du jeu",
+  //   auteur: "Nom de la copaine",
+  //   desc: "Une petite phrase sympa pour donner envie.",
+  //   lien: "https://...",
+  //   image: ""
+  // },
 ];
