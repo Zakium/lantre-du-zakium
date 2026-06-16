@@ -592,7 +592,7 @@ const CLIPS = [
 // -------- TA MINI-BIO (encart de gauche) --------
 // Quelques lignes de presentation. Tu peux mettre **gras** et *italique*.
 const BIO = {
-  texte: "Streameuse, com\u00e9dienne et compositrice. Je passe mes journ\u00e9es \u00e0 d\u00e9nicher des **d\u00e9mos de jeux ind\u00e9s** pour vous les faire d\u00e9couvrir en live, avec amour et un peu trop d'enthousiasme \u270c\ufe0f",
+  texte: "Streameur, com\u00e9dien et compositeur. J'essaie de faire des trucs et parfois ça marche alors je suis content :) ",
   twitchUrl: "https://twitch.tv/zakium"
 };
 
