@@ -273,5 +273,5 @@ const MUSIQUES = [
 const VIDEOS = [
   // { youtubeId: "xxxxxxxxxxx", titre: "Nom de la video" },
   { youtubeId: "0tThEfAM7Jw", titre: "Florilège du Zakium : Séminaire COGIP sur PEAK" },
-  { youtubeId: "fozyvTItLZ0&t", titre: "Florilège du Zakium - Miracles Démocratiques & Logements libres -Juillet 2025" },
+  { youtubeId: "fozyvTItLZ0", titre: "Florilège du Zakium - Miracles Démocratiques & Logements libres -Juillet 2025" },
 ];
