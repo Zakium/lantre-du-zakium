@@ -275,3 +275,23 @@ const VIDEOS = [
   { youtubeId: "0tThEfAM7Jw", titre: "Florilège du Zakium : Séminaire COGIP sur PEAK" },
   { youtubeId: "fozyvTItLZ0", titre: "Florilège du Zakium - Miracles Démocratiques & Logements libres -Juillet 2025" },
 ];
+
+// ============================================================
+//  FRAGMENTS TWITCH (clips aleatoires)
+// ============================================================
+// Le bouton "Apercevoir un fragment de Zakium" en haut du site
+// ouvre un de ces clips au hasard.
+//
+// Pour ajouter un clip : va sur ton clip Twitch, clique "Partager",
+// copie le lien. Il ressemble a :
+//   https://clips.twitch.tv/NomDuClipIci
+// ou https://www.twitch.tv/zakium/clip/NomDuClipIci
+// Colle SEULEMENT la derniere partie (le "slug" du clip) ci-dessous.
+//
+// Exemple : pour https://clips.twitch.tv/SpicyCrunchyApcDeIlluminati
+//           le slug est : SpicyCrunchyApcDeIlluminati
+ 
+const CLIPS = [
+  // "SpicyCrunchyApcDeIlluminati",
+  // "AnotherClipSlugHere",
+];
