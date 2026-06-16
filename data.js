@@ -563,4 +563,9 @@ const CLIPS = [
   "https://www.twitch.tv/zakium/clip/EncouragingEnergeticPineappleSmoocherZ-2I4VfMjobjH26BOj",
   "https://www.twitch.tv/zakium/clip/FrozenEphemeralChipmunkPRChase-XFZ60cvqSljyDqiC",
   "https://www.twitch.tv/zakium/clip/DifficultHonestPigTBTacoRight-OnE4SPZDN-I9LIw5",
+  "https://www.twitch.tv/zakium/clip/SpunkyPerfectEggnogHeyGirl-jjsRqsoezIhXPgSP",
+  "https://www.twitch.tv/zakium/clip/ViscousSpikySangTakeNRG-LZGBpUvFYqXAZ3uP",
+  "https://www.twitch.tv/zakium/clip/ShyTawdrySrirachaPicoMause-T4O45VYH-lB1_pih",
+  "https://www.twitch.tv/zakium/clip/SuspiciousDoubtfulPigSoonerLater-3Q5Kfdl__cD21XAS",
+  "https://www.twitch.tv/zakium/clip/ArbitrarySuccessfulOkapiTriHard-4tQgrma7hYsElYkk"
 ];
