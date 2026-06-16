@@ -267,8 +267,11 @@ const REVIEWS = [
 const MUSIQUES = [
   // { youtubeId: "xxxxxxxxxxx", titre: "Nom de la musique" },
   { youtubeId: "HkPJyMUt85k", titre: "Code Lyoko - Franck Keller & Ygal Amar (medieval Cover/Bardcore)" },
+  { youtubeId: "h8BDFyRMzEk", titre: "All Star -Smash Mouth (medieval Cover/Bardcore)" },
 ];
 
 const VIDEOS = [
   // { youtubeId: "xxxxxxxxxxx", titre: "Nom de la video" },
+  { youtubeId: "0tThEfAM7Jw", titre: "Florilège du Zakium : Séminaire COGIP sur PEAK" },
+  { youtubeId: "fozyvTItLZ0&t", titre: "Florilège du Zakium - Miracles Démocratiques & Logements libres -Juillet 2025" },
 ];
