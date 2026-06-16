@@ -50,7 +50,8 @@ const REVIEWS = [
     note: "n4",
     date: "2026-06-11",
     steamAppId: "3569420",
-    steamUrl: "https://store.steampowered.com/app/3569420/Chained_Beasts/"
+    steamUrl: "https://store.steampowered.com/app/3569420/Chained_Beasts/",
+    image: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3934270/a85f08013d77d40ae22c6ea972d5459de9f03d3e/header.jpg?t=1779982203"
   },
   {
     title: "Func Key",
