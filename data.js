@@ -89,7 +89,8 @@ const REVIEWS = [
     note: "n5",
     date: "2026-06-02",
     steamAppId: "3905500",
-    steamUrl: "https://store.steampowered.com/app/3905500/Beware_of_the_Cartographer/"
+    steamUrl: "https://store.steampowered.com/app/3905500/Beware_of_the_Cartographer/",
+    image: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3905500/c974da2a327ce872acd0a90a52befc6d0e93f9e2/header.jpg?t=1774874730",
   },
   {
     title: "Into the Fire",
