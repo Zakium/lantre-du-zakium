@@ -158,7 +158,7 @@ const REVIEWS = [
       "C'est tr\u00e8s cool et tr\u00e8s chill, m\u00eame s'il n'y a pas de pause pour r\u00e9fl\u00e9chir \u00e0 comment qu'on fait ses tapis et qu'il faut atteindre le quota avant la fin de la journ\u00e9e ^^ donc faut quand m\u00eame pas perdre trop de temps !",
       "Bref il est tout joli, tout bien, je plussoie !",
     ],
-    note: "n5",
+    note: "n4",
     date: "2026-05-10",
     steamAppId: "3979570",
     steamUrl: "https://store.steampowered.com/app/3979570/Factomancer/",
