@@ -27,12 +27,12 @@ const REVIEWS = [
   tags: ["Coop", "Horreur", "Survie", "Lovecraftien", "Exploration", "1ʳᵉ personne"],
   paras: [
     "J'étais déjà assez hypé en voyant les images du jeu, mais après avoir fait la démo, je suis très très hypé !",
-    "C'est un jeu de coop horreur survie (un peu à la Lethal Company), où on joue un groupe de 4 personnes envoyées sur une île pour tout piller et récupérer les idoles sacrées corrompues afin d'en tirer de délicieuses piécettes. MAIS l'île n'est pas d'accord, et plus on reste et plus on fait du bruit, plus elle cherche à nous éliminer.",
-    "L'ambiance est, je trouve, extrêmement réussie : les visuels font \"woaw !\" et le sound design est super immersif. C'était un réel plaisir de me balader dans les bois, en voyant des buissons bouger dans mon regard périphérique tout en écoutant d'étranges chuchotements dans mes oreilles, comme s'ils m'invitaient à caresser l'étrange idole de la mort qui m'observait ^^",
+    "C'est un jeu de **coop horreur survie** (un peu à la **Lethal Company**), où on joue un groupe de 4 personnes envoyées sur une île pour tout piller et récupérer les **idoles sacrées corrompues** afin d'en tirer de délicieuses piécettes. MAIS l'île n'est pas d'accord, et plus on reste et plus on fait du bruit, plus elle cherche à nous éliminer.",
+    "L'ambiance est, je trouve, extrêmement réussie : les visuels font \"woaw !\" et le **sound design** est super immersif. C'était un réel plaisir de me balader dans les bois, en voyant des buissons bouger dans mon regard périphérique tout en écoutant d'étranges chuchotements dans mes oreilles, comme s'ils m'invitaient à caresser l'étrange idole de la mort qui m'observait ^^",
     "Bref, ça part en prod direct pour moi, il faut juste que je trouve une team prête à affronter l'île :p",
   ],
   note: "n5",
-  date: "2026-06-18",
+  date: "2026-06-14",
   steamAppId: "2569760",
   steamUrl: "https://store.steampowered.com/app/2569760/The_Mound_Omen_of_Cthulhu/",
   image: ""
