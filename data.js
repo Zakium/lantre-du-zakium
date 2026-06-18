@@ -88,7 +88,7 @@ const REVIEWS = [
       "Bon... il y a quand m\u00eame du recyclage par rapport \u00e0 Hand of Fate 2 (les sons, les cartes de tarot) mais encore une fois je suis pas impartial. Le jeu va me plaire, c'est s\u00fbr ^^",
       "Au passage, je recommande vraiment Hand of Fate 2 si vous connaissez pas !",
     ],
-    note: "n4",
+    note: "n3",
     date: "2026-06-07",
     steamAppId: "3075410",
     steamUrl: "https://store.steampowered.com/app/3075410/Hand_of_Fate_Hordes/"
