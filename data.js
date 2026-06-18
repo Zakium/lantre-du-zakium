@@ -32,7 +32,7 @@ const REVIEWS = [
     "Bref, ça part en prod direct pour moi, il faut juste que je trouve une team prête à affronter l'île :p",
   ],
   note: "n5",
-  date: "2026-06-14",
+  date: "2026-06-18",
   steamAppId: "2569760",
   steamUrl: "https://store.steampowered.com/app/2569760/The_Mound_Omen_of_Cthulhu/",
   image: ""
