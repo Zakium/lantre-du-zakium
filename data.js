@@ -568,6 +568,22 @@ const VIDEOS = [
 
 
 // ============================================================
+//  ENCARTS "DERNIERE VIDEO" / "DERNIERE MUSIQUE" (en haut, pres du titre)
+// ============================================================
+// En haut de la page, a droite du titre, tu peux afficher (ou non) :
+//   - "Ma derniere video"   -> la 1ere video de VIDEOS ci-dessus
+//   - "Ma derniere musique" -> la 1ere musique de MUSIQUES ci-dessus
+//
+// Mets  true  pour AFFICHER, ou  false  pour CACHER.
+// (Pratique pour tester si ca te plait : change juste true/false ici.)
+// NOTE : la grande section "Creations" plus bas dans la page n'est PAS
+//        affectee, elle continue de tout montrer.
+
+const AFFICHER_DERNIERE_VIDEO = true;
+const AFFICHER_DERNIERE_MUSIQUE = true;
+
+
+// ============================================================
 //  FRAGMENTS TWITCH (clips aleatoires)
 // ============================================================
 // Le bouton "Apercevoir un fragment de Zakium" en haut du site
