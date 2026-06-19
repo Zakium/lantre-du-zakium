@@ -12,7 +12,7 @@
 //  Champs d'une review :
 //   title      : le nom du jeu
 //   tags       : liste de genres entre guillemets
-//   paras      : liste de paragraphes (chaque "..." = 1 paragraphe)
+//   paras      : liste de paragraphes (chaque "...." = 1 paragraphe)
 //                **gras** et *italique*
 //   note       : "n1" a "n5" (voir plus haut)
 //   date       : "AAAA-MM-JJ" (ex "2026-06-14")
