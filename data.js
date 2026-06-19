@@ -579,8 +579,8 @@ const VIDEOS = [
 // NOTE : la grande section "Creations" plus bas dans la page n'est PAS
 //        affectee, elle continue de tout montrer.
 
-const AFFICHER_DERNIERE_VIDEO = true;
-const AFFICHER_DERNIERE_MUSIQUE = true;
+const AFFICHER_DERNIERE_VIDEO = false;
+const AFFICHER_DERNIERE_MUSIQUE = false;
 
 
 // ============================================================
