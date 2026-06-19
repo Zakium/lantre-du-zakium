@@ -478,14 +478,6 @@
   </div>
 </div>
 
-<div id="copaines" class="section-wrap" style="display:none; padding-bottom: 0;">
-  <div class="section-header">
-    <p class="section-eyebrow">Ouai Ouai Ouai !</p>
-    <h2 class="section-title">Jeux &amp; cr&eacute;ations de copaines</h2>
-  </div>
-  <div class="copaines-grid" id="copainesGrid"></div>
-</div>
-
 <div id="reviews" class="section-wrap">
   <div class="section-header">
     <p class="section-eyebrow">Jou&eacute;es, test&eacute;es, ressenties</p>
@@ -505,6 +497,14 @@
   </div>
   <div class="reviews-grid" id="grid"></div>
   <div class="empty" id="empty">Aucun jeu trouv&eacute;... &#128126;<br><small>Essaie un autre terme, un genre ou un autre ressenti !</small></div>
+</div>
+
+<div id="copaines" class="section-wrap" style="display:none">
+  <div class="section-header">
+    <p class="section-eyebrow">Ouai Ouai Ouai !</p>
+    <h2 class="section-title">Jeux &amp; cr&eacute;ations de copaines</h2>
+  </div>
+  <div class="copaines-grid" id="copainesGrid"></div>
 </div>
 
 <div id="creations" class="section-wrap">
@@ -583,6 +583,9 @@
   const _BIO = (typeof BIO !== "undefined") ? BIO : null;
   const _COUP_DE_COEUR = (typeof COUP_DE_COEUR !== "undefined") ? COUP_DE_COEUR : "";
   const _COPAINES = (typeof COPAINES !== "undefined") ? COPAINES : [];
+  // afficher ou non les encarts "derniere video" / "derniere musique" du haut (defaut: oui)
+  const _SHOW_HERO_VIDEO = (typeof AFFICHER_DERNIERE_VIDEO !== "undefined") ? AFFICHER_DERNIERE_VIDEO : true;
+  const _SHOW_HERO_MUSIQUE = (typeof AFFICHER_DERNIERE_MUSIQUE !== "undefined") ? AFFICHER_DERNIERE_MUSIQUE : true;
 
   // tri par date decroissante (plus recent en haut)
   _REVIEWS.sort((a,b) => (b.date || "").localeCompare(a.date || ""));
@@ -830,6 +833,7 @@
     }
 
     // DERNIERE VIDEO + DERNIERE MUSIQUE (droite), deux encarts distincts
+    // -> affiches seulement si actives dans data.js (AFFICHER_DERNIERE_VIDEO / AFFICHER_DERNIERE_MUSIQUE)
     function mediaEncart(item, label) {
       if (!item || !item.youtubeId) return "";
       return '<div class="encart encart-media">' +
@@ -839,8 +843,8 @@
         (item.titre ? '<div class="encart-media-title">' + item.titre + '</div>' : '') +
         '</div>';
     }
-    rightHtml += mediaEncart(_VIDEOS[0], "&#127916; Ma derni&egrave;re vid&eacute;o");
-    rightHtml += mediaEncart(_MUSIQUES[0], "&#127925; Ma derni&egrave;re musique");
+    if (_SHOW_HERO_VIDEO) rightHtml += mediaEncart(_VIDEOS[0], "&#127916; Ma derni&egrave;re vid&eacute;o");
+    if (_SHOW_HERO_MUSIQUE) rightHtml += mediaEncart(_MUSIQUES[0], "&#127925; Ma derni&egrave;re musique");
 
     left.innerHTML = leftHtml;
     right.innerHTML = rightHtml;
