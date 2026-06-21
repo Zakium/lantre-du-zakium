@@ -32,7 +32,7 @@ const REVIEWS = [
     "Le visuel est donc original et marche bien, j'ai passé un bon moment sur la démo.",
   ],
   note: "n3",
-  date: "2026-06-14",
+  date: "2026-06-21",
   steamAppId: "4218360",
   steamUrl: "https://store.steampowered.com/app/4218360/Wall_World_Strategy/",
   image: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4218360/17775da02e855367cdc3e01626a9bca64332cc03/header_alt_assets_1.jpg?t=1781862479"
