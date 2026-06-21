@@ -23,6 +23,21 @@
 
 const REVIEWS = [
   {
+  title: "Wall World Strategy",
+  tags: ["City Builder", "Stratégie", "Survie", "Tower Defense", "Gestion", "SF"],
+  paras: [
+    "Un **city builder stratégique** qui se déroule dans l'univers des jeux **Wall World** (qui sont très cool par ailleurs). Vous devez construire votre ville, mais sur le flanc d'un **immense mur** qui semble sans fin. Et ce n'est pas la seule difficulté, car régulièrement des créatures débarquent pour marquer leur territoire sur les murs et manger les habitants.",
+    "C'est donc un **city builder de survie** très proche, même au niveau de certaines ambiances, de **Frostpunk 1** (en moins dark quand même, pas besoin d'avoir du bonheur en réserve pour jouer à celui-ci ^^).",
+    "Il faut gérer la production de bouffe, de matériaux et de bonheur des habitant·es. Résoudre des **dilemmes moraux** sur des événements, build des technologies et envoyer des expéditions loin dans le mur.",
+    "Le visuel est donc original et marche bien, j'ai passé un bon moment sur la démo.",
+  ],
+  note: "n3",
+  date: "2026-06-14",
+  steamAppId: "4218360",
+  steamUrl: "https://store.steampowered.com/app/4218360/Wall_World_Strategy/",
+  image: ""
+},
+  {
   title: "The Mound: Omen of Cthulhu",
   tags: ["Coop", "Horreur", "Survie", "Lovecraftien", "Exploration", "1ʳᵉ personne"],
   paras: [
