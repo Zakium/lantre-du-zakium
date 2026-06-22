@@ -23,6 +23,23 @@
 
 const REVIEWS = [
   {
+  title: "OPERATIVES: Revolve",
+  tags: ["Deckbuilder", "Roguelike", "Stratégie", "Mécha", "Tour par tour", "Tactique"],
+  paras: [
+    "C'est un **deck builder**, vraiment beau, qui prend place dans un univers dystopique où on joue un duo d'opérateurs dans un **mécha** et où on affronte de méchants soldats et de méchants robots.",
+    "Le jeu a certaines originalités que je trouve très chouettes :",
+    "• le jeu fonctionne sur un système de **zones d'attaque** (gauche ou droite)",
+    "• il n'y a pas vraiment de carte de défense : c'est plutôt que les cartes ont des **PV** et, selon qu'elles sont à gauche ou à droite de votre zone de jeu, elles encaissent les dégâts jusqu'à être détruites",
+    "C'est le truc qui est vraiment différent, sinon la progression sur la carte est classique : combat, magasin, événement, etc.",
+    "Je le trouve très cool en plus d'être beau (ce qui n'est pas toujours le cas dans les deck builders ^^).",
+  ],
+  note: "n4",
+  date: "2026-06-22",
+  steamAppId: "3004810",
+  steamUrl: "https://store.steampowered.com/app/3004810/OPERATIVES_Revolve/",
+  image: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3004810/045307b38e85dc76c42f1fa3a7c21f6fd808dc63/header.jpg?t=1779504711"
+},
+  {
   title: "Airport Contraband",
   tags: ["Simulation", "1ʳᵉ personne", "Roguelike", "Crime", "Gestion", "Choix moraux"],
   paras: [
