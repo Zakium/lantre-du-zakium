@@ -23,6 +23,20 @@
 
 const REVIEWS = [
   {
+  title: "Airport Contraband",
+  tags: ["Simulation", "1ʳᵉ personne", "Roguelike", "Crime", "Gestion", "Choix moraux"],
+  paras: [
+    "C'est un jeu à la **première personne** dans un univers de **narcotrafiquants** caricatural, où on doit gérer les passagers d'un aéroport en confisquant des objets illégaux, mais aussi en fermant les yeux de temps en temps pour faire plaisir aux gangs locaux.",
+    "Le style de jeu est très proche de **Contraband Police** (que je recommande !) ou de **Quarantine Zone: The Last Check** (sur lequel j'ai passé un bon moment). Il faut chercher les objets cachés, tout faire avant la fin de la journée sinon on est \"renvoyé\", et le tout sur un fond d'histoire qui se déploie au fur et à mesure des journées.",
+    "Si vous cherchez des jeux dans ce style, je ne pense pas qu'il soit plus mauvais qu'un autre. Sa petite originalité, c'est qu'il y a une composante **roguelike** : quand vous perdez vous êtes \"viré\" et remplacé par un employé un peu plus puissant, car vous pouvez dépenser des points dans des **perks** :p",
+  ],
+  note: "n3",
+  date: "2026-06-22",
+  steamAppId: "1167820",
+  steamUrl: "https://store.steampowered.com/app/1167820/Airport_Contraband/",
+  image: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1167820/e293066492343037bf0e23b76c63f3e9f6268739/header.jpg?t=1781599864"
+},
+  {
   title: "Wall World Strategy",
   tags: ["City Builder", "Stratégie", "Survie", "Tower Defense", "Gestion", "SF"],
   paras: [
