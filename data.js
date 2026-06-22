@@ -23,6 +23,21 @@
 
 const REVIEWS = [
   {
+  title: "Wool at the Gates",
+  tags: ["Tower Defense", "Stratégie", "Minimaliste", "Médiéval", "Fantasy", "Action RTS"],
+  paras: [
+    "Un **tower defense** minimaliste où il faut affronter des vagues sans fin de moutons envahisseurs voulant conquérir le monde. Les orcs, les elfes et les humains s'allient contre les hordes ovines.",
+    "Le jeu est simple et efficace : on contrôle un **œil flottant** qui peut prendre la forme d'un héros sur le terrain, avec des compétences de combat, etc.",
+    "Le jeu a un **système de synergie** très chouette selon les peuples des bâtiments (orc, elfe, humain) et les types de bâtiment (invocation, chasseur, berserker, enchanteur, etc.), et quand on fait des synergies on débloque des **perks** et on fait des combos, et c'est cool !",
+    "Perso, je l'ai acheté dans la foulée pour continuer après la démo ^^ Il n'est pas cher en plus. Je le recommande grandement, je m'amuse dessus comme un zinzin :p",
+  ],
+  note: "n5",
+  date: "2026-06-22",
+  steamAppId: "2994990",
+  steamUrl: "https://store.steampowered.com/app/2994990/Wool_at_the_Gates/",
+  image: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2994990/31c396df4b0561ce530854c6bfd798d9368978fe/header_alt_assets_2.jpg?t=1781290544"
+},
+  {
   title: "OPERATIVES: Revolve",
   tags: ["Deckbuilder", "Roguelike", "Stratégie", "Mécha", "Tour par tour", "Tactique"],
   paras: [
