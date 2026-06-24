@@ -675,6 +675,8 @@ const CLIPS = [
   "https://www.twitch.tv/zakium/clip/AcceptableDependablePieBlargNaut-pgrSB7PH-cOxrGI7",
   "https://www.twitch.tv/zakium/clip/RenownedNurturingStarFailFish-OrbIp3shQ5yfDdyZ",
   "https://www.twitch.tv/zakium/clip/BashfulLongSamosaFloof-fxIouMEDafUsalYo",
+  "https://www.twitch.tv/zakium/clip/EsteemedGeniusGerbilMoreCowbell-NJTdcsaxehBM74dM",
+  "https://www.twitch.tv/zakium/clip/RespectfulSincereCattlePartyTime-0gswqaDesl4NwyZt",
 ];
 
 
