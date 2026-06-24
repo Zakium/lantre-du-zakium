@@ -677,6 +677,23 @@ const CLIPS = [
   "https://www.twitch.tv/zakium/clip/BashfulLongSamosaFloof-fxIouMEDafUsalYo",
   "https://www.twitch.tv/zakium/clip/EsteemedGeniusGerbilMoreCowbell-NJTdcsaxehBM74dM",
   "https://www.twitch.tv/zakium/clip/RespectfulSincereCattlePartyTime-0gswqaDesl4NwyZt",
+  "https://www.twitch.tv/zakium/clip/PleasantHyperPorcupineWTRuck--dvI3mbyuwSEALmo",
+  "https://www.twitch.tv/zakium/clip/BoldModernFriseeJKanStyle-gITjLEJB6GShTNlQ",
+  "https://www.twitch.tv/zakium/clip/ViscousSpikySangTakeNRG-LZGBpUvFYqXAZ3uP",
+  "https://www.twitch.tv/zakium/clip/ConcernedVictoriousMouseWTRuck-9jF8_w7kCqV7v6UT",
+  "https://www.twitch.tv/zakium/clip/GorgeousScaryRutabagaPanicBasket-zB4veWmYTLjUd-pE",
+  "https://www.twitch.tv/zakium/clip/LivelyMotionlessAubergineYouDontSay-7Z1_M-1d-5hOVd-c",
+  "https://www.twitch.tv/zakium/clip/SmilingPricklyPlumberHassanChop-7UsJpb4v_BLZIEZO",
+  "https://www.twitch.tv/zakium/clip/PuzzledHedonisticPotatoNononoCat---OeG_Cw6CJku2bR",
+  "https://www.twitch.tv/zakium/clip/AdventurousAverageTriangleVoteNay-AOEnMcv8iyWOrpqO",
+  "https://www.twitch.tv/zakium/clip/SneakySplendidOtterOSsloth-sdoNGWydTv-QhjZp",
+  "https://www.twitch.tv/zakium/clip/SullenJazzyWalrusAliens-1aEkBeDZDVXRy5NX",
+  "https://www.twitch.tv/zakium/clip/LitigiousSilkySalamanderANELE-qb3P70rXH5ow9e4i",
+  "https://www.twitch.tv/zakium/clip/ApatheticBoredFiddleheadsBleedPurple-EnjL87jt60EKbosi",
+  "https://www.twitch.tv/zakium/clip/GracefulGlutenFreeFrogDoubleRainbow-4djV_SiENc-3x6mz",
+  "https://www.twitch.tv/zakium/clip/BashfulBlindingGazelleKevinTurtle-Njd2WUph_9PB7Dy6",
+  "https://www.twitch.tv/zakium/clip/SteamyArbitraryBunnyBrokeBack--JxNgguEve1RSBQt",
+  "https://www.twitch.tv/zakium/clip/AntsySavoryDadCmonBruh-LQTXA671qi3Z94BZ",
 ];
 
 
