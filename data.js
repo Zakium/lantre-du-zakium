@@ -756,7 +756,7 @@ const BIO = {
 // Mets le TITRE EXACT d'une review existante (copie-colle depuis la liste plus haut).
 // Le site retrouve tout seul son image, ses tags, etc.
 // Laisse "" pour ne rien afficher.
-const COUP_DE_COEUR = "The Mound: Omen of Cthulhu";
+const COUP_DE_COEUR = "Ascenders: Beyond the Peak";
 
 
 // ============================================================
