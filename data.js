@@ -23,6 +23,50 @@
 
 const REVIEWS = [
   {
+  title: "Ascenders: Beyond the Peak",
+  tags: ["Tour par tour", "Roguelite", "Tactique", "Exploration", "Lovecraftien", "Dark Fantasy"],
+  paras: [
+    "Ce jeu essaie manifestement de me séduire. C'est un jeu en **tour par tour** où tu envoies tes équipes en mission dans de périlleuses ascensions où des bêtes, des hommes et la folie vous guettent ! Donc oui, un tour par tour assez simple dans son gameplay, mais avec une super ambiance **cthulhuesque** (montagnes hallucinées) où la montagne semble avoir une volonté propre ^^",
+    "Mmh, mais attends : des équipes, du tour par tour, des horreurs cauchemardesques... mmh, ça fait très **Darkest Dungeon** ça !! OUI tu as raison voix dans ma tête, exactement, tout comme la DA d'ailleurs qui y fait penser.",
+    "Bref, c'est un gros oui pour ma part !",
+    "La montagne veut que vous aimiez le jeu aussi",
+  ],
+  note: "n5",
+  date: "2026-06-25",
+  steamAppId: "4267860",
+  steamUrl: "https://store.steampowered.com/app/4267860/Ascenders_Beyond_the_Peak/",
+  image: ""
+},
+  {
+  title: "SnekromancY",
+  tags: ["Bullet Heaven", "Roguelite", "Dungeon Crawler", "Auto Battler", "Pixel", "Arcade"],
+  paras: [
+    "C'est l'enfant caché de **Vampire Survivors** et de **Snake** ^^ même au niveau des graphismes :p",
+    "Donc oui, un **dungeon crawler** où on joue un serpent géant mort-vivant. On ne se bat pas directement en fait, nous on gère surtout le déplacement et on a des **tourelles sur le dos** qui tirent sur les ennemis automatiquement. La taille du serpent représente nos **PV**.",
+    "Je ne suis pas forcément attiré par la DA, mais elle marche bien et les musiques sont cool. Il y a beaucoup d'objets j'ai l'impression, et l'idée de base est plutôt chouette !",
+    "Attention aux escargots tueurs par contre !! ^^",
+  ],
+  note: "n3",
+  date: "2026-06-25",
+  steamAppId: "4314770",
+  steamUrl: "https://store.steampowered.com/app/4314770/SnekromancY/",
+  image: ""
+},
+  {
+  title: "Hull Rupture",
+  tags: ["Gestion du temps", "Tower Defense", "Roguelite", "Stratégie", "Humour noir", "Base Building"],
+  paras: [
+    "Un jeu de **gestion de temps** et de défense en vue de côté, dans l'univers des jeux **Despot**, où on joue justement l'ordinateur antagoniste destructeur qui a fui les attaques extraterrestres à bord de son vaisseau, qu'il a construit en seulement 34 min ! Et il doit tenir 20 jours dans l'espace, après quoi il dominera l'univers !",
+    "C'est un jeu de gestion de temps où il faut gérer ses **humains comme des ressources** pour produire d'autres ressources, construire des salles et améliorer son vaisseau pour résister aux vagues d'ennemis qui attaquent régulièrement.",
+    "J'aime bien la **DA** de ce jeu (qui est dans la même veine que les précédents) et le jeu est très drôle je trouve, plein de petits détails et d'événements absurdes. J'aime beaucoup ^^",
+  ],
+  note: "n4",
+  date: "2026-06-25",
+  steamAppId: "4358660",
+  steamUrl: "https://store.steampowered.com/app/4358660/Hull_Rupture/",
+  image: ""
+},
+  {
   title: "Wool at the Gates",
   tags: ["Tower Defense", "Stratégie", "Minimaliste", "Médiéval", "Fantasy", "Action RTS"],
   paras: [
