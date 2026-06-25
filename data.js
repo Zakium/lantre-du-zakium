@@ -35,7 +35,7 @@ const REVIEWS = [
   date: "2026-06-25",
   steamAppId: "4267860",
   steamUrl: "https://store.steampowered.com/app/4267860/Ascenders_Beyond_the_Peak/",
-  image: ""
+  image: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4267860/45ed601e4f778315c0e359a16f48536359ff8e3a/header_alt_assets_0.jpg?t=1781707948"
 },
   {
   title: "SnekromancY",
@@ -50,7 +50,7 @@ const REVIEWS = [
   date: "2026-06-25",
   steamAppId: "4314770",
   steamUrl: "https://store.steampowered.com/app/4314770/SnekromancY/",
-  image: ""
+  image: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4314770/d9080c4a5ef1d87e919b0c163de704a47560450a/header.jpg?t=1781353160"
 },
   {
   title: "Hull Rupture",
@@ -64,7 +64,7 @@ const REVIEWS = [
   date: "2026-06-25",
   steamAppId: "4358660",
   steamUrl: "https://store.steampowered.com/app/4358660/Hull_Rupture/",
-  image: ""
+  image: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4358660/110f62f2f0a435aa9f0deb8318bf9eb1ff1b3b3d/header.jpg?t=1781802043"
 },
   {
   title: "Wool at the Gates",
