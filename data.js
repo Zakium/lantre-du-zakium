@@ -23,6 +23,49 @@
 
 const REVIEWS = [
   {
+  title: "Shroom and Gloom",
+  tags: ["Deckbuilder", "Roguelike", "1ʳᵉ personne", "Dungeon Crawler", "Dessiné à la main", "Atmosphérique"],
+  paras: [
+    "Un **deck builder** avec une DA vraiment magnifique ! On se déplace dans des tunnels moussus et champignonneux en affrontant et mangeant ses ennemis.",
+    "C'est un deck builder qui alterne les phases d'exploration et les phases de combat. Et chacune de ces phases a son **deck propre**. Ça fonctionne vraiment bien et le jeu est magnifique. Les mécaniques de combat sont assez classiques, mais les mécaniques d'exploration c'est du **Stop ou Encore**, et il faut activer des points de l'environnement avec les tags des cartes.",
+    "Je l'aurais mis plus haut, mais il a un détail que je trouve personnellement très désagréable 😕 c'est que la **caméra** suit vaguement la souris quand on la bouge pour prendre ses cartes ou pointer un objet, et c'est pas pratique du tout, ça me file un peu la gerbance (notamment avec l'effet de flou sur les bords de l'image).",
+    "J'espère qu'on pourra régler ça dans la version finale 🙂",
+  ],
+  note: "n4",
+  date: "2026-06-26",
+  steamAppId: "3271280",
+  steamUrl: "https://store.steampowered.com/app/3271280/Shroom_and_Gloom/",
+  image: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3271280/0b105208662f52e5f6282d0f3beb2bec5a90c3da/header.jpg?t=1781552237"
+},
+  {
+  title: "Lavatro",
+  tags: ["Roguelite", "Cloth builder", "Deckbuilder", "Casual", "Gestion", "Stratégie"],
+  paras: [
+    "J'avoue que j'y étais allé à reculons... un énième **Balatro like** :/ et bon, en fait il est sympa : on a une **machine à laver** et il faut y ranger des vêtements (l'équivalent des cartes). Et on pourra débloquer des **combos** avec les couleurs des vêtements, les styles, les positions des chaussettes, etc. On peut plier les vêtements pour qu'ils prennent moins de place, et avoir des **stickers** pour les pouvoirs.",
+    "En vrai il était sympathique, c'est juste moi qui suis venu avec un a priori (et c'est caca !)",
+    "Donc au final, à suivre, faudra voir s'il n'est pas trop cher :)",
+  ],
+  note: "n3",
+  date: "2026-06-26",
+  steamAppId: "4157200",
+  steamUrl: "https://store.steampowered.com/app/4157200/Lavatro/",
+  image: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4157200/0bd67165d39a77033d7abfc14314bb59f9c7e2df/header.jpg?t=1777052643"
+},
+  {
+  title: "Here Comes The Swarm",
+  tags: ["Survie", "RTS", "Base Building", "Tower Defense", "Stratégie", "Gestion"],
+  paras: [
+    "Un jeu de **construction, survie, stratégique**. On doit construire notre base pour résister aux assauts de l'essaim, tout en faisant de petites excursions extérieures pour trouver des artefacts et des ressources. Il faut tenir jusqu'à ce que l'artefact purifie la carte de l'essaim.",
+    "Le jeu marche bien je trouve, et puis il y a des **arbres de compétences liés à des divinités**, c'est chouette. Je n'y ai pas vu de système de randomisation de perks, donc je ne suis pas sûr que la rejouabilité soit turbo to the max, mais il a une vibe carte perso de **Warcraft 3** (pour celleux qui auront la ref <3)",
+    "Le jeu est plus facile que ses cousins de la même catégorie (ce qui n'est pas forcément mal), et surtout, petit confort, il y a une **pause tactique** et ça j'avoue j'apprécie, c'est moins de stress :p",
+  ],
+  note: "n3",
+  date: "2026-06-26",
+  steamAppId: "3052730",
+  steamUrl: "https://store.steampowered.com/app/3052730/Here_Comes_The_Swarm/",
+  image: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3052730/0a29e0af9359705894c9b1bf7c483721af2ee619/header.jpg?t=1781805910"
+},
+  {
   title: "Ascenders: Beyond the Peak",
   tags: ["Tour par tour", "Roguelite", "Tactique", "Exploration", "Lovecraftien", "Dark Fantasy"],
   paras: [
