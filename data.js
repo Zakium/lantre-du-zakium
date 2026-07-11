@@ -34,7 +34,7 @@ const REVIEWS = [
   date: "2026-07-11",
   steamAppId: "3947040",
   steamUrl: "https://store.steampowered.com/app/3947040/Pegfinity/",
-  image: ""
+  image: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3947040/e5e27ea9eb70af35dfde47368730e13384d43558/header.jpg?t=1782400854"
 },
   {
   title: "Sealbreakers",
@@ -48,7 +48,7 @@ const REVIEWS = [
   date: "2026-07-11",
   steamAppId: "4244460",
   steamUrl: "https://store.steampowered.com/app/4244460/Sealbreakers/",
-  image: ""
+  image: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4244460/458131354990e5f6b7e981d577394647d66c3f30/header.jpg?t=1782208136"
 },
   {
   title: "Fame Or Folly",
@@ -64,7 +64,7 @@ const REVIEWS = [
   date: "2026-07-11",
   steamAppId: "4198020",
   steamUrl: "https://store.steampowered.com/app/4198020/Fame_Or_Folly/",
-  image: ""
+  image: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4198020/282f81c0a20a421e7ed81649828535ff01a1b433/header.jpg?t=1783649007"
 },
   {
   title: "Shroom and Gloom",
