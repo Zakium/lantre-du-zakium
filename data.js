@@ -23,6 +23,50 @@
 
 const REVIEWS = [
   {
+  title: "Pegfinity",
+  tags: ["Incrémental", "Pachinko", "Physique", "Casual", "Roguelite", "Détente"],
+  paras: [
+    "C'est un petit jeu **incrémental**, détente et repos du cerveau, que j'ai trouvé fort cool.",
+    "Vous avez une sorte de **lanceur de billes** dont vous pouvez gérer la puissance, et puis vous devez faire des rebonds et des points. Avec les points vous achetez des **bonus** et des **améliorations** pour faire toujours plus de points, et donc vous achetez encore pluuus de bonuuus et vous achetez des améliorations encore plus améliorantes que les précédentes !!! ET DONC... bref c'est un jeu incrémental ^^",
+    "Il est très chouette et satisfaisant, pas grand-chose de plus à dire mais pas grand-chose de plus à demander ^^",
+  ],
+  note: "n4",
+  date: "2026-07-11",
+  steamAppId: "3947040",
+  steamUrl: "https://store.steampowered.com/app/3947040/Pegfinity/",
+  image: ""
+},
+  {
+  title: "Sealbreakers",
+  tags: ["Beat'em up", "Roguelite", "Action", "Arts martiaux", "Combos", "Vue de dessus"],
+  paras: [
+    "Sealbreakers est un **beat them all** roguelite vu du dessus où on joue un monsieur muscle qui BAGAR des gens !! ^^",
+    "Donc forcément on voit des similitudes avec **Hadès / Sworn** / etc., d'autant plus qu'il y a des catégories d'effet que l'on peut mettre sur ses attaques, etc. MAIS son système se rapproche aussi de jeux comme **Absolum / Streets of Rage** : on peut faire des combos de coups, il n'y a pas juste frappe forte ou faible, il y a des chopes, des projections, des attaques au sol, etc.",
+    "Donc je trouve le jeu plutôt intéressant, et sûrement un peu technique. Il a une bonne tête et il est plutôt fluide. Mais il n'est pas très pratique/ergonomique au clavier-souris 😕 c'est dommage... Mais à suivre quand même dans le doute 🙂",
+  ],
+  note: "n3",
+  date: "2026-07-11",
+  steamAppId: "4244460",
+  steamUrl: "https://store.steampowered.com/app/4244460/Sealbreakers/",
+  image: ""
+},
+  {
+  title: "Fame Or Folly",
+  tags: ["Deckbuilder", "Roguelike", "Stratégie", "Cartes", "Pixel", "Casual"],
+  paras: [
+    "Un super enfant caché entre **Balatro** (le bien connu) et le **blackjack** !",
+    "Vous dirigez une **troupe d'artistes** et vous devez enchaîner les représentations jusqu'à réussir à impressionner les nobles familles qui pourront pérenniser votre profession grâce au pouvoir du **mécénat** ^^",
+    "Il y a différentes catégories d'artistes (ménestrel, paria, garde, mystique, etc.), des **combos** entre les cartes, des **bannières** qui donnent des pouvoirs passifs. Que des trucs plutôt classiques en somme dans ce genre de jeu. Mais ça marche bien, et le côté **blackjack / stop ou encore** fait que c'est pas trop prise de tête, c'est très cool.",
+    "Le jeu a une belle patte graphique je trouve, c'est du **pixel art** classique mais efficace (c'est que mon ressenti 💜)",
+    "Bref c'est un oui",
+  ],
+  note: "n5",
+  date: "2026-07-11",
+  steamAppId: "4198020",
+  steamUrl: "https://store.steampowered.com/app/4198020/Fame_Or_Folly/",
+  image: ""
+},
+  {
   title: "Shroom and Gloom",
   tags: ["Deckbuilder", "Roguelike", "1ʳᵉ personne", "Dungeon Crawler", "Dessiné à la main", "Atmosphérique"],
   paras: [
