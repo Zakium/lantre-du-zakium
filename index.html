@@ -48,7 +48,8 @@
 
   .hero{position:relative; z-index:1; padding:6.5rem 1.5rem 3rem; text-align:center;}
   .hero-eyebrow{font-family:"MedievalSharp",cursive; color:var(--gold); letter-spacing:.16em; font-size:.95rem;
-    text-transform:uppercase; margin-bottom:1.4rem; text-shadow:0 2px 4px rgba(0,0,0,.7);}
+    text-transform:uppercase; margin-bottom:1.4rem;
+    text-shadow:0 0 4px rgba(20,12,6,.95), 0 0 9px rgba(20,12,6,.7), 0 2px 4px rgba(0,0,0,.75);}
   .sign-wrap{position:relative; display:inline-block; margin:0 auto;}
   .sign-rope{position:absolute; top:-38px; width:4px; height:44px; background:linear-gradient(#6a4a2a,#3a2414); z-index:0;}
   .sign-rope.l{left:22%;} .sign-rope.r{right:22%;}
@@ -61,14 +62,18 @@
     -webkit-text-fill-color:transparent; filter:drop-shadow(0 2px 1px rgba(0,0,0,.6));}
   .hero-tagline{margin:1.6rem auto 0; max-width:640px; font-style:italic; font-size:1.08rem; color:#efe0c2; text-shadow:0 1px 4px rgba(0,0,0,.75);}
   .hero-cta{margin-top:1.8rem; display:flex; gap:.8rem; justify-content:center; flex-wrap:wrap;}
-  .hero-encarts{position:relative; z-index:1; max-width:1180px; margin:3rem auto 0; display:grid;
-    grid-template-columns:1fr 1fr 1fr; gap:1.4rem; align-items:start; padding:0 1rem;}
+  .hero-top{position:relative; z-index:1; max-width:1250px; margin:0 auto; display:grid;
+    grid-template-columns:minmax(200px,290px) minmax(auto,560px) minmax(200px,290px);
+    justify-content:center; gap:1.6rem; align-items:center; padding:0 1rem;}
+  .hero-center{text-align:center;}
+  .hero-media-row{position:relative; z-index:1; max-width:760px; margin:2.6rem auto 0; display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr)); gap:1.4rem; padding:0 1rem;}
 
   .panel{position:relative; border-style:solid; border-width:var(--parch-border); border-image:var(--parch-src);
-    padding:1.4rem 1rem 1.1rem; filter:drop-shadow(0 8px 12px rgba(0,0,0,.5)); text-align:left;}
+    padding:1.9rem 1rem 1.2rem; filter:drop-shadow(0 8px 12px rgba(0,0,0,.5)); text-align:left;}
   .panel .nail{position:absolute; top:-3px; left:50%; transform:translateX(-50%); z-index:6; width:15px; height:15px;
     border-radius:50%; background:radial-gradient(circle at 35% 30%, #b8b0a4, #6b6157 45%, #2c2620); box-shadow:0 2px 3px rgba(0,0,0,.6);}
-  .panel-label{font-family:"MedievalSharp",cursive; color:var(--gold-deep); font-size:.82rem; letter-spacing:.05em; display:block; margin-bottom:.5rem;}
+  .panel-label{font-family:"MedievalSharp",cursive; color:#3a2414; font-size:.86rem; letter-spacing:.03em; display:block; margin-bottom:.5rem;}
   .panel-bio{font-size:.94rem; line-height:1.6; color:var(--ink-soft);} .panel-bio b{color:var(--ink);}
   .cdc{cursor:pointer;}
   .cdc .cdc-banner{width:100%; aspect-ratio:460/215; object-fit:cover; border:3px solid #4a3018; border-radius:3px;
@@ -195,7 +200,8 @@
   .tw-actions{margin-top:.8rem; text-align:center;}
   .tw-empty{padding:2rem 1rem; text-align:center; color:var(--ink-soft); font-family:"MedievalSharp",cursive;}
 
-  @media (max-width:1000px){ .grid{grid-template-columns:repeat(3,1fr);} .hero-encarts{grid-template-columns:1fr; max-width:460px;} }
+  @media (max-width:1000px){ .grid{grid-template-columns:repeat(3,1fr);} }
+  @media (max-width:880px){ .hero-top{grid-template-columns:1fr; max-width:460px;} }
   @media (max-width:720px){ .grid{grid-template-columns:repeat(2,1fr);} .nav-links{gap:.9rem;} .sign-rope{display:none;} }
   @media (max-width:430px){ .grid{grid-template-columns:1fr;} }
   @media (prefers-reduced-motion:reduce){ .parch,.parch:hover,.seal,.copaine{transition:none; transform:none !important;} }
@@ -214,19 +220,21 @@
 </nav>
 
 <header class="hero">
-  <p class="hero-eyebrow">Streamer &middot; Compositeur &middot; Chasseur de d&eacute;mos</p>
-  <div class="sign-wrap"><span class="sign-rope l"></span><span class="sign-rope r"></span>
-    <div class="sign"><h1>L'Antre du Zakium</h1></div></div>
-  <p class="hero-tagline" id="heroTagline"></p>
-  <div class="hero-cta">
-    <a href="#reviews" class="wood-btn gold">Voir les reviews &darr;</a>
-    <button class="wood-btn" id="fragmentBtn">&#10024; Apercevoir un fragment de Zakium</button>
-  </div>
-  <div class="hero-encarts">
+  <div class="hero-top">
     <div class="panel" id="bioPanel"></div>
+    <div class="hero-center">
+      <p class="hero-eyebrow">Streamer &middot; Compositeur &middot; Chasseur de d&eacute;mos</p>
+      <div class="sign-wrap"><span class="sign-rope l"></span><span class="sign-rope r"></span>
+        <div class="sign"><h1>L'Antre du Zakium</h1></div></div>
+      <p class="hero-tagline" id="heroTagline"></p>
+      <div class="hero-cta">
+        <a href="#reviews" class="wood-btn gold">Voir les reviews &darr;</a>
+        <button class="wood-btn" id="fragmentBtn">&#10024; Apercevoir un fragment de Zakium</button>
+      </div>
+    </div>
     <div class="panel cdc" id="cdcPanel"></div>
-    <div class="media-stack" id="heroMedia"></div>
   </div>
+  <div class="hero-media-row" id="heroMedia"></div>
 </header>
 
 <section id="reviews" class="section">
