@@ -23,6 +23,21 @@
 
 const REVIEWS = [
   {
+  title: "Into The Depths",
+  tags: ["City Builder", "Roguelite", "Deckbuilder", "Puzzle", "Tour par tour", "Gestion"],
+  paras: [
+    "Un très sympathique **city builder roguelite** avec une couche de **puzzle** et de **deck building**. Le but du jeu est de s'enfoncer de plus en plus profondément dans une mystérieuse grotte. Pour ce faire, on a un deck de cartes de bâtiments, et il va falloir gérer le **placement** de ces bâtiments pour produire le plus de ressources à chaque tour et éviter la famine qui mettrait faim (hihi haha) à la run 😛",
+    "Entre les runs, on peut dépenser nos soussous précieusement acquis pour gagner des bonus et débloquer de nouvelles cartes pour toutes nos prochaines expéditions dans les souterrains. Le but va être de réussir à trouver un **équilibre dans son deck**, entre les ressources consommées et produites.",
+    "Et plus on s'enfonce dans les tréfonds, plus les **biomes changent** : on passe des niveaux supérieurs rocheux aux cavernes humides, puis aux cavernes de magma et jusqu'à l'Abysse, chacun avec ses ressources et ses dangers.",
+    "Le jeu est assez simple à prendre en main, et il n'est pas casse-tête au niveau de l'aspect puzzle et opti. J'aime assez bien l'ambiance, et un petit fond de **lore** a l'air de se débloquer au fur et à mesure qu'on s'enfonce dans les profondeurs, donc c'est cool 😛",
+  ],
+  note: "n3",
+  date: "2026-07-21",
+  steamAppId: "3705150",
+  steamUrl: "https://store.steampowered.com/app/3705150/Into_The_Depths/",
+  image: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3705150/c62ff86216a9f369f16c7c3235dd06ad5ef40455/header.jpg?t=1784229183"
+},
+  {
   title: "Pegfinity",
   tags: ["Incrémental", "Pachinko", "Physique", "Casual", "Roguelite", "Détente"],
   paras: [
