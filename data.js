@@ -23,6 +23,22 @@
 
 const REVIEWS = [
   {
+  title: "Trotter",
+  tags: ["Action", "Aventure", "RPG", "Exploration", "Craft", "Vue de dessus"],
+  paras: [
+    "C'est un **action-RPG d'exploration** vu du dessus, où on joue quelque chose qui se réveille au fond d'un **bunker** (comme dans un lendemain de cuite ^^)",
+    "J'ai eu un peu de mal à accrocher 😕 c'était un peu étrange, j'ai pas vraiment croisé beaucoup d'ennemis et il y a une dimension **puzzle et craft**. Je sais pas trop trop où le jeu veut m'emmener.",
+    "Le jeu n'est pas très agréable à jouer en **clavier-souris**, on sent qu'il est prévu uniquement pour la manette... et la gestion de l'inventaire est un peu relou (je trouve).",
+    "Mais sinon le jeu est clean dans sa **DA**, avec le petit personnage un peu goofy qui court et fait des roulades.",
+    "À noter aussi que c'est une **démo très en amont** (pas encore de date de sortie), donc l'ergonomie et l'inventaire ont largement le temps d'être peaufinés d'ici la version finale.",
+  ],
+  note: "n2",
+  date: "2026-07-27",
+  steamAppId: "4007380",
+  steamUrl: "https://store.steampowered.com/app/4007380/Trotter/",
+  image: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4007380/de98a1e4a841a8cf65143d97e391a3b44e967bc4/header.jpg?t=1776884391"
+},
+  {
   title: "Scarlet Deer Inn",
   tags: ["Plateforme", "Aventure", "Narratif", "Folklore slave", "Médiéval", "Atmosphérique"],
   paras: [
