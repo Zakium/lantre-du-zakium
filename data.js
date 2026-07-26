@@ -23,6 +23,23 @@
 
 const REVIEWS = [
   {
+  title: "Scarlet Deer Inn",
+  tags: ["Plateforme", "Aventure", "Narratif", "Folklore slave", "Médiéval", "Atmosphérique"],
+  paras: [
+    "Un splendide jeu de **plateforme/aventure** où l'on incarne **Elise**, une aubergiste mère de deux enfants devant se débrouiller seule pour tout gérer. Mais l'ambiance dans le village n'a manifestement pas l'air toute rose ^^ Le tout dans un univers inspiré du **folklore slave**, ce qui donne un côté conte médiéval un peu inquiétant.",
+    "Les visuels sont très très beaux je trouve, et il est à noter (ça fait d'ailleurs grandement partie de leur communication) que tous les visuels des personnages sont **brodés**. L'ambiance sonore et musicale est vraiment chouette aussi !",
+    "La démo est assez courte, mais elle m'a accroché ^^",
+    "Je n'ai pas mis la note max parce que je suis pas plus emballé que ça par le côté plateforme ^^",
+    "À noter quand même que le jeu a l'air d'aborder des sujets un peu durs, donc attention, checkez quand même les **TW** 🙏",
+    "Petit point : pas de VF",
+  ],
+  note: "n4",
+  date: "2026-07-26",
+  steamAppId: "1553260",
+  steamUrl: "https://store.steampowered.com/app/1553260/Scarlet_Deer_Inn/",
+  image: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1553260/0902f499ff339e63fcbbc7ac2d56ce4d4cfb7bdd/header.jpg?t=1784647757"
+},
+  {
   title: "Into The Depths",
   tags: ["City Builder", "Roguelite", "Deckbuilder", "Puzzle", "Tour par tour", "Gestion"],
   paras: [
