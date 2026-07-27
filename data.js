@@ -23,6 +23,22 @@
 
 const REVIEWS = [
   {
+  title: "Project P.I.T.T.",
+  tags: ["Incrémental", "Sandbox physique", "Automatisation", "1ʳᵉ personne", "Satire", "Humour noir"],
+  paras: [
+    "« vous devez nourrir le trou », c'est tout ce que vous savez 👀",
+    "C'est un jeu **incrémental** où vous devez nourrir un mystérieux trou avec des **canards en plastique**. Plus vous le nourrissez, plus vous gagnez des sous pour être de plus en plus efficace et productif, pour le grand plaisir de la **corpo** qui est derrière tout ça.",
+    "Ça marche vraiment bien, je trouve qu'il y a une ambiance un peu sombre, mais d'un autre côté il y a des p'tits canards en plastique qui font pouic pouic ^^",
+    "Ça a bien pris sur moi, j'ai fait la démo en entier et le jeu est satisfaisant, il joue beaucoup sur la **physics**, on va pouvoir essayer d'automatiser avec des ventilateurs, des bumpers, des plaques pour guider les canards, etc.",
+    "Je mets un tout petit bémol sur le **filtre pixélisé** : c'est un parti pris PSX complètement assumé, mais perso je suis pas fan. Et surtout le menu est dur à lire tellement le texte est écrit gros et en pixel ^^",
+  ],
+  note: "n4",
+  date: "2026-07-27",
+  steamAppId: "4026250",
+  steamUrl: "https://store.steampowered.com/app/4026250/Project_PITT/",
+  image: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4026250/066d9c477e4883dd31e5db4d3b0236a3c70cec3f/header.jpg?t=1784822977"
+},
+  {
   title: "Trotter",
   tags: ["Action", "Aventure", "RPG", "Exploration", "Craft", "Vue de dessus"],
   paras: [
