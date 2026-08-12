@@ -23,6 +23,21 @@
 
 const REVIEWS = [
   {
+  title: "Vision Quench",
+  tags: ["Coop", "Looter Shooter", "Dungeon Crawler", "1ʳᵉ personne", "Dark Fantasy", "Multijoueur"],
+  paras: [
+    "Un jeu **coop** à la première personne, l'un des nombreux enfants de **Lethal Company**. Plus précisément un **looter shooter / dungeon crawler** où, à 4, on grimpe une tour-donjon en lootant et en dégommant des monstres.",
+    "Il fonctionne bien, j'ai pas grand-chose à dire dessus, le jeu répond bien et il est un peu rigolo. Mais comme pour la plupart de ces jeux, c'est en très grande partie le groupe qui va conditionner l'appréciation, et j'ai passé un bon moment dessus.",
+    "Je ne suis pas très fan de l'esthétique rétro, et parfois c'est pas très très lisible pour moi. Mais y a pas mal d'objets et de trucs à faire, et la découverte est chouette.",
+    "Sortie prévue pour début 2027 (Q1).",
+  ],
+  note: "n3",
+  date: "2026-07-27",
+  steamAppId: "3488690",
+  steamUrl: "https://store.steampowered.com/app/3488690/Vision_Quench/",
+  image: ""
+},
+  {
   title: "Project P.I.T.T.",
   tags: ["Incrémental", "Sandbox physique", "Automatisation", "1ʳᵉ personne", "Satire", "Humour noir"],
   paras: [
