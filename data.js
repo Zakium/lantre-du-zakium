@@ -35,7 +35,7 @@ const REVIEWS = [
   date: "2026-07-27",
   steamAppId: "3488690",
   steamUrl: "https://store.steampowered.com/app/3488690/Vision_Quench/",
-  image: ""
+  image: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3488690/7268278aaf30417a176daaeb39300cd1a50d566d/header.jpg?t=1785808605"
 },
   {
   title: "Project P.I.T.T.",
