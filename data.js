@@ -32,7 +32,7 @@ const REVIEWS = [
     "Sortie prévue pour début 2027 (Q1).",
   ],
   note: "n3",
-  date: "2026-07-27",
+  date: "2026-08-12",
   steamAppId: "3488690",
   steamUrl: "https://store.steampowered.com/app/3488690/Vision_Quench/",
   image: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3488690/7268278aaf30417a176daaeb39300cd1a50d566d/header.jpg?t=1785808605"
