@@ -23,6 +23,55 @@
 
 const REVIEWS = [
   {
+  title: "Sandcastle",
+  tags: ["Simulation", "Sandbox", "Cozy", "Détente", "Physique", "Construction"],
+  paras: [
+    "Pas souvent que je teste un jeu comme ça ^^",
+    "C'est un **simulateur de bac à sable**, et voilà. En jouant et en ramassant des trucs, vous pourrez débloquer des **outils** et des seaux différents pour plus de personnalisation et de constructions. Vous pourrez aussi débloquer de nouvelles formes de plages pour vos châteaux.",
+    "Et c'est tout, il n'y a pas de victoire ou de défaite, faites ce que vous voulez avec vos châteaux, vous pouvez aussi générer des **vagues** pour tout casser 😛",
+    "Et le vrai cœur du truc, c'est la **simulation de physique du sable et de l'eau** : le sable tient ou s'effondre selon son humidité, et les vagues érodent vraiment les murs.",
+    "Sinon le jeu est franchement mignon et l'eau est très belle 🙂",
+    "Le jeu complet n'a pas encore de date de sortie confirmée (prévu courant 2026).",
+  ],
+  note: "n4",
+  date: "2026-08-23",
+  steamAppId: "3216520",
+  steamUrl: "https://store.steampowered.com/app/3216520/Sandcastle/",
+  image: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3216520/32a096d34be1472a135bf1cf2dfd60d1660f8f4a/header.jpg?t=1786036334"
+},
+  {
+  title: "Hellforged",
+  tags: ["Bullet Heaven", "Roguelite", "Action RPG", "Loot", "Extraction", "Dark Fantasy"],
+  paras: [
+    "Encore un **survivors-like**, dur d'étoffer je trouve maintenant... ^^",
+    "Il marche bien, il est fonctionnel, mais j'ai rien à rajouter, tout est assez classique, il n'y a pas de système révolutionnaire. Ou alors je suis passé à côté lors de la démo.",
+    "À noter quand même qu'il y a une **mécanique d'extraction** : on peut sécuriser son loot en cours de run ou rester pour viser plus gros au risque de tout perdre. C'est ce qui le distingue un peu du survivors-like classique, même si perso ça m'a pas transcendé.",
+    "Voilà voilà, sinon le jeu est plutôt beau ^^",
+    "Pas encore de date de sortie précise (attendu courant 2026)",
+  ],
+  note: "n3",
+  date: "2026-08-23",
+  steamAppId: "4554250",
+  steamUrl: "https://store.steampowered.com/app/4554250/Hellforged/",
+  image: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4554250/1491f0f10982d4fb8e39442adbc9217022493758/header_alt_assets_0.jpg?t=1787037280"
+},
+  {
+  title: "Void Pachinko",
+  tags: ["Incrémental", "Pachinko", "Casual", "Physique", "Gestion", "Stratégie"],
+  paras: [
+    "Un jeu **incrémental** chill où il faut mettre des bouboules jetées par des villageois dans un **vortex de néant** magique ^^",
+    "Le jeu est très sympathique, et bizarrement on est assez peu passif dedans : il faut **tourner l'entrée du vortex** vers les billes qui tombent, sinon elles perdent toute leur valeur.",
+    "On a la possibilité d'améliorer les **taquets, les villageois, les billes**, etc., avec manifestement plusieurs maps différentes qui vont se succéder.",
+    "Pas grand-chose à dire de plus, ça a l'air plutôt sympathique et efficace pour poser son cerveau dans un coin et voir les bouboules tomber pour nous rapporter des soussous ^^",
+    "Déjà sorti (depuis le 17 août 2026).",
+  ],
+  note: "n3",
+  date: "2026-08-23",
+  steamAppId: "4077060",
+  steamUrl: "https://store.steampowered.com/app/4077060/Void_Pachinko/",
+  image: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4077060/66fdabaab613aa647f819c5c2a27aa48a45f4b36/header.jpg?t=1787448390"
+},
+  {
   title: "Vision Quench",
   tags: ["Coop", "Looter Shooter", "Dungeon Crawler", "1ʳᵉ personne", "Dark Fantasy", "Multijoueur"],
   paras: [
