@@ -23,6 +23,22 @@
 
 const REVIEWS = [
   {
+  title: "The Last Caretaker",
+  tags: ["Survie", "Craft", "Exploration", "1ʳᵉ personne", "Post-apo", "Solo"],
+  paras: [
+    "Un très beau jeu de **survie/craft** en solo. On joue un robot, manifestement le dernier qui fonctionne, avec une tâche capitale pour l'humanité : faire pousser des embryons humains et les envoyer dans l'espace, là où le reste de l'humanité a fui. On démarre dans une station, mais ça s'ouvre vite sur une **Terre noyée** qu'on explore en bateau.",
+    "J'ai lancé la démo sans rien attendre du tout et j'ai été très agréablement surpris. L'atmosphère est très belle et un peu sombre (mais pas trop), c'est fluide et agréable à jouer. Franchement belle surprise.",
+    "J'aime bien le fait qu'il n'y ait pas de jauge de faim, c'est pas la tension où ton perso doit manger un buffet toutes les 5 secondes.",
+    "Et je suis curieux de la suite, franchement de mon côté c'est possible que ça parte en prod !",
+    "Disponible en accès anticipé depuis novembre 2025, la version 1.0 n'a pas encore de date de sortie.",
+  ],
+  note: "n5",
+  date: "2026-08-27",
+  steamAppId: "1783560",
+  steamUrl: "https://store.steampowered.com/app/1783560/The_Last_Caretaker/",
+  image: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1783560/6098d837b1af0c71f8703bbee5e0695d6c171640/header.jpg?t=1782299022"
+},
+  {
   title: "Factory Town 2: Paradise",
   tags: ["Automatisation", "City Builder", "Simulation", "Gestion", "Détente", "Colony Sim"],
   paras: [
