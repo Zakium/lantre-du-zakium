@@ -23,6 +23,21 @@
 
 const REVIEWS = [
   {
+  title: "Factory Town 2: Paradise",
+  tags: ["Automatisation", "City Builder", "Simulation", "Gestion", "Détente", "Colony Sim"],
+  paras: [
+    "Un **city builder d'automatisation** où il faut nourrir un volcan au centre d'une île, car ce volcan a manifestement une tâche très importante à accomplir (sauver le monde ?)",
+    "La démo marchait bien, c'est un jeu d'automatisation mais léger car les **villageois** peuvent faire des trucs plus facilement que les tapis roulants. On débloque des petites missions, de nouveaux objets, de nouvelles lignes de production et voilà quoi 🙂",
+    "C'est chill et posé.",
+    "Disponible en accès anticipé depuis le 14 juillet 2026, la version 1.0 n'a pas encore de date de sortie.",
+  ],
+  note: "n3",
+  date: "2026-08-27",
+  steamAppId: "3312130",
+  steamUrl: "https://store.steampowered.com/app/3312130/Factory_Town_2_Paradise/",
+  image: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3312130/438ab64ccf7ac95229f8c4162d1321f5d9e25eef/header.jpg?t=1784291164"
+},
+  {
   title: "Sandcastle",
   tags: ["Simulation", "Sandbox", "Cozy", "Détente", "Physique", "Construction"],
   paras: [
