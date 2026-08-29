@@ -23,6 +23,35 @@
 
 const REVIEWS = [
   {
+  title: "Shipping Store Simulator 2037",
+  tags: ["Simulation", "Gestion", "Automatisation", "Économie", "1ʳᵉ personne", "Robots"],
+  paras: [
+    "C'est un jeu de **simulation** où on joue un robot qui va bosser dans une entreprise de livraison, Rocket Post. Le jeu est fluide et il est un peu rigolo. Une espèce de trame apparaît dans la démo, avec des problèmes contre l'entreprise concurrente, **QuickBox**, qui domine la ville.",
+    "Je me suis bien amusé, j'ai un peu posé mon cervo dans un coin et c'était cool. Y a pas de pression dans le jeu, et assez vite d'autres **robots** peuvent être embauchés pour faire les tâches ingrates ^^",
+    "Voilà, plutôt cool, je garde ça dans un coin 😛",
+    "Prévu pour le troisième trimestre 2026, donc très bientôt.",
+  ],
+  note: "n4",
+  date: "2026-08-29",
+  steamAppId: "4098030",
+  steamUrl: "https://store.steampowered.com/app/4098030/Shipping_Store_Simulator_2037/",
+  image: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4098030/7fb52424d491cd51f19a639a9eb9d99aab4de8ef/header.jpg?t=1784233305"
+},
+  {
+  title: "Farmbotic",
+  tags: ["Farming Sim", "Automatisation", "Gestion", "Coop", "Craft", "Exploration"],
+  paras: [
+    "Un jeu de gestion de petite ferme avec de l'**automatisation** où on déploie des petits robots pour faire le taf à notre place. C'est très classique, avec un système de stamina, un cycle jour/nuit, des ressources, des missions, une mine dans laquelle on peut faire la bagar et aller de plus en plus profondément dedans pour taper plus de monstres (ça vous rappelle un truc ? ^^) et voilà quoi ^^",
+    "Et ça se joue aussi en **coop**.",
+    "Pas encore de date de sortie.",
+  ],
+  note: "n3",
+  date: "2026-08-29",
+  steamAppId: "2573060",
+  steamUrl: "https://store.steampowered.com/app/2573060/Farmbotic/",
+  image: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2573060/1fe6b7f6ccd45e896041d2ccc1c19c4316a32301/header_alt_assets_0_french.jpg?t=1787910280"
+},
+  {
   title: "The Last Caretaker",
   tags: ["Survie", "Craft", "Exploration", "1ʳᵉ personne", "Post-apo", "Solo"],
   paras: [
