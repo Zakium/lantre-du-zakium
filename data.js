@@ -9,6 +9,22 @@
 
 const REVIEWS = [
   {
+  title: "Curse of Resthaven",
+  tags: ["Aventure", "Enquête", "Roguelite", "Deckbuilding", "Gestion", "Lovecraftien"],
+  paras: [
+    "Un très beau jeu d'**aventure et d'enquête**, dans un univers horrifique **cthulhuesque**. Vous jouez le nouveau **gouverneur de Resthaven**, une charmante petite colonie insulaire, afin de retrouver la trace de votre nièce qui n'y donne plus de nouvelles.",
+    "C'est un jeu d'enquête où il faut **gérer son temps**, car certaines actions vont faire avancer la journée. En fait c'est un peu un mélange de genres : enquête et interrogatoire, gestion de la colonie, troc avec des marchands, **deckbuilding** (très léger) et **roguelite**. Mais on capte vite que notre protagoniste est piégé dans une **boucle temporelle**, qui va nous permettre d'explorer d'autres pans d'enquête qui nous auraient été inaccessibles sans.",
+    "Le jeu est très beau, j'ai l'impression qu'il y a pas mal de contenu, notamment avec les **expéditions** que nous pourrons mener en dehors de la ville. L'ambiance est très prenante et sombre, j'aime beaucoup.",
+    "À noter quand même qu'il n'y a **pas de traduction française** et qu'il y a des sujets très sombres abordés, donc attention à vous.",
+    "Pas encore de date de sortie.",
+  ],
+  note: "n4",
+  date: "2026-09-03",
+  steamAppId: "3796150",
+  steamUrl: "https://store.steampowered.com/app/3796150/Curse_of_Resthaven/",
+  image: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3796150/4704d826ca663092c2f9b71e2ca77f04a779399d/header.jpg?t=1785509980"
+},
+  {
   title: "Shipping Store Simulator 2037",
   tags: ["Simulation", "Gestion", "Automatisation", "Économie", "1ʳᵉ personne", "Robots"],
   paras: [
