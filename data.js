@@ -6,20 +6,6 @@
 //  n5 = Coup de coeur  |  n4 = Je plussoie  |  n3 = A suivre
 //  n2 = Pourquoi pas   |  n1 = Pas pour moi
 
-// -------- AJOUTER UNE REVIEW --------
-//  Les reviews les plus recentes (date) s'affichent en premier.
-//
-//  Champs d'une review :
-//   title      : le nom du jeu
-//   tags       : liste de genres entre guillemets
-//   paras      : liste de paragraphes (chaque "...." = 1 paragraphe)
-//                **gras** et *italique*
-//   note       : "n1" a "n5" (voir plus haut)
-//   date       : "AAAA-MM-JJ" (ex "2026-06-14")
-//   steamAppId : le numero dans l'URL Steam (pour l'image)
-//   steamUrl   : le lien complet Steam (ou "" si pas de page)
-//   image      : (OPTIONNEL) une URL d'image perso, si l'image Steam
-//                ne s'affiche pas bien.
 
 const REVIEWS = [
   {
@@ -928,10 +914,9 @@ const REVIEWS = [
 // ============================================================
 //  ZONE CREATIONS
 // ============================================================
-// Colle l'ID de la video YouTube (la partie apres watch?v=)
+// ID de la video YouTube (apres watch?v=)
 // Exemple : pour https://youtube.com/watch?v=dQw4w9WgXcQ
 //           l'ID est : dQw4w9WgXcQ
-// Tu peux en mettre autant que tu veux, les plus recentes en haut.
 
 const MUSIQUES = [
   // { youtubeId: "xxxxxxxxxxx", titre: "Nom de la musique" },
@@ -950,14 +935,6 @@ const VIDEOS = [
 // ============================================================
 //  ENCARTS "DERNIERE VIDEO" / "DERNIERE MUSIQUE" (en haut, pres du titre)
 // ============================================================
-// En haut de la page, a droite du titre, tu peux afficher (ou non) :
-//   - "Ma derniere video"   -> la 1ere video de VIDEOS ci-dessus
-//   - "Ma derniere musique" -> la 1ere musique de MUSIQUES ci-dessus
-//
-// Mets  true  pour AFFICHER, ou  false  pour CACHER.
-// (Pratique pour tester si ca te plait : change juste true/false ici.)
-// NOTE : la grande section "Creations" plus bas dans la page n'est PAS
-//        affectee, elle continue de tout montrer.
 
 const AFFICHER_DERNIERE_VIDEO = false;
 const AFFICHER_DERNIERE_MUSIQUE = false;
@@ -966,14 +943,6 @@ const AFFICHER_DERNIERE_MUSIQUE = false;
 // ============================================================
 //  FRAGMENTS TWITCH (clips aleatoires)
 // ============================================================
-// Le bouton "Apercevoir un fragment de Zakium" en haut du site
-// ouvre un de ces clips au hasard.
-//
-// Pour ajouter un clip : va sur ton clip Twitch, clique "Partager",
-// copie le lien. Il ressemble a :
-//   https://clips.twitch.tv/NomDuClipIci
-// ou https://www.twitch.tv/zakium/clip/NomDuClipIci
-// Tu peux coller le lien COMPLET ou juste le slug, les deux marchent.
 
 const CLIPS = [
   "https://www.twitch.tv/zakium/clip/YummyTrustworthyMangetoutPunchTrees-UFfZcZ5_rnFJv0dM",
@@ -1020,29 +989,24 @@ const CLIPS = [
 //  ENCARTS DU HAUT (autour du titre)
 // ============================================================
 
-// -------- TA MINI-BIO (encart de gauche) --------
-// Quelques lignes de presentation. Tu peux mettre **gras** et *italique*.
+// -------- MINI-BIO (encart de gauche) --------
+//  mettre **gras** et *italique*.
 const BIO = {
   texte: "Streameur, com\u00e9dien et compositeur. J'essaie de faire des trucs et parfois ça marche alors je suis content :) ",
   twitchUrl: "https://twitch.tv/zakium"
 };
 
 // -------- COUP DE COEUR DU MOMENT (encart de droite) --------
-// Mets le TITRE EXACT d'une review existante (copie-colle depuis la liste plus haut).
+// TITRE EXACT d'une review existante.
 // Le site retrouve tout seul son image, ses tags, etc.
-// Laisse "" pour ne rien afficher.
+// "" pour ne rien afficher.
 const COUP_DE_COEUR = "Ascenders: Beyond the Peak";
 
 
 // ============================================================
 //  JEUX & CREATIONS DE COPAINES (section dediee)
 // ============================================================
-// Pour mettre en avant le travail de tes ami.e.s.
-//  nom       : le nom du jeu ou de la creation
-//  auteur    : le nom de la copaine
-//  desc      : une petite phrase de description
-//  lien      : l'URL (Steam, itch.io, YouTube, portfolio...)
-//  image     : (OPTIONNEL) une URL d'image pour illustrer
+
 const COPAINES = [
   // {
   //   nom: "Nom du jeu",
