@@ -9,6 +9,20 @@
 
 const REVIEWS = [
   {
+  title: "Tom the postgirl",
+  tags: ["Point & Click", "Aventure", "Narratif", "Humour noir", "Dessiné à la main", "Satire"],
+  paras: [
+    "Un petit **point and click**, ou **Walk and Stalk** comme ils disent ^^ où l'on joue Tom, la nouvelle **postière** d'un village. On doit y livrer leurs colis aux habitant·es, mais rien ne nous empêche de jeter un coup d'œil à travers leurs fenêtres avant de finaliser la livraison. Mais il ne faut pas s'en faire, le village est tranquille... RIEN DE BIZARRE ! ^^",
+    "Le jeu est très **drôle et absurde**, ça me plaît beaucoup. J'ai vraiment hâte de le faire en live celui-là ^^",
+    "Pas encore de date de sortie.",
+  ],
+  note: "n5",
+  date: "2026-09-04",
+  steamAppId: "2257440",
+  steamUrl: "https://store.steampowered.com/app/2257440/Tom_the_postgirl/",
+  image: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2257440/0df992a0a4301ddd6605512c16049daaf001f24c/header_alt_assets_2.jpg?t=1788365692"
+},
+  {
   title: "Curse of Resthaven",
   tags: ["Aventure", "Enquête", "Roguelite", "Deckbuilding", "Gestion", "Lovecraftien"],
   paras: [
