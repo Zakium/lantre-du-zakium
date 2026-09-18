@@ -9,6 +9,20 @@
 
 const REVIEWS = [
   {
+  title: "Swan Song",
+  tags: ["Puzzle", "Réflexion", "Narratif", "Cosy", "Émotionnel", "Dessiné à la main"],
+  paras: [
+    "Un petit **jeu puzzle** tout mignon où il faut résoudre des casse-têtes qui fonctionnent en séquence dans une **boîte à musique**. Concrètement, on place des notes sur une portée pour composer une mélodie qui, une fois la clé tournée, active des plateformes et guide un **cygne** jusqu'à la sortie. Pas besoin de compétences musicales par contre, la musique c'est juste la thématique.",
+    "Et au fur et à mesure se dévoile une **histoire familiale**, plutôt triste et sombre.",
+    "Voilà, il a une bonne tête, il est mignon.",
+  ],
+  note: "n3",
+  date: "2026-09-04",
+  steamAppId: "3265290",
+  steamUrl: "https://store.steampowered.com/app/3265290/Swan_Song/",
+  image: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3265290/ee8634572c3db5dc110a803e227b4af638fd98ca/header.jpg?t=1785410589"
+},
+  {
   title: "Tom the postgirl",
   tags: ["Point & Click", "Aventure", "Narratif", "Humour noir", "Dessiné à la main", "Satire"],
   paras: [
