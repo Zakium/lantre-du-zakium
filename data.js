@@ -9,6 +9,36 @@
 
 const REVIEWS = [
   {
+  title: "Chop Chop Inc.",
+  tags: ["Craft", "Automatisation", "Simulation", "1ʳᵉ personne", "Humour", "Gestion"],
+  paras: [
+    "Un jeu très absurde de **bûcheronnage** où on incarne un employé de bureau qui se fait virer (remplacé par une IA au passage) et qui se retrouve à couper des arbres pour faire des meubles, histoire de gagner toujours plus d'argent en suivant les conseils d'un **coffre qui parle** ^^",
+    "C'est donc un jeu de fabrication où on va construire des trucs en suivant une suite de quêtes absurdes et bien drôles ^^ Et assez vite ça devient aussi un jeu d'**automatisation**, avec des lignes de production pour faire tourner l'usine à meubles.",
+    "Voilà, je craquerai très certainement à un moment 😛",
+    "Déjà sorti (depuis le 7 août 2026).",
+  ],
+  note: "n5",
+  date: "2026-09-04",
+  steamAppId: "4369130",
+  steamUrl: "https://store.steampowered.com/app/4369130/Chop_Chop_Inc/",
+  image: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4369130/8bceabf2e3a7a845696baf18c09b377684d116ae/header.jpg?t=1786432849"
+},
+  {
+  title: "Nightwater",
+  tags: ["Automatisation", "Sandbox", "Craft", "Exploration", "Gestion", "Narratif"],
+  paras: [
+    "Un jeu d'**automatisation** qui a l'air de donner une place importante à son lore/histoire. Le but étant manifestement de rejoindre un **phare** pour pouvoir enfin quitter les lieux. Après, l'histoire est complètement optionnelle : on peut finir le jeu sans y toucher, mais fouiller les secrets débloque 4 fins différentes.",
+    "Je trouve la DA vraiment jolie même si parfois j'ai un peu de mal à la lire j'avoue. Et le jeu se découpe vraiment d'un côté : automatisation et récolte de ressources, et de l'autre côté : des énigmes, des secrets, des mini-jeux. La progression se fait à travers les âges aussi (bâtons et pierres, âge du bronze, ère industrielle, puis au-delà).",
+    "Je suis assez intrigué par le truc quand même donc je plussoie (et j'aime bien les jeux d'automatisation aussi 😛)",
+    "Prévu pour le 18 septembre 2026.",
+  ],
+  note: "n4",
+  date: "2026-09-04",
+  steamAppId: "3983860",
+  steamUrl: "https://store.steampowered.com/app/3983860/Nightwater/",
+  image: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3983860/f584de98181c1cb3c2877578ba0a22c60cd7efe7/header.jpg?t=1789743607"
+},
+  {
   title: "Swan Song",
   tags: ["Puzzle", "Réflexion", "Narratif", "Cosy", "Émotionnel", "Dessiné à la main"],
   paras: [
