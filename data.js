@@ -9,6 +9,20 @@
 
 const REVIEWS = [
   {
+  title: "Family Reunion",
+  tags: ["Simulation", "Point & Click", "Narratif", "Life Sim", "Gestion du temps", "Pixel"],
+  paras: [
+    "C'est un jeu où l'on incarne un petit enfant de 7 ans lors d'un **repas de famille INTERMINABLE**. Notre but est de réussir à faire passer le repas le plus vite possible. Et pour ce faire... et ben c'est flou ^^ On est un enfant (qu'on peut choisir parmi 3 **archétypes** : Introverti, Bavard ou Aventurier) et on tente des trucs : on clique sur la serviette ? on écoute oncle bourré conspirationniste ? on laisse libre cours à notre imagination pour jouer avec Salino la salière ? et on se balade dans la maison quand nos parents ne nous regardent plus !",
+    "Bref, franchement la démo était une chouette expérience ! Manifestement il y a plusieurs **fins**. Et on tâtonne pour savoir quelles conséquences ont nos actions sur l'ambiance de la table. Notre liberté d'action dépend de trois jauges : l'**attention** portée sur nous, le niveau d'**alcool** à table et l'**ambiance** générale.",
+    "J'étais dubitatif au tout début mais je me suis pris au jeu et j'ai fait plusieurs run de la démo ^^",
+  ],
+  note: "n5",
+  date: "2026-09-04",
+  steamAppId: "4100460",
+  steamUrl: "https://store.steampowered.com/app/4100460/Family_Reunion/",
+  image: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4100460/8acc79165b3f3e19180fc75f6bd1246f947ead04/header.jpg?t=1789505171"
+},
+  {
   title: "Chop Chop Inc.",
   tags: ["Craft", "Automatisation", "Simulation", "1ʳᵉ personne", "Humour", "Gestion"],
   paras: [
