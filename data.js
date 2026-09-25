@@ -9,6 +9,49 @@
 
 const REVIEWS = [
   {
+  title: "Press a Button Simulator",
+  tags: ["Aventure", "Surréaliste", "Narratif", "Satire", "Walking Simulator", "1ʳᵉ personne"],
+  paras: [
+    "C'est un jeu d'aventure surréaliste à la **Stanley Parable**. J'ai fait la démo en entier et il m'a bien fait marrer, il est habile, ça m'a touché.",
+    "Le pitch de base c'est qu'il faut appuyer sur un bouton c'est tout, c'est juste un jeu où on peut appuyer sur un bouton. Rien de bizarre, rien d'original non non ^^ D'ailleurs tout le jeu insiste bien là-dessus : aucun secret, aucun autre contenu, rien à explorer.",
+    "Je vous recommande aussi d'aller lire la page Steam du jeu, qui est très drôle avec ses fausses **notes de dév** et compagnie.",
+    "Pas encore de date de sortie.",
+  ],
+  note: "n5",
+  date: "2026-09-25",
+  steamAppId: "3869170",
+  steamUrl: "https://store.steampowered.com/app/3869170/Press_a_Button_Simulator/",
+  image: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3869170/e5a2cbd20bbee49d23bf3a1c05ed02fb89f683a2/header.jpg?t=1781103948"
+},
+  {
+  title: "Map Map - A Game About Maps",
+  tags: ["Puzzle", "Cartographie", "Exploration", "Cosy", "Aventure", "Dessiné à la main"],
+  paras: [
+    "Un très chouette jeu de **casse-tête et de cartographie** ! On incarne le cartographe d'un petit équipage d'aventuriers parti à la recherche d'un trésor légendaire, d'île en île.",
+    "Le principe est simple globalement : on doit cartographier différents éléments de différentes îles. Et les outils se débloquent au fur et à mesure que l'on avance dans l'histoire. Au début c'est très visuel, puis on peut compter nos pas, puis on débloque un compas, etc.",
+    "Le jeu a une DA mignonne, il est fluide et c'est très satisfaisant quand ton marqueur t'indique que tu as mis ton point exactement sur l'endroit recherché, ça marche bien 😛",
+  ],
+  note: "n4",
+  date: "2026-09-25",
+  steamAppId: "2702260",
+  steamUrl: "https://store.steampowered.com/app/2702260/Map_Map__A_Game_About_Maps/",
+  image: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2702260/523be9e0a43f676fb15b1fe88e43b994f8b10630/header.jpg?t=1790071572"
+},
+  {
+  title: "Deep Snow Delivery",
+  tags: ["Livraison", "Exploration", "Post-apo", "Conduite", "Physique", "Simulation"],
+  paras: [
+    "Un jeu de livraison dans un univers où la **neige** recouvre tout ! L'humanité est au bord de l'extinction à cause d'un âge glaciaire qu'elle s'est elle-même infligé. Il a une vibe **MudRunner** si je dis pas de bêtise (et on le surnomme aussi \"Tank Stranding\" pour le côté Death Stranding). Notre but est d'effectuer des livraisons entre les différents camps de survivants ou les différentes zones et de gagner des crédits pour améliorer notre petit tank.",
+    "Le jeu est très basé sur la **physique** : on galère dans les montées, faut freiner dans les descentes sinon on perd le contrôle du véhicule, on fait des tonneaux et il faut passer 30 min à ramasser toute notre cargaison éparpillée dans la neige... ^^ D'ailleurs on charge cette cargaison avec un **bras à pince**, histoire de bien la caler pour qu'elle ne tombe pas.",
+    "Manifestement on peut par la suite construire des structures, des routes pour nous faciliter la tâche. C'est un jeu assez chill la plupart du temps où tu fais tes petites livraisons tranquilou d'un point A à un point B. 🙂",
+  ],
+  note: "n3",
+  date: "2026-09-25",
+  steamAppId: "3281970",
+  steamUrl: "https://store.steampowered.com/app/3281970/Deep_Snow_Delivery/",
+  image: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3281970/d9cd64200f0a8fa98181b2d539581ece84548b0d/header.jpg?t=1771619487"
+},
+  {
   title: "Family Reunion",
   tags: ["Simulation", "Point & Click", "Narratif", "Life Sim", "Gestion du temps", "Pixel"],
   paras: [
