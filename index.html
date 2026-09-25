@@ -201,6 +201,13 @@
     text-decoration:none; color:#f0e2c4; background:linear-gradient(#4a3420,#3a2414); border:1px solid #6b4a28; padding:.55rem 1.3rem; border-radius:5px; box-shadow:0 3px 6px rgba(0,0,0,.4);}
   .m-steam:hover{background:linear-gradient(var(--gold),var(--gold-deep)); color:#2c1a0c;}
   .m-date{margin-top:1rem; font-style:italic; color:var(--ink-soft); font-size:.85rem;}
+  .sort-row{display:flex; flex-wrap:wrap; gap:.4rem; align-items:center; justify-content:center; margin-top:1rem;}
+  .sort-row .label{font-family:"MedievalSharp",cursive; color:var(--gold); font-size:.88rem; text-shadow:0 1px 3px rgba(0,0,0,.7); margin-right:.2rem;}
+  .m-actions{display:flex; flex-wrap:wrap; gap:.6rem; margin-top:1.3rem;}
+  .m-actions .m-steam{margin-top:0;}
+  .m-share{display:inline-flex; align-items:center; gap:.4rem; cursor:pointer; font-family:"Cinzel",serif; font-weight:600; font-size:.9rem;
+    color:#f0e2c4; background:linear-gradient(#4a3420,#3a2414); border:1px solid #6b4a28; padding:.55rem 1.3rem; border-radius:5px; box-shadow:0 3px 6px rgba(0,0,0,.4);}
+  .m-share:hover{background:linear-gradient(var(--gold),var(--gold-deep)); color:#2c1a0c;}
 
   .tw-modal{position:relative; width:100%; max-width:860px; border-style:solid; border-width:30px 40px; border-image:var(--parch-src);
     filter:drop-shadow(0 26px 50px rgba(0,0,0,.7)); transform:translateY(14px) scale(.98); transition:transform .25s;}
@@ -256,6 +263,7 @@
     <input type="text" id="search" class="search" placeholder="Chercher un jeu, un genre..." autocomplete="off">
     <div class="filter-row" id="genreFilters"></div>
     <div class="seal-filters" id="sealFilters"><span class="label">Mon ressenti&nbsp;:</span></div>
+    <div class="sort-row" id="sortRow"><span class="label">Trier&nbsp;:</span></div>
   </div>
   <div class="grid" id="grid"></div>
   <div class="empty" id="empty">Nulle prime ne correspond &agrave; ta qu&ecirc;te...</div>
@@ -358,8 +366,18 @@
   })();
 
   /* ---------- REVIEWS ---------- */
-  var reviewsSorted=_REVIEWS.slice().sort(function(a,b){return String(b.date).localeCompare(String(a.date));});
-  var gTag="Tous", gNote=null, gSearch="";
+  var gTag="Tous", gNote=null, gSearch="", gSort="recent";
+
+  // slugs pour les liens directs vers une review
+  function slugify(s){return String(s).toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g,"").replace(/[^a-z0-9]+/g,"-").replace(/^-+|-+$/g,"").slice(0,60);}
+  var slugToReview={}; var reviewToSlug=new Map();
+  _REVIEWS.forEach(function(r){var base="review-"+slugify(r.title), s=base, k=2; while(slugToReview[s]){s=base+"-"+k;k++;} slugToReview[s]=r; reviewToSlug.set(r,s);});
+  function noteRank(r){var n=parseInt(String(r.note||"n0").slice(1),10); return isNaN(n)?0:n;}
+  function sortRows(rows){
+    if(gSort==="old") return rows.sort(function(a,b){return String(a.date).localeCompare(String(b.date));});
+    if(gSort==="note") return rows.sort(function(a,b){return (noteRank(b)-noteRank(a))||String(b.date).localeCompare(String(a.date));});
+    return rows.sort(function(a,b){return String(b.date).localeCompare(String(a.date));});
+  }
 
   // genres a partir des tags reels (les plus frequents)
   var freq={}; _REVIEWS.forEach(function(r){(r.tags||[]).forEach(function(t){freq[t]=(freq[t]||0)+1;});});
@@ -374,16 +392,21 @@
     b.innerHTML='<img src="'+sealSrc(n)+'" alt="'+NOTE_LABELS[n]+'">';
     b.onclick=function(){if(gNote===n){gNote=null;b.classList.remove("active");}else{gNote=n;Array.prototype.forEach.call(sf.querySelectorAll(".seal-btn"),function(x){x.classList.remove("active");});b.classList.add("active");}render();};
     sf.appendChild(b);});
+  var SORTS=[["recent","Récentes"],["old","Anciennes"],["note","Mieux notées"]];
+  var sr=byId("sortRow");
+  SORTS.forEach(function(o){var b=document.createElement("button");b.className="tag-chip"+(o[0]==="recent"?" active":"");b.textContent=o[1];
+    b.onclick=function(){gSort=o[0];Array.prototype.forEach.call(sr.querySelectorAll(".tag-chip"),function(x){x.classList.remove("active");});b.classList.add("active");render();};sr.appendChild(b);});
   byId("search").oninput=function(e){gSearch=e.target.value.toLowerCase().trim();render();};
 
   var grid=byId("grid"), empty=byId("empty");
   function render(){
-    var rows=reviewsSorted.filter(function(r){
+    var rows=_REVIEWS.slice().filter(function(r){
       var tag=gTag==="Tous"||(r.tags||[]).some(function(t){return t.toLowerCase()===gTag.toLowerCase();});
       var note=!gNote||r.note===gNote;
       var hay=[r.title].concat(r.tags||[],r.paras||[]).join(" ").toLowerCase();
       return tag&&note&&(!gSearch||hay.indexOf(gSearch)!==-1);
     });
+    sortRows(rows);
     grid.innerHTML="";
     if(!rows.length){empty.classList.add("show");return;} empty.classList.remove("show");
     rows.forEach(function(r,i){
@@ -424,19 +447,39 @@
 
   /* ---------- MODALE REVIEW ---------- */
   var overlay=byId("overlay");
-  function openModal(r){
+  var currentReview=null;
+  function reviewUrl(r){var s=reviewToSlug.get(r); return location.origin+location.pathname+location.search+"#"+s;}
+  function openModal(r, fromHash){
+    currentReview=r;
     byId("mSeal").src=sealSrc(r.note);
     var mb=byId("mBanner"); mb.src=bannerUrl(r); mb.alt=r.title;
     byId("mTitle").textContent=r.title;
     byId("mNote").textContent=NOTE_LABELS[r.note]||"";
     byId("mTags").innerHTML=(r.tags||[]).map(function(t){return '<span class="p-tag">'+esc(t)+'</span>';}).join("");
     byId("mText").innerHTML=(r.paras||[]).map(function(p){return "<p>"+md(p)+"</p>";}).join("");
-    byId("mSteamWrap").innerHTML=r.steamUrl?'<a class="m-steam" href="'+esc(r.steamUrl)+'" target="_blank" rel="noopener">Voir sur Steam &#8599;</a>':"";
+    var steam=r.steamUrl?'<a class="m-steam" href="'+esc(r.steamUrl)+'" target="_blank" rel="noopener">Voir sur Steam &#8599;</a>':"";
+    byId("mSteamWrap").innerHTML='<div class="m-actions">'+steam+'<button type="button" class="m-share" id="mShare">&#128279; Partager</button></div>';
+    byId("mShare").onclick=function(){shareReview(r,this);};
     byId("mDate").textContent=fmtDate(r.date);
+    var slug=reviewToSlug.get(r);
+    if(!fromHash && slug && location.hash!=="#"+slug){ try{history.replaceState(null,"","#"+slug);}catch(e){try{location.hash=slug;}catch(_){}} }
     overlay.classList.add("show");
   }
-  byId("mClose").onclick=function(){overlay.classList.remove("show");};
-  overlay.onclick=function(e){if(e.target===overlay)overlay.classList.remove("show");};
+  function closeModal(){
+    overlay.classList.remove("show");
+    if(location.hash.indexOf("#review-")===0){ try{history.replaceState(null,"",location.pathname+location.search);}catch(e){try{location.hash="";}catch(_){}} }
+  }
+  function shareReview(r, btn){
+    var url=reviewUrl(r);
+    if(navigator.share){ navigator.share({title:"L'Antre du Zakium — "+r.title, url:url}).catch(function(){}); return; }
+    var done=function(){var old=btn.innerHTML; btn.innerHTML="&#10003; Lien copié !"; setTimeout(function(){btn.innerHTML=old;},1800);};
+    if(navigator.clipboard&&navigator.clipboard.writeText){ navigator.clipboard.writeText(url).then(done).catch(function(){prompt("Copie ce lien :",url);}); }
+    else { prompt("Copie ce lien :",url); }
+  }
+  byId("mClose").onclick=closeModal;
+  overlay.onclick=function(e){if(e.target===overlay)closeModal();};
+  function openFromHash(){var h=location.hash; if(h.indexOf("#review-")===0){var r=slugToReview[h.slice(1)]; if(r) openModal(r,true);}}
+  window.addEventListener("hashchange", openFromHash);
 
   /* ---------- MODALE TWITCH (fragment) ---------- */
   var twOverlay=byId("twOverlay"), lastClip=-1;
@@ -454,9 +497,10 @@
   byId("fragmentBtn").onclick=function(){showClip();twOverlay.classList.add("show");};
   byId("twClose").onclick=function(){twOverlay.classList.remove("show");byId("twContent").innerHTML="";};
   twOverlay.onclick=function(e){if(e.target===twOverlay){twOverlay.classList.remove("show");byId("twContent").innerHTML="";}};
-  document.addEventListener("keydown",function(e){if(e.key==="Escape"){overlay.classList.remove("show");twOverlay.classList.remove("show");byId("twContent").innerHTML="";}});
+  document.addEventListener("keydown",function(e){if(e.key==="Escape"){closeModal();twOverlay.classList.remove("show");byId("twContent").innerHTML="";}});
 
   render();
+  openFromHash();
 })();
 </script>
 </body>
