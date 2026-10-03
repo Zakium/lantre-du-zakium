@@ -9,6 +9,20 @@
 
 const REVIEWS = [
   {
+  title: "Fleshborn",
+  tags: ["Incrémental", "Idler", "Arcade", "Stratégie", "Vue de dessus", "Horreur"],
+  paras: [
+    "Un jeu **incrémental**, où on joue quelqu'un qui se réveille en combinaison hazmat dans un complexe inconnu. Et il faut cramer des gros blobs de chair, mais l'oxygène est limité. D'ailleurs l'oxygène sert à la fois à nous maintenir en vie et de carburant au lance-flammes, du coup on peut pas juste tout cramer en continu, faut gérer.",
+    "C'est un jeu incrémental donc, on va mourir en boucle mais on va pouvoir s'améliorer à chaque fois pour aller de plus en plus loin dans les étages.",
+    "Le jeu est très chouette et satisfaisant. Et il se débloque petit à petit une **histoire de fond** sur ce complexe, nous-même et la personne qui nous parle. J'aime beaucoup, j'en voulais plus.",
+  ],
+  note: "n4",
+  date: "2026-10-03",
+  steamAppId: "4193300",
+  steamUrl: "https://store.steampowered.com/app/4193300/Fleshborn/",
+  image: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4193300/38ac507537cd5e787a48bd54e81005b8b795c273/header.jpg?t=1788561165"
+},
+  {
   title: "Press a Button Simulator",
   tags: ["Aventure", "Surréaliste", "Narratif", "Satire", "Walking Simulator", "1ʳᵉ personne"],
   paras: [
