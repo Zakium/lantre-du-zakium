@@ -9,6 +9,19 @@
 
 const REVIEWS = [
   {
+  title: "Coin Maker Simulator",
+  tags: ["Craft", "Simulation", "Gestion", "Médiéval", "1ʳᵉ personne", "Cosy"],
+  paras: [
+    "Un petit jeu de **craft** fort sympathique, où il faut fabriquer des pièces pour le roi alors qu'on est enfermé dans une petite pièce (une salle, pas la monnaie). Et au furet à mesure, de nouvelles techniques de production vont se débloquer et on va pouvoir améliorer notre salle et nos équipements (très classique finalement).",
+    "Voilà, le jeu a une bonne tête, il est fluide. Pour poser son cervo dans un coin en tamponnant des pièces, c'est le bon jeu ^^",
+  ],
+  note: "n4",
+  date: "2026-10-03",
+  steamAppId: "4156710",
+  steamUrl: "https://store.steampowered.com/app/4156710/Coin_Maker_Simulator/",
+  image: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4156710/dbd3d65d3fd4859b2f782c378f2bc9183f9c37da/header.jpg?t=1790077924"
+},
+  {
   title: "Fleshborn",
   tags: ["Incrémental", "Idler", "Arcade", "Stratégie", "Vue de dessus", "Horreur"],
   paras: [
