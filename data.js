@@ -9,6 +9,20 @@
 
 const REVIEWS = [
   {
+  title: "Log Drop",
+  tags: ["Automatisation", "Physique", "Bac à sable", "Puzzle", "Incrémental", "Casual"],
+  paras: [
+    "Un jeu un peu casse-tête, un peu automatisation, c'est un mix cool. C'est surtout un **bac à sable de physique** où il faut optimiser la découpe de bûches et monter un système avec des trampolines, des tapis roulants et sûrement plus plus tard !",
+    "Le jeu est sympa, il marche bien, et c'est satisfaisant de voir ses bûches rebondir jusque dans le trou à lave, qui est en réalité le **noyau de la Terre** qu'on doit gaver de bûches, le plus possible et bien au-delà du raisonnable ^^",
+    "Pas encore de date de sortie.",
+  ],
+  note: "n3",
+  date: "2026-10-09",
+  steamAppId: "4915640",
+  steamUrl: "https://store.steampowered.com/app/4915640/Log_Drop/",
+  image: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4915640/7d992ee2404958e58fea8e843fa32ca5a71eebf5/header.jpg?t=1790775736"
+},
+  {
   title: "Coin Maker Simulator",
   tags: ["Craft", "Simulation", "Gestion", "Médiéval", "1ʳᵉ personne", "Cosy"],
   paras: [
