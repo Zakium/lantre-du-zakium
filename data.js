@@ -9,6 +9,20 @@
 
 const REVIEWS = [
   {
+  title: "Harventure",
+  tags: ["Incrémental", "Clicker", "Gestion de ressources", "Détente", "Casual", "Aventure"],
+  paras: [
+    "Un jeu incrémental où il faut récolter différentes ressources pour acheter des améliorations pour récolter plus ! Oui c'est un jeu incrémental quoi ^^ Le but c'est de purifier les îles d'une **corruption** qui les ronge, et elle s'enfonce de plus en plus à chaque nouvelle île.",
+    "Le jeu est super chill, j'ai passé un super moment calme dessus. On a un système de **stamina** qu'on peut améliorer évidemment, qui \"time\" les sessions de récolte, mais on n'est pas du tout pressé par le temps. On peut débloquer différents **biomes** pour choisir les ressources à récolter, et les améliorations passent par un **arbre de compétences** où on débloque des capacités et, plus tard, de la récolte automatique.",
+    "Le jeu est tout mignon, j'ai passé un très bon moment dessus et voilà quoi ^^",
+  ],
+  note: "n4",
+  date: "2026-10-12",
+  steamAppId: "3806350",
+  steamUrl: "https://store.steampowered.com/app/3806350/Harventure/",
+  image: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3806350/1bf1ddae07d2fb528816b0466c5428776e7f2a4d/header.jpg?t=1791770511"
+},
+  {
   title: "Log Drop",
   tags: ["Automatisation", "Physique", "Bac à sable", "Puzzle", "Incrémental", "Casual"],
   paras: [
