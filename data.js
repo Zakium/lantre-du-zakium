@@ -9,6 +9,22 @@
 
 const REVIEWS = [
   {
+  title: "Nomad Drive",
+  tags: ["Survie", "Aventure", "Coop", "Simulation", "Post-apo", "Conduite"],
+  paras: [
+    "Un jeu chill d'aventure en multi, jusqu'à 4. On démarre dans une petite maison, on la pille de bout en bout pour réparer notre **van** et faire des stocks, et puis on prend la route pour on ne sait où pendant on ne sait combien de temps. Le monde est **post-apo** et généré aléatoirement, donc chaque partie démarre ailleurs.",
+    "Le jeu a une sympathique vibe chill de balade dans le désert. On a une jauge d'**endurance** qui se réduit en fonction de certains besoins et altérations (faim, soif, poison, etc.), mais de ce qu'on a fait de la démo, c'est pas ultra exigeant.",
+    "Et on pimp son van/camping-car avec différentes peintures et morceaux de voitures. On peut aussi aménager l'intérieur, cuisiner, pêcher et faire pousser des plantes en pot.",
+    "Voilà, fort sympathique, je garde ça dans un coin 🙂",
+    "Sortie en accès anticipé le 20 octobre 2026.",
+  ],
+  note: "n4",
+  date: "2026-10-19",
+  steamAppId: "2223980",
+  steamUrl: "https://store.steampowered.com/app/2223980/Nomad_Drive/",
+  image: ""
+},
+  {
   title: "Harventure",
   tags: ["Incrémental", "Clicker", "Gestion de ressources", "Détente", "Casual", "Aventure"],
   paras: [
