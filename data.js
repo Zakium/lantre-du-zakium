@@ -9,6 +9,37 @@
 
 const REVIEWS = [
   {
+  title: "Wyldheart",
+  tags: ["Action RPG", "Survie", "Coop", "Fantasy", "Bac à sable", "Exploration"],
+  paras: [
+    "Un **action RPG** avec des composantes de **survie** dans un univers fantasy, en multi coop jusqu'à 4 joueur·euses. La particularité de ce RPG, c'est qu'on ne joue pas un héros de la prophétie : on joue un random, un hors-la-loi, une ivrogne ou un vidangeur de latrines (il y a 19 origines au choix et 3 peuples jouables), et on part de rien pour petit à petit construire son héros.",
+    "Le jeu est assez déroutant car il ne te balance pas une histoire avec une trame dans la tronche. On se réveille dans un donjon, on en sort et puis là rien ^^ On apprend des rumeurs sur ce qu'il se passe dans la région mais personne ne nous demande rien, à nous de nous balader, de fouiller et de découvrir le monde à notre guise. Il est assez **bac à sable** sur ça, et ça se sent qu'il s'inspire beaucoup du **JDR sur table**.",
+    "Enfin voilà, je suis vraiment intrigué et je le garde dans les à suivre, je suis curieux de voir ce que ça peut donner 🙂",
+    "Accès anticipé prévu d'ici fin 2026, version 1.0 en 2027.",
+  ],
+  note: "n4",
+  date: "2026-10-19",
+  steamAppId: "3642910",
+  steamUrl: "https://store.steampowered.com/app/3642910/Wyldheart/",
+  image: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3642910/3950532512f2f0def2b4fb10419ee2e5a5ba834e/header_alt_assets_0.jpg?t=1792430554"
+},
+  {
+  title: "Voidwood",
+  tags: ["Coop", "Horreur", "Survie", "Multijoueur", "Exploration", "Chat vocal"],
+  paras: [
+    "Un jeu de **coop** dans un univers horrifique, où on joue des survivant·es coincé·es dans de sombres bois. Il faut réussir à rassembler des ressources dans un grand feu de camp et résoudre des petites épreuves/casse-têtes, tout en survivant aux mystérieuses créatures qui nous pourchassent.",
+    "Le jeu a une DA que je trouve assez sympathique et on sent qu'il essaie d'apporter un traitement important au **son**. D'ailleurs c'est au cœur du gameplay : on communique en chat vocal de proximité, mais la Bête chasse au bruit, donc parler peut sauver l'équipe comme la faire repérer.",
+    "Le jeu, au moment où je l'ai testé, est en pré-alpha, donc il y avait quelques trucs à peaufiner.",
+    "Mais sinon je le garde dans un coin histoire de suivre l'évolution 🙂",
+    "Prévu pour 2027.",
+  ],
+  note: "n3",
+  date: "2026-10-19",
+  steamAppId: "3694420",
+  steamUrl: "https://store.steampowered.com/app/3694420/Voidwood/",
+  image: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3694420/1b48039aba4cafbf2c4bdce81a6db5006473fee0/header.jpg?t=1792433039"
+},
+  {
   title: "Nomad Drive",
   tags: ["Survie", "Aventure", "Coop", "Simulation", "Post-apo", "Conduite"],
   paras: [
