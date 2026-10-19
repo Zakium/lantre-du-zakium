@@ -9,6 +9,21 @@
 
 const REVIEWS = [
   {
+  title: "Burn With Me",
+  tags: ["Deckbuilder", "Narratif", "Puzzle", "Occulte", "Cartes", "Roguelite"],
+  paras: [
+    "C'est un jeu de **construction de decks** qui fonctionne par chapitres, chacun basé sur un personnage différent : des étudiant·es d'une université d'**arts occultes**, chacun·e avec ses obsessions. Le but est d'invoquer des **démons** (de plus en plus difficiles à invoquer) qui vont eux-mêmes rejoindre le deck qui nous permet d'invoquer des démons.",
+    "Le jeu fonctionne un peu en casse-tête, où on ne peut placer que 5 cartes (une par pointe du **pentacle** d'invocation), et les cartes ont des pouvoirs selon les voisins, les valeurs, etc. On peut aussi **brûler ses cartes** définitivement pour gagner en puissance, mais si on en brûle trop, on n'a plus rien à jouer.",
+    "Le jeu fonctionne bien, la démo est courte mais on capte bien ce que va donner le jeu. J'aime bien la vibe, entre ambiance cosy et inquiétante.",
+    "Déjà sorti (depuis le 12 octobre 2026).",
+  ],
+  note: "n4",
+  date: "2026-10-19",
+  steamAppId: "2954010",
+  steamUrl: "https://store.steampowered.com/app/2954010/Burn_With_Me/",
+  image: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2954010/47e02a56fb87683e8075fc01065998dd7b226b84/header.jpg?t=1792237134"
+},
+  {
   title: "Wyldheart",
   tags: ["Action RPG", "Survie", "Coop", "Fantasy", "Bac à sable", "Exploration"],
   paras: [
