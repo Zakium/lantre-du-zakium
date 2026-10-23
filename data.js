@@ -9,6 +9,40 @@
 
 const REVIEWS = [
   {
+  title: "Gate Guard Simulator",
+  tags: ["Simulation", "1ʳᵉ personne", "Médiéval", "Gestion", "Enquête", "Humour"],
+  paras: [
+    "C'est un jeu de **simulation à la première personne** de garde d'une grande cité médiévale. C'est presque juste un swap thématique de **Contraband Police** (que j'avais adoré), dans la lignée de **Papers, Please**. Le but est donc de décider qui qui rentre et qui qui rentre pas dans la cité, en suivant des règles qui changent de temps en temps et en cherchant les faux papiers aux sceaux trafiqués. Et comme on est en pleine épidémie, il faut aussi repérer les pestiférés.",
+    "Il faut pas trop se rater sinon on est viré, et il nous faut aussi de l'argent pour payer le loyer, nourrir le doggo et acheter des améliorations pour être plus efficace. Ça marche bien.",
+    "Le jeu est aussi plutôt **drôle** : notre roi est un enfant de 6 ans qui vient d'accéder au trône et qui est en conflit avec la reine régente car elle veut lui faire manger des légumes, et on a des canards sacrés de détection de sorcellerie ^^ Pour vous donner des petits exemples de l'humour absurde du truc ^^",
+    "Il y a quelques trucs d'affichage et de police d'écriture qui pourraient être améliorés, mais c'est une démo donc normal que ça puisse évoluer.",
+    "Bref oui, c'est un oui pour moi, j'ai très envie d'y jouer à la sortie.",
+    "Pas encore de date de sortie précise.",
+  ],
+  note: "n5",
+  date: "2026-10-23",
+  steamAppId: "4219910",
+  steamUrl: "https://store.steampowered.com/app/4219910/Gate_Guard_Simulator/",
+  image: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4111570/89560cd7c1f3749cbda60868c6a79eb174ce1d27/header_alt_assets_1.jpg?t=1792519362"
+},
+  {
+  title: "Cleaner Company",
+  tags: ["Simulation", "Nettoyage", "Coop", "SF", "Horreur légère", "Action"],
+  paras: [
+    "Un jeu **coop/solo de nettoyage** dans la lignée de **Viscera Cleanup Detail** ou **Crime Scene Cleaner**, dans une DA SF avec une petite touche d'horreur (mais version light, rien de bien méchant ^^). Il comprend bien son gameplay : il est satisfaisant !",
+    "Plein de trucs très classiques : des seaux d'eau, un broyeur à déchets et des traces à nettoyer, bref ça c'est normal. Mais il y a un petit compteur de **pourcentage** quand tu avances, c'est très cool. Et des événements aléatoires viennent pimenter le tout (coupures de courant, comms qui lâchent...), on peut éventuellement parier les gains de l'équipe.",
+    "J'aime bien la DA, elle est simple et efficace.",
+    "Une des majeures différences avec ses cousins, c'est qu'il y a de la **bagarre** dans le jeu. On a un pistolet laser et il y a certaines créatures qu'il faut d'abord exterminer avant de pouvoir nettoyer les restes de la bête ^^ Et si la baston ne vous tente pas, on peut désactiver les créatures pour nettoyer tranquille.",
+    "Sur la démo il n'y a qu'un seul tableau, j'en voulais plus ! C'est que ça m'a plu ^^",
+    "Prévu pour le 28 janvier 2027.",
+  ],
+  note: "n5",
+  date: "2026-10-23",
+  steamAppId: "3644020",
+  steamUrl: "https://store.steampowered.com/app/3644020/Cleaner_Company/",
+  image: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3644020/30d3ff668096582aea5aeb8f467409337dfb04df/header_alt_assets_2.jpg?t=1792414728"
+},
+  {
   title: "Burn With Me",
   tags: ["Deckbuilder", "Narratif", "Puzzle", "Occulte", "Cartes", "Roguelite"],
   paras: [
