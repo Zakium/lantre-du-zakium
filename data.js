@@ -9,6 +9,21 @@
 
 const REVIEWS = [
   {
+  title: "Deadzone Rogue 2",
+  tags: ["FPS", "Roguelite", "Action", "SF", "Coop", "Shooter"],
+  paras: [
+    "Un **FPS action roguelite** dans un univers SF, suite directe du 1 au niveau de l'histoire : on quitte le vaisseau du premier pour se battre sur une **Terre tombée** aux mains de Monarch. Le jeu marche très bien je trouve, même s'il a plein de systèmes très classiques : différents éléments, différents builds, différentes armes, différentes **classes**. Voilà, plutôt pas mal de contenu ! Et ça se joue seul ou jusqu'à 3 en **coop**, qu'on peut rejoindre en cours de partie.",
+    "Pour celleux qui ont aimé le 1, je pense que le 2 sera bien, car à part le décor, j'ai du mal à trouver des différences avec le 1, si ce n'est qu'il y a plus de contenu.",
+    "Voilà, pas grand-chose à rajouter ^^ mais j'aime bien 😛",
+    "Pas encore de date de sortie.",
+  ],
+  note: "n4",
+  date: "2026-10-23",
+  steamAppId: "4465790",
+  steamUrl: "https://store.steampowered.com/app/4465790/Deadzone_Rogue_2/",
+  image: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4465790/94512b3081218f63a0b4f3d5a053ab7c24a7d7a0/header.jpg?t=1792493592"
+},
+  {
   title: "Gate Guard Simulator",
   tags: ["Simulation", "1ʳᵉ personne", "Médiéval", "Gestion", "Enquête", "Humour"],
   paras: [
