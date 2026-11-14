@@ -8,6 +8,20 @@
 
 
 const REVIEWS = [
+    {
+    title: "Cosmo Cargo",
+    tags: ["Autobattler", "Roguelite", "Inventaire", "SF", "Stratégie"],
+    paras: [
+      "Les horribles Administrateurs veulent ordonner la galaxie !! Et vous êtes la dernière ligne de résistance contre cet ordre ! 🚀",
+      "Cosmo Cargo est un **roguelite autobattler** où vous allez devoir organiser vos armes et vos modules dans votre vaisseau pour faire des **combos** et maximiser vos dégâts ou votre défense. Un peu comme dans le très chouette **Backpack Hero**, à la différence que c'est un autobattler. Donc dans la famille des roguelites, il est assez chill. Et on progresse de secteur en secteur dans la galaxie, un peu à la **FTL**.",
+      "Le jeu a une chouette DA un peu cel shading, et il y a déjà de quoi faire dans la démo. À suivre 🙂",
+      "Sortie du jeu complet : prévue pour le premier trimestre 2027.",
+    ],
+    note: "n4",
+    date: "2026-11-14",
+    steamUrl: "https://store.steampowered.com/app/4028760/Cosmo_Cargo/",
+    image: ""
+  },
   {
   title: "Malignus",
   tags: ["Colony Sim", "Gestion", "Donjon", "Stratégie", "Coop", "Fantasy"],
