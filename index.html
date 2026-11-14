@@ -470,7 +470,9 @@
   /* ---------- MODALE REVIEW ---------- */
   var overlay=byId("overlay");
   var currentReview=null;
-  function reviewUrl(r){var s=reviewToSlug.get(r); return location.origin+location.pathname+location.search+"#"+s;}
+  // Le lien partage pointe vers la mini-page r/<nom>/ (vignette du jeu sur les reseaux), qui renvoie ici.
+  function reviewUrl(r){var s=reviewToSlug.get(r); var base=location.origin+location.pathname.replace(/index\.html$/,"");
+    if(!/\/$/.test(base)) base+="/"; return base+"r/"+s.replace(/^review-/,"")+"/";}
   function openModal(r, fromHash){
     currentReview=r;
     byId("mSeal").src=sealSrc(r.note);
