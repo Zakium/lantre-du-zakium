@@ -8,6 +8,20 @@
 
 
 const REVIEWS = [
+      {
+    title: "Hillthorn",
+    tags: ["Enquête", "Aventure", "Cartes", "Narratif", "Mystère"],
+    paras: [
+      "Vous êtes un détective à la recherche d'un enfant disparu, et la piste vous mène vers une sinistre montagne aux habitants peu chaleureux et aux regards insistants. 🔍",
+      "Un jeu d'**aventure enquête** qui se joue avec des cartes à la **Cultist Simulator**, mais le plateau est beau et dynamique comme dans le très bon **Foretales**. Particularité : personne ne parle, il n'y a aucun dialogue, toute l'enquête passe par les **cartes indices**. Et chaque action fait tourner l'horloge, il faut résoudre l'affaire avant minuit. Le système est plutôt logique et l'histoire se déroulait bien, avec plusieurs fins à découvrir. J'avais bien envie de voir plus à la fin de la démo 😛",
+      "La démo est assez courte, mais c'est normal, c'est un jeu story driven. À suivre !",
+      "Sortie du jeu complet : sorti le 10 novembre 2026.",
+    ],
+    note: "n4",
+    date: "2026-11-14",
+    steamUrl: "https://store.steampowered.com/app/3504050/Hillthorn/",
+    image: ""
+  },
     {
     title: "Cosmo Cargo",
     tags: ["Autobattler", "Roguelite", "Inventaire", "SF", "Stratégie"],
