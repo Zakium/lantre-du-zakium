@@ -317,7 +317,7 @@
 (function(){
   "use strict";
   // -- garde-fous si une variable manque dans data.js --
-  var _REVIEWS = (typeof REVIEWS!=="undefined") ? REVIEWS : [];
+  var _REVIEWS = ((typeof REVIEWS!=="undefined") ? REVIEWS : []).filter(function(r){return r && r.note!=="n1";});
   var _MUSIQUES = (typeof MUSIQUES!=="undefined") ? MUSIQUES : [];
   var _VIDEOS = (typeof VIDEOS!=="undefined") ? VIDEOS : [];
   var _COPAINES = (typeof COPAINES!=="undefined") ? COPAINES : [];
@@ -388,7 +388,7 @@
     b.onclick=function(){gTag=t;gSearch="";byId("search").value="";Array.prototype.forEach.call(gf.children,function(c){c.classList.remove("active");});b.classList.add("active");render();};gf.appendChild(b);});
 
   var sf=byId("sealFilters");
-  ["n5","n4","n3","n2","n1"].forEach(function(n){var b=document.createElement("button");b.className="seal-btn";b.title=NOTE_LABELS[n];
+  ["n5","n4","n3","n2"].forEach(function(n){var b=document.createElement("button");b.className="seal-btn";b.title=NOTE_LABELS[n];
     b.innerHTML='<img src="'+sealSrc(n)+'" alt="'+NOTE_LABELS[n]+'">';
     b.onclick=function(){if(gNote===n){gNote=null;b.classList.remove("active");}else{gNote=n;Array.prototype.forEach.call(sf.querySelectorAll(".seal-btn"),function(x){x.classList.remove("active");});b.classList.add("active");}render();};
     sf.appendChild(b);});
