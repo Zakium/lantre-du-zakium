@@ -22,16 +22,18 @@ const REVIEWS = [
     steamUrl: "https://store.steampowered.com/app/3504050/Hillthorn/",
     image: ""
   },
-    {
+   {
     title: "Cosmo Cargo",
     tags: ["Autobattler", "Roguelite", "Inventaire", "SF", "Stratégie"],
     paras: [
       "Les horribles Administrateurs veulent ordonner la galaxie !! Et vous êtes la dernière ligne de résistance contre cet ordre ! 🚀",
-      "Cosmo Cargo est un **roguelite autobattler** où vous allez devoir organiser vos armes et vos modules dans votre vaisseau pour faire des **combos** et maximiser vos dégâts ou votre défense. Un peu comme dans le très chouette **Backpack Hero**, à la différence que c'est un autobattler. Donc dans la famille des roguelites, il est assez chill. Et on progresse de secteur en secteur dans la galaxie, un peu à la **FTL**.",
-      "Le jeu a une chouette DA un peu cel shading, et il y a déjà de quoi faire dans la démo. À suivre 🙂",
+      "Cosmo Cargo est un **roguelite autobattler** où vous allez devoir organiser vos armes et vos modules dans votre vaisseau pour faire des **combos** et maximiser vos dégâts ou votre défense. Un peu comme dans le très chouette **Backpack Hero**, à la différence que c'est un autobattler, donc dans la famille des roguelites il est assez chill. Et on progresse de secteur en secteur dans la galaxie, un peu à la **FTL**.",
+      "La **carte de la galaxie** est très chouette, avec un côté puzzle pas inintéressant où on programme un peu son trajet pour optimiser le voyage. Il y a aussi des **événements** en cours de route, et plusieurs vaisseaux/persos pour démarrer ses runs.",
+      "Les retours des activations des différents objets et armes dans le vaisseau sont bien clairs, et les combats sont jolis.",
+      "Le jeu a une DA cartoon aux couleurs franches, et il y a déjà de quoi faire dans la démo. J'ai hâte de voir ce que va donner la 1.0 🙂",
       "Sortie du jeu complet : prévue pour le premier trimestre 2027.",
     ],
-    note: "n4",
+    note: "n5",
     date: "2026-11-14",
     steamUrl: "https://store.steampowered.com/app/4028760/Cosmo_Cargo/",
     image: ""
