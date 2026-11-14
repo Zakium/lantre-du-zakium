@@ -347,7 +347,15 @@
 
   function esc(s){return String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;");}
   function md(s){return esc(s).replace(/\*\*([^*]+)\*\*/g,"<b>$1</b>").replace(/\*([^*]+)\*/g,"<i>$1</i>");}
-  function bannerUrl(r){return (r.image && String(r.image).trim()) ? r.image : "https://cdn.cloudflare.steamstatic.com/steam/apps/"+r.steamAppId+"/header.jpg";}
+  // Images Steam : steam-images.json est rempli automatiquement par GitHub (voir .github/workflows/maj-auto.yml)
+  var STEAM_IMG = {};
+  function appIdOf(r){ if(r.steamAppId) return String(r.steamAppId); var m=String(r.steamUrl||"").match(/\/app\/(\d+)/); return m?m[1]:""; }
+  function bannerUrl(r){
+    if(r.image && String(r.image).trim()) return r.image;
+    var id=appIdOf(r);
+    if(STEAM_IMG[id]) return STEAM_IMG[id];
+    return "https://cdn.cloudflare.steamstatic.com/steam/apps/"+id+"/header.jpg";
+  }
   function fmtDate(d){var m=["janvier","f\u00e9vrier","mars","avril","mai","juin","juillet","ao\u00fbt","septembre","octobre","novembre","d\u00e9cembre"];
     var p=String(d).split("-"); if(p.length!==3)return ""; return "Review du "+parseInt(p[2],10)+" "+m[parseInt(p[1],10)-1]+" "+p[0];}
   function yt(id,title){return '<div class="screen"><iframe src="https://www.youtube.com/embed/'+encodeURIComponent(id)+'" title="'+esc(title||"")+'" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>';}
@@ -515,6 +523,16 @@
 
   render();
   openFromHash();
+  try{
+    fetch("steam-images.json?d="+new Date().toISOString().slice(0,10),{cache:"no-store"})
+      .then(function(r){return r.ok?r.json():null;})
+      .then(function(j){
+        if(!j || typeof j!=="object") return;
+        STEAM_IMG=j; render();
+        var cb=document.querySelector("#cdcPanel .cdc-banner"), cr=_REVIEWS.filter(function(x){return x.title===_CDC;})[0];
+        if(cb && cr){ cb.src=bannerUrl(cr); cb.style.visibility=""; }
+      }).catch(function(){});
+  }catch(e){}
 })();
 </script>
 </body>
