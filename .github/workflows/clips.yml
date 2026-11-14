@@ -1,29 +1,39 @@
-name: Mise a jour des clips Twitch
+name: Mise a jour automatique (clips Twitch et images Steam)
 
 on:
   schedule:
     - cron: "17 5 * * *"   # tous les jours vers 6h (heure de Paris)
+  push:
+    paths:
+      - "data.js"           # et a chaque modification de data.js
   workflow_dispatch:        # bouton "Run workflow" pour lancer a la main
 
 permissions:
   contents: write
 
 jobs:
-  clips:
+  maj:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
           node-version: 20
-      - name: Recuperer les clips
+
+      - name: Images Steam
+        continue-on-error: true
+        run: node scripts/fetch-steam-images.mjs
+
+      - name: Clips Twitch
+        continue-on-error: true
         run: node scripts/fetch-clips.mjs
         env:
           TWITCH_CLIENT_ID: ${{ secrets.TWITCH_CLIENT_ID }}
           TWITCH_CLIENT_SECRET: ${{ secrets.TWITCH_CLIENT_SECRET }}
-      - name: Enregistrer clips.json s'il a change
+
+      - name: Enregistrer les fichiers s'ils ont change
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add clips.json
-          git diff --cached --quiet || (git commit -m "Mise a jour des clips Twitch" && git push)
+          for f in steam-images.json clips.json; do [ -f "$f" ] && git add "$f"; done
+          git diff --cached --quiet || (git commit -m "Mise a jour auto : clips et images Steam" && git pull --rebase && git push)
