@@ -328,6 +328,14 @@
   var _VIDEOS = (typeof VIDEOS!=="undefined") ? VIDEOS : [];
   var _COPAINES = (typeof COPAINES!=="undefined") ? COPAINES : [];
   var _CLIPS = (typeof CLIPS!=="undefined") ? CLIPS : [];
+  // clips.json est mis a jour automatiquement chaque jour par GitHub (voir .github/workflows/clips.yml).
+  // S'il existe et n'est pas vide, il remplace la liste manuelle CLIPS de data.js.
+  try{
+    fetch("clips.json?d="+new Date().toISOString().slice(0,10),{cache:"no-store"})
+      .then(function(r){return r.ok?r.json():null;})
+      .then(function(j){ if(j && Array.isArray(j.clips) && j.clips.length){ _CLIPS=j.clips.map(function(c){return c.id;}); } })
+      .catch(function(){});
+  }catch(e){}
   var _BIO = (typeof BIO!=="undefined") ? BIO : {texte:"",twitchUrl:"#"};
   var _CDC = (typeof COUP_DE_COEUR!=="undefined") ? COUP_DE_COEUR : "";
   var _SHOW_VIDEO = (typeof AFFICHER_DERNIERE_VIDEO!=="undefined") ? AFFICHER_DERNIERE_VIDEO : true;
