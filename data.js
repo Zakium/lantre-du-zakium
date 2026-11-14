@@ -9,6 +9,22 @@
 
 const REVIEWS = [
   {
+  title: "Malignus",
+  tags: ["Colony Sim", "Gestion", "Donjon", "Stratégie", "Coop", "Fantasy"],
+  paras: [
+    "Protégez vos trésors des vils humains de la surface et supervisez vos serviteurs : voici la dure tâche de **maître de donjon** dans ce jeu ^^ Le jeu emprunte beaucoup de choses à **RimWorld**, de son look à son gameplay (avec un petit côté **Dungeon Keeper** aussi), et pendant la démo ça marchait très bien de mon côté.",
+    "On peut avoir différents serviteurs de différentes races (gnoll, ogre, zakimu, orc, etc.) et il faut répondre à leurs différents besoins pour qu'iels ne piquent pas de crise. Finalement je vais décrire RimWorld, donc je vais parler des différences 😛",
+    "On a un maître du donjon à protéger, dans la démo 4 différents qui ont l'air de changer la manière d'appréhender la gestion de son donjon. Et régulièrement des **aventuriers** vont venir pour tuer le maître du donjon et voler les trésors. Pour contrer ça, on va pouvoir placer des **pièges** et des bêtes sur leur chemin pour les vaincre, et capturer les survivants pour les torturer et apprendre leurs secrets 😈 On peut aussi passer à l'offensive en lançant des raids à la surface pour piller des trésors, et tout ça se joue même en **coop** de 2 à 4 sur le même donjon.",
+    "La démo était très chouette, il y a déjà de quoi s'amuser dedans ! 🏰",
+    "Sorti en accès anticipé le 13 novembre 2026.",
+  ],
+  note: "n5",
+  date: "2026-11-14",
+  steamAppId: "4672030",
+  steamUrl: "https://store.steampowered.com/app/4672030/Malignus/",
+  image: ""
+},
+  {
   title: "Deadzone Rogue 2",
   tags: ["FPS", "Roguelite", "Action", "SF", "Coop", "Shooter"],
   paras: [
