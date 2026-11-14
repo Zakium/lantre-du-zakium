@@ -1,4 +1,4 @@
-name: Mise a jour automatique (clips Twitch et images Steam)
+name: Mise a jour automatique (images Steam, pages de partage, clips Twitch)
 
 on:
   schedule:
@@ -10,6 +10,7 @@ on:
 
 permissions:
   contents: write
+  pages: write
 
 jobs:
   maj:
@@ -24,6 +25,10 @@ jobs:
         continue-on-error: true
         run: node scripts/fetch-steam-images.mjs
 
+      - name: Pages de partage des reviews
+        continue-on-error: true
+        run: node scripts/build-share-pages.mjs
+
       - name: Clips Twitch
         continue-on-error: true
         run: node scripts/fetch-clips.mjs
@@ -36,4 +41,11 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           for f in steam-images.json clips.json; do [ -f "$f" ] && git add "$f"; done
-          git diff --cached --quiet || (git commit -m "Mise a jour auto : clips et images Steam" && git pull --rebase && git push)
+          git add -A r 2>/dev/null || true
+          git diff --cached --quiet || (git commit -m "Mise a jour auto" && git pull --rebase && git push)
+
+      - name: Republier le site
+        continue-on-error: true
+        run: gh api -X POST "repos/${{ github.repository }}/pages/builds" >/dev/null && echo "Republication demandee"
+        env:
+          GH_TOKEN: ${{ github.token }}
