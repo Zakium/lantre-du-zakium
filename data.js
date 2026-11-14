@@ -22,7 +22,7 @@ const REVIEWS = [
   date: "2026-11-14",
   steamAppId: "4672030",
   steamUrl: "https://store.steampowered.com/app/4672030/Malignus/",
-  image: ""
+  image: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4672030/2a48de38188ea6095251866d65344f6429399f44/header.jpg?t=1793933634"
 },
   {
   title: "Deadzone Rogue 2",
