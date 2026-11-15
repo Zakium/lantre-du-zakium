@@ -8,6 +8,33 @@
 
 
 const REVIEWS = [
+        {
+    title: "Autolantis",
+    tags: ["City Builder", "Roguelite", "Stratégie", "Combos", "Tour par tour"],
+    paras: [
+      "Un jeu de **placement et de combos**, où il faut placer ses bâtiments sur une île et générer des **combos d'adjacence**, etc., avec des choix parmi trois et des **artefacts** qui permettent de spécialiser sa production et d'agrandir ses combos. Et quand on a trois bâtiments identiques, ils fusionnent automatiquement en une version améliorée (**Eureka!**), avec des bâtiments qu'on ne peut pas obtenir autrement.",
+      "Tous les 3 ans, il faut atteindre un certain score, sinon c'est la fin de la run. Et le jeu fonctionne par **saisons**, un système que je trouve très chouette : les bâtiments ont des productions et des pouvoirs, mais ils ne s'appliquent qu'à certaines saisons. Il y a bien sûr moyen de modifier ça avec divers pouvoirs. Le jeu complet aura aussi 4 dirigeants jouables, chacun avec ses propres options de build.",
+      "Bref, je me suis déjà bien amusé sur la démo ! Je garde le jeu dans un coin 😛",
+      "Sortie du jeu complet : prévue pour 2027.",
+    ],
+    note: "n4",
+    date: "2026-11-15",
+    steamUrl: "https://store.steampowered.com/app/5123170/Autolantis/",
+    image: ""
+  },
+        {
+    title: "Reshine",
+    tags: ["Simulation", "Cosy", "Détente", "Restauration", "Nettoyage"],
+    paras: [
+      "Un jeu de **restauration** d'objets divers et variés, tout chill et tout cosy. On récupère des objets anciens dans un grenier (gramophone, téléphone à cadran, jouets...), avec la pluie qui tombe sur le toit, et on les démonte pièce par pièce, on nettoie et on polit chaque morceau, puis on remonte le tout, en choisissant même la couleur finale. Et à la fin, petite comparaison **avant/après** bien satisfaisante ✨",
+      "Le jeu marche bien, et il est très beau. Ici pas d'histoire ou de drama, c'est juste un moment de détente sympa. Perso, il me manque un peu d'histoire pour vraiment accrocher, mais si ça ne vous dérange pas, il est très chouette 🙂",
+      "Sortie du jeu complet : prévue pour 2026.",
+    ],
+    note: "n3",
+    date: "2026-11-15",
+    steamUrl: "https://store.steampowered.com/app/4253570/Reshine/",
+    image: ""
+  },
       {
     title: "Hillthorn",
     tags: ["Enquête", "Aventure", "Cartes", "Narratif", "Mystère"],
