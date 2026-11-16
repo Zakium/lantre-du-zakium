@@ -1266,7 +1266,7 @@ const REVIEWS = [
     image:"https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3699850/cb83990ef1a4ffd7e360d2b00a3d5fe7b39f0227/header.jpg?t=1771843874"
   },
   {
-    title: "Rune Dice",
+    title: "Randomice",
     tags: ["Plateforme", "Metroidvania", "Puzzle"],
     paras: [
       "Petit jeu de **plateforme/metroidvania** tout p\u00e9pouze ^^ pas de bagar ! pas de combat. Des petites qu\u00eates et du plateforme puzzle pour trouver les diff\u00e9rents objets et pouvoir.",
