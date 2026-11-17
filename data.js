@@ -8,6 +8,21 @@
 
 
 const REVIEWS = [
+          {
+    title: "10 Million Pixels",
+    tags: ["Incrémental", "Idle", "Casual", "Pixel", "Détente"],
+    paras: [
+      "Il vous faut trouver le **pixel d'or** ✨ Parmi un nombre conséquent de pixels ^^",
+      "C'est un jeu **incrémental passif**, parfait pour poser son cerveau devant et attendre doucement qu'il bascule de l'état solide à l'état liquide 🥴",
+      "Le jeu fonctionne en lançant des petits pixels qui vont ricocher et petit à petit creuser dans le nombre colossal de pixels, pour débloquer des améliorations et acheter toujours plus de balles pour creuser plus vite. Il y a aussi différents types de balles : une toxique qui accumule les dégâts, une plus rapide, une électrique qui touche les pixels voisins en chaîne... ⚡",
+      "Le jeu est vraiment calme, sans pression et presque un peu hypnotisant 🌀",
+      "Sortie du jeu complet : pas encore de date précise.",
+    ],
+    note: "n4",
+    date: "2026-11-17",
+    steamUrl: "https://store.steampowered.com/app/4738100/10_Million_Pixels/",
+    image: ""
+  },
         {
     title: "Autolantis",
     tags: ["City Builder", "Roguelite", "Stratégie", "Combos", "Tour par tour"],
