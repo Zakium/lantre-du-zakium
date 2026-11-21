@@ -1,27 +1,35 @@
 {
   "chaine": "zakium",
-  "nombre": 255,
+  "nombre": 256,
   "clips": [
+    {
+      "id": "BetterKawaiiKoupreyKAPOW-_uz3oYQ5bYc7dPwe",
+      "titre": "Le gentil propriétaire",
+      "vues": 1,
+      "date": "2026-11-20",
+      "duree": 20,
+      "url": "https://www.twitch.tv/zakium/clip/BetterKawaiiKoupreyKAPOW-_uz3oYQ5bYc7dPwe"
+    },
+    {
+      "id": "AltruisticYummyShrewFUNgineer-RHESqRNuuf5YlJAc",
+      "titre": "Les gros nichons !",
+      "vues": 1,
+      "date": "2026-11-20",
+      "duree": 27,
+      "url": "https://www.twitch.tv/zakium/clip/AltruisticYummyShrewFUNgineer-RHESqRNuuf5YlJAc"
+    },
     {
       "id": "PeacefulSincereWalletFunRun-VBEC4B8cnRE1-IEf",
       "titre": "pendant ce temps la battle de Meonstera et Jimauve",
-      "vues": 3,
+      "vues": 7,
       "date": "2026-11-20",
       "duree": 30,
       "url": "https://www.twitch.tv/zakium/clip/PeacefulSincereWalletFunRun-VBEC4B8cnRE1-IEf"
     },
     {
-      "id": "FaithfulFantasticNoodlePJSalt-1w_3xYnxSec3pRzZ",
-      "titre": "[Permafrost] épisode 4, agougouglagla ☓.☓ (!discord !rs !démo)",
-      "vues": 5,
-      "date": "2026-11-19",
-      "duree": 30,
-      "url": "https://www.twitch.tv/zakium/clip/FaithfulFantasticNoodlePJSalt-1w_3xYnxSec3pRzZ"
-    },
-    {
       "id": "ViscousShyDolphinSmoocherZ-HfjNkO_Whx6a9ii2",
       "titre": "tour de magie du mentor",
-      "vues": 3,
+      "vues": 4,
       "date": "2026-11-18",
       "duree": 16,
       "url": "https://www.twitch.tv/zakium/clip/ViscousShyDolphinSmoocherZ-HfjNkO_Whx6a9ii2"
@@ -45,7 +53,7 @@
     {
       "id": "HungryChillyCroquetteNerfBlueBlaster-fojDhoMTkQx3syfk",
       "titre": "[permafrost] Glitch Vortex",
-      "vues": 2,
+      "vues": 3,
       "date": "2026-11-12",
       "duree": 17,
       "url": "https://www.twitch.tv/zakium/clip/HungryChillyCroquetteNerfBlueBlaster-fojDhoMTkQx3syfk"
